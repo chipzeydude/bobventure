@@ -13,7 +13,7 @@
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "c0d72f0f-cb78-4c92-a1f9-fd736911de4a",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
@@ -25,37 +25,37 @@
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
+    "maxFPS": 0,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "",
-      "android-icon-192": "",
-      "android-icon-36": "",
-      "android-icon-48": "",
-      "android-icon-72": "",
-      "android-icon-96": "",
-      "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
-      "ios-icon-100": "",
-      "ios-icon-1024": "",
-      "ios-icon-114": "",
-      "ios-icon-120": "",
-      "ios-icon-144": "",
-      "ios-icon-152": "",
-      "ios-icon-167": "",
-      "ios-icon-180": "",
-      "ios-icon-20": "",
-      "ios-icon-29": "",
-      "ios-icon-40": "",
-      "ios-icon-50": "",
-      "ios-icon-57": "",
-      "ios-icon-58": "",
-      "ios-icon-60": "",
-      "ios-icon-72": "",
-      "ios-icon-76": "",
-      "ios-icon-80": "",
-      "ios-icon-87": ""
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png2",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
     },
     "loadingScreen": {
       "backgroundColor": 0,
@@ -64,7 +64,7 @@
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -75,7 +75,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -932,6 +932,917 @@
         "name": "bob",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "bob1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob19.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"bob19.png\",\"extension\":\".png\"}",
+        "name": "bob19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bob16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bob16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fall.png\"}",
+        "name": "Fall",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Segmentfont-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Segmentfont-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "cloock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloock.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tv.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tv.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Untitled.png\",\"extension\":\".png\"}",
+        "name": "Untitled.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0011.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0013.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0017.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0020.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0021.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0022.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0023.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0024.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0025.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0026.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0028.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0029.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0031.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0032.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0033.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0034.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0035.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0037.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0038.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0040.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0041.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidle0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidle0042.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fall16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fall16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DesktopIcon512.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "DesktopIcon512",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndroidSplashscreenIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "AndroidSplashscreenIcon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-192.png\"}",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-144.png\"}",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-96.png\"}",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-72.png\"}",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-48.png\"}",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-36.png\"}",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-windowSplashScreenAnimatedIcon.png\"}",
+        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-1024.png\"}",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-180.png\"}",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-167.png\"}",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-152.png\"}",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-144.png\"}",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-120.png\"}",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-114.png\"}",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-100.png\"}",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-87.png\"}",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-80.png\"}",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-76.png\"}",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-72.png\"}",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-60.png\"}",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-58.png\"}",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-57.png\"}",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-50.png\"}",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-40.png\"}",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-29.png\"}",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-20.png\"}",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-windowSplashScreenAnimatedIcon.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "android-windowSplashScreenAnimatedIcon.png2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -944,15 +1855,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 255,
+      "b": 226,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Game_32Scene",
-      "name": "Game Scene",
-      "r": 255,
+      "mangledName": "first",
+      "name": "first",
+      "r": 74,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 255,
+      "v": 144,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -963,13 +1874,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44819780454104746,
+        "zoomFactor": 0.23867758270258643,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "is_walking",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "score",
           "type": "number",
           "value": 0
         }
@@ -984,8 +1900,8 @@
           "name": "bob",
           "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
           "width": 79,
-          "x": 480,
-          "y": 160,
+          "x": 576,
+          "y": 224,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1067,12 +1983,12 @@
           "width": 0,
           "x": -2848,
           "y": -1312,
-          "zOrder": 0,
+          "zOrder": -8,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":92,\"dimY\":55,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,34,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,44,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,31,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,30,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,6,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,26,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,29,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]]}]}"
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":92,\"dimY\":55,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,34,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,44,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,31,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,30,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,20,22,22,22,22,22,22,22,22,22,22,22,22,22,22,24,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,6,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,26,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,25,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,29,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,39,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]]}]}"
             }
           ],
           "initialVariables": []
@@ -1438,7 +2354,7 @@
           "name": "big_consumable",
           "persistentUuid": "6770249d-e197-418c-b81f-9c879dea9861",
           "width": 0,
-          "x": 768,
+          "x": 288,
           "y": 448,
           "zOrder": 11,
           "numberProperties": [],
@@ -1454,7 +2370,7 @@
           "name": "big_consumable",
           "persistentUuid": "272c4298-a527-42d4-8f78-94d83ba36dcb",
           "width": 0,
-          "x": 896,
+          "x": 416,
           "y": 448,
           "zOrder": 14,
           "numberProperties": [],
@@ -1470,7 +2386,7 @@
           "name": "big_consumable",
           "persistentUuid": "87d92909-fde8-4976-b141-931ad63f8d6e",
           "width": 0,
-          "x": 640,
+          "x": 160,
           "y": 448,
           "zOrder": 12,
           "numberProperties": [],
@@ -1486,7 +2402,7 @@
           "name": "small_consumable",
           "persistentUuid": "7cfd98bc-c4d6-470c-a4a4-b4288ffb43dd",
           "width": 0,
-          "x": 704,
+          "x": 224,
           "y": 448,
           "zOrder": 15,
           "numberProperties": [],
@@ -1502,7 +2418,7 @@
           "name": "small_consumable",
           "persistentUuid": "55cdabac-d1ab-4bc6-839e-449c54759d42",
           "width": 0,
-          "x": 736,
+          "x": 256,
           "y": 448,
           "zOrder": 15,
           "numberProperties": [],
@@ -1518,7 +2434,7 @@
           "name": "small_consumable",
           "persistentUuid": "1a0a74a5-a60b-4ca9-9e4a-ee5a869db889",
           "width": 0,
-          "x": 736,
+          "x": 256,
           "y": 480,
           "zOrder": 15,
           "numberProperties": [],
@@ -1534,7 +2450,7 @@
           "name": "small_consumable",
           "persistentUuid": "381a2228-34d2-427a-85d4-f7d66c47c19d",
           "width": 0,
-          "x": 704,
+          "x": 224,
           "y": 480,
           "zOrder": 15,
           "numberProperties": [],
@@ -1550,7 +2466,7 @@
           "name": "small_consumable",
           "persistentUuid": "09f58d0b-e679-466d-8b7f-8fd12d01a7b5",
           "width": 0,
-          "x": 864,
+          "x": 384,
           "y": 480,
           "zOrder": 15,
           "numberProperties": [],
@@ -1566,7 +2482,7 @@
           "name": "small_consumable",
           "persistentUuid": "48da8099-426b-4d6d-ac67-ab2fcdd924c0",
           "width": 0,
-          "x": 832,
+          "x": 352,
           "y": 480,
           "zOrder": 15,
           "numberProperties": [],
@@ -1582,7 +2498,7 @@
           "name": "small_consumable",
           "persistentUuid": "6bac29d5-d09b-40cb-9e2c-15ef13de2e40",
           "width": 0,
-          "x": 864,
+          "x": 384,
           "y": 448,
           "zOrder": 15,
           "numberProperties": [],
@@ -1598,7 +2514,7 @@
           "name": "small_consumable",
           "persistentUuid": "78993d44-b840-4d26-b6b0-5fbf9b8337c5",
           "width": 0,
-          "x": 832,
+          "x": 352,
           "y": 448,
           "zOrder": 15,
           "numberProperties": [],
@@ -1614,7 +2530,7 @@
           "name": "small_consumable",
           "persistentUuid": "2279fd1e-23ff-4f7d-b83d-1ba344c4d344",
           "width": 0,
-          "x": 800,
+          "x": 320,
           "y": 512,
           "zOrder": 15,
           "numberProperties": [],
@@ -1630,7 +2546,7 @@
           "name": "small_consumable",
           "persistentUuid": "607cdacc-eb2d-4a1a-9b2a-fd32f66a2a78",
           "width": 0,
-          "x": 768,
+          "x": 288,
           "y": 512,
           "zOrder": 15,
           "numberProperties": [],
@@ -1646,7 +2562,7 @@
           "name": "small_consumable",
           "persistentUuid": "e1348d86-e479-47a8-a158-24cc1efb36e4",
           "width": 0,
-          "x": 672,
+          "x": 192,
           "y": 512,
           "zOrder": 15,
           "numberProperties": [],
@@ -1662,7 +2578,7 @@
           "name": "small_consumable",
           "persistentUuid": "9ddacc90-7b33-432e-8209-dafaaa9ab11f",
           "width": 0,
-          "x": 640,
+          "x": 160,
           "y": 512,
           "zOrder": 15,
           "numberProperties": [],
@@ -1678,7 +2594,7 @@
           "name": "small_consumable",
           "persistentUuid": "3a6e8f96-501d-4362-9b9c-ae810507ee92",
           "width": 0,
-          "x": 896,
+          "x": 416,
           "y": 512,
           "zOrder": 16,
           "numberProperties": [],
@@ -1694,7 +2610,7 @@
           "name": "small_consumable",
           "persistentUuid": "68b5e6c2-96ac-4c4b-ac1b-00c07faac9b2",
           "width": 0,
-          "x": 928,
+          "x": 448,
           "y": 512,
           "zOrder": 17,
           "numberProperties": [],
@@ -1710,7 +2626,7 @@
           "name": "big_consumable",
           "persistentUuid": "d9b327b2-6e0c-468b-b830-72b1195aac63",
           "width": 0,
-          "x": 832,
+          "x": 352,
           "y": 512,
           "zOrder": 14,
           "numberProperties": [],
@@ -1726,7 +2642,7 @@
           "name": "small_consumable",
           "persistentUuid": "31169a83-6dcb-4fc3-8a0c-180e0fad936d",
           "width": 0,
-          "x": 896,
+          "x": 416,
           "y": 544,
           "zOrder": 19,
           "numberProperties": [],
@@ -1742,7 +2658,7 @@
           "name": "small_consumable",
           "persistentUuid": "cffc057b-6adb-497f-b18b-0dcaaf39ac91",
           "width": 0,
-          "x": 928,
+          "x": 448,
           "y": 544,
           "zOrder": 18,
           "numberProperties": [],
@@ -1758,7 +2674,7 @@
           "name": "small_consumable",
           "persistentUuid": "272d708e-c36b-4c23-be82-3532099d47d3",
           "width": 0,
-          "x": 800,
+          "x": 320,
           "y": 544,
           "zOrder": 15,
           "numberProperties": [],
@@ -1774,7 +2690,7 @@
           "name": "small_consumable",
           "persistentUuid": "17a2de0a-781d-4474-9230-d756363e595b",
           "width": 0,
-          "x": 768,
+          "x": 288,
           "y": 544,
           "zOrder": 15,
           "numberProperties": [],
@@ -1790,7 +2706,7 @@
           "name": "big_consumable",
           "persistentUuid": "35495e10-3c88-4410-9874-2ea67cab27a2",
           "width": 0,
-          "x": 704,
+          "x": 224,
           "y": 512,
           "zOrder": 11,
           "numberProperties": [],
@@ -1806,7 +2722,7 @@
           "name": "small_consumable",
           "persistentUuid": "75913743-1fa1-43f0-8b0c-4fd62fb6153b",
           "width": 0,
-          "x": 640,
+          "x": 160,
           "y": 544,
           "zOrder": 15,
           "numberProperties": [],
@@ -1822,7 +2738,7 @@
           "name": "small_consumable",
           "persistentUuid": "9c2ebe90-c4de-4c58-8956-c66f77f8caca",
           "width": 0,
-          "x": 672,
+          "x": 192,
           "y": 544,
           "zOrder": 15,
           "numberProperties": [],
@@ -3588,6 +4504,187 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "b0044e2c-9f50-41ec-bbb3-c04f997f8f3b",
+          "width": 64,
+          "x": -32,
+          "y": 608,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "370b6e04-d311-4e65-a64b-f4a6588ab368",
+          "width": 64,
+          "x": 929,
+          "y": 416,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "b9bb9e0d-e43d-4103-aba4-e5ae6156ecff",
+          "width": 0,
+          "x": 929,
+          "y": 416,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "733dac4a-98df-4273-9d5d-c0b552969a09",
+          "width": 0,
+          "x": -32,
+          "y": 608,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clock",
+          "persistentUuid": "b21f53df-8539-40a0-bb32-77c5a5f45ca1",
+          "width": 338,
+          "x": -11,
+          "y": 0,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tv1",
+          "persistentUuid": "f494b61f-138a-40b9-8004-bfb749ebd497",
+          "width": 0,
+          "x": 983,
+          "y": -37,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tv",
+          "persistentUuid": "b8f08cae-18ff-4047-9b1f-b0f4f8266d87",
+          "width": 0,
+          "x": 983,
+          "y": -37,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 198,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tvbob",
+          "persistentUuid": "b29315e4-4d20-404a-b4d6-5868af32b389",
+          "width": 264,
+          "x": 974,
+          "y": 46,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "scoretext",
+          "persistentUuid": "d6bd94bc-9067-4337-86c4-e06eae712f0c",
+          "width": 0,
+          "x": 37,
+          "y": 33,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "b1d0f71e-55c7-4ded-bc9e-3a62b4afe409",
+          "width": 64,
+          "x": 1504,
+          "y": -160,
+          "zOrder": -7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "a2b2e3ad-8797-4d07-a277-2e9cfa250678",
+          "width": 0,
+          "x": 1504,
+          "y": -160,
+          "zOrder": -7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3654,9 +4751,9 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGoDownFromJumpthru": false,
               "ignoreDefaultControls": true,
               "acceleration": 1000,
-              "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": false,
               "deceleration": 1500,
@@ -3753,12 +4850,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Sprite-0013.png",
+                      "image": "bob1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3774,19 +4871,55 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 32,
+                            "x": 31,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 128
                           },
                           {
-                            "x": 32,
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
                             "y": 128
                           }
                         ]
@@ -3803,11 +4936,11 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.16666666666666666,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "jump",
+                      "image": "bob3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3823,19 +4956,55 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 32,
+                            "x": 31,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 128
                           },
                           {
-                            "x": 32,
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
                             "y": 128
                           }
                         ]
@@ -3850,13 +5019,13 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "dash",
+                      "image": "bob17.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3872,19 +5041,584 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 32,
+                            "x": 31,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 64
                           },
                           {
-                            "x": 96,
+                            "x": 97,
                             "y": 128
                           },
                           {
-                            "x": 32,
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fall16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fall",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Climb",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08333333333333333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bob16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 64
+                          },
+                          {
+                            "x": 97,
+                            "y": 128
+                          },
+                          {
+                            "x": 31,
                             "y": 128
                           }
                         ]
@@ -5344,10 +7078,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -6786,6 +8520,1889 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "ladder",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "platform",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 58,
+                            "y": 0
+                          },
+                          {
+                            "x": 58,
+                            "y": 32
+                          },
+                          {
+                            "x": 2,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "scoretext",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "Segmentfont-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "255;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "Segmentfont-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "clock",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cloock.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 260,
+                            "y": 3
+                          },
+                          {
+                            "x": 260,
+                            "y": 132
+                          },
+                          {
+                            "x": 16,
+                            "y": 132
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tv",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "tv.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 293,
+                            "y": 4
+                          },
+                          {
+                            "x": 293,
+                            "y": 291
+                          },
+                          {
+                            "x": 1,
+                            "y": 291
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tv1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Untitled",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 103
+                          },
+                          {
+                            "x": 227,
+                            "y": 103
+                          },
+                          {
+                            "x": 227,
+                            "y": 286
+                          },
+                          {
+                            "x": 5,
+                            "y": 286
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tvbob",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idl",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0012.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0013.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0014.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0015.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0016.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0017.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0018.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0019.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0020.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0021.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0022.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0023.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0024.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0025.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0026.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0027.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0028.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0029.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0030.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0031.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0032.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0033.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0034.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0035.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0036.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0037.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0038.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0039.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0040.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0041.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bobidle0042.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 53
+                          },
+                          {
+                            "x": 304,
+                            "y": 295
+                          },
+                          {
+                            "x": 65,
+                            "y": 295
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6805,303 +10422,591 @@
           },
           {
             "objectName": "NewTileMap"
+          },
+          {
+            "objectName": "tvbob"
+          },
+          {
+            "objectName": "tv"
+          },
+          {
+            "objectName": "tv1"
+          },
+          {
+            "objectName": "scoretext"
+          },
+          {
+            "objectName": "clock"
+          },
+          {
+            "objectName": "ladder"
+          },
+          {
+            "objectName": "platform"
           }
         ]
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bob",
-                "big_consumable",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "big_consumable",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "BigCollect.wav",
-                "",
-                "80",
-                "RandomFloatInRange(1,1.1)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bob",
-                "small_consumable",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "small_consumable",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Collect.wav",
-                "",
-                "80",
-                "RandomFloatInRange(1,1.1)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Right\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateControl"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject",
-                "\"Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "is_walking",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "is_walking",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateControl"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "is_walking",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "is_walking",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"z\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateControl"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject",
-                "\"Jump\""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "bob",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "MOVE",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "bob",
-                    "PlatformerObject"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"z\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "\"Jump\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "bob",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "jump.mp3",
+                            "",
+                            "80",
+                            "RandomFloatInRange(1,1.1)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AdvancedJump::WallJump::HasJustWallJumped"
+                          },
+                          "parameters": [
+                            "bob",
+                            "WallJump",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "jump2.mp3",
+                            "",
+                            "80",
+                            "RandomFloatInRange(1,1.1)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"x\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                      },
+                      "parameters": [
+                        "bob",
+                        "HorizontalDash",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "dash.mp3",
+                            "",
+                            "80",
+                            "RandomFloatInRange(1,1.1)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateUpKey"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "check things",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "jump.mp3",
-                    "",
-                    "80",
-                    "RandomFloatInRange(1,1.1)"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bob",
+                        "big_consumable",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "big_consumable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "BigCollect.wav",
+                        "",
+                        "80",
+                        "RandomFloatInRange(1,1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "score",
+                        "+",
+                        "10"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bob",
+                        "small_consumable",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "small_consumable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Collect.wav",
+                        "",
+                        "80",
+                        "RandomFloatInRange(1,1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "score",
+                        "+",
+                        "5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "walk.mp3",
+                        "2",
+                        "yes",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "is_walking",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ]
+                    }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"x\""
-              ]
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "bob",
-                "HorizontalDash",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "dash.mp3",
-                    "",
-                    "80",
-                    "RandomFloatInRange(1,1.1)"
-                  ]
-                }
+                "scoretext",
+                "Text",
+                "=",
+                "score"
               ]
             }
           ]
@@ -7109,25 +11014,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "is_walking",
-                "=",
-                "1"
-              ]
-            },
             {
               "type": {
                 "value": "BuiltinCommonInstructions::Once"
@@ -7138,67 +11024,12 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
-                "walk.mp3",
-                "2",
-                "yes",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "is_walking",
+                "score",
                 "=",
                 "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
               ]
             }
           ]
@@ -7249,6 +11080,39 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7303,6 +11167,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "WallJump",

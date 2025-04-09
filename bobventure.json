@@ -15080,19 +15080,9 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "tilempa",
-                        "triern.PointX(\"wallcheck\")",
-                        "triern.PointY(\"wallcheck\")"
-                      ]
-                    }
-                  ],
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "triern",
+                  "conditions": [],
                   "actions": [],
                   "events": [
                     {
@@ -15100,229 +15090,247 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                            "value": "AdvancedJump::HorizontalDash::IsDashing"
+                          },
+                          "parameters": [
+                            "bob",
+                            "HorizontalDash",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
                           },
                           "parameters": [
                             "triern",
-                            "Flippable"
+                            "bob",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                            "value": "Create"
                           },
                           "parameters": [
-                            "triern",
-                            "Flippable",
-                            "yes"
+                            "",
+                            "triern_corspe",
+                            "triern.X()",
+                            "triern.Y()",
+                            ""
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "tilempa",
-                        "triern.PointX(\"wallcheck\")",
-                        "triern.PointY(\"wallcheck\")"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                            "value": "Delete"
                           },
                           "parameters": [
                             "triern",
-                            "Flippable"
+                            ""
                           ]
-                        }
-                      ],
-                      "actions": [
+                        },
                         {
                           "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                            "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "triern",
-                            "Flippable",
+                            "score",
+                            "+",
+                            "17"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "BigCollect.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "triern_corspe",
                             ""
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "triern",
-                        "Animation",
-                        "=",
-                        "\"Run\""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                          },
-                          "parameters": [
-                            "triern",
-                            "Flippable"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateLeftKey"
-                          },
-                          "parameters": [
-                            "triern",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
                           },
                           "parameters": [
                             "triern",
-                            "Flippable"
+                            "Animation",
+                            "=",
+                            "\"Run\""
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
-                          },
-                          "parameters": [
-                            "triern",
-                            "PlatformerObject"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "triern",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "triern",
+                                "PlatformerObject"
+                              ]
+                            }
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "AdvancedJump::HorizontalDash::IsDashing"
-                      },
-                      "parameters": [
-                        "bob",
-                        "HorizontalDash",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "tilempa",
+                            "triern.PointX(\"wallcheck\")",
+                            "triern.PointY(\"wallcheck\")"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "triern",
-                        "bob",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "triern_corspe",
-                        "triern.X()",
-                        "triern.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "triern",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "score",
-                        "+",
-                        "17"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "BigCollect.wav",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "triern_corspe",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "tilempa",
+                            "triern.PointX(\"wallcheck\")",
+                            "triern.PointY(\"wallcheck\")"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "triern",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]

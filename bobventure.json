@@ -2291,6 +2291,182 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "rabnjks1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rabnjks23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rabnjks23.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6108,7 +6284,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewTileMap",
+      "name": "tilempa",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -6132,7 +6308,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "clock_thing",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8641,6 +8817,882 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ranks",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": ":(",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "not really good",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "alright",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "good",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AWESOMESAUCE",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BOB",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rabnjks23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 1
+                      },
+                      {
+                        "x": 62,
+                        "y": 60
+                      },
+                      {
+                        "x": 3,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8653,10 +9705,10 @@
         "objectName": "small_consumable"
       },
       {
-        "objectName": "NewTileMap"
+        "objectName": "tilempa"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "clock_thing"
       },
       {
         "objectName": "big_consumable"
@@ -8687,6 +9739,9 @@
       },
       {
         "objectName": "Background"
+      },
+      {
+        "objectName": "ranks"
       }
     ]
   },
@@ -9083,7 +10138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.16031528804547468,
+        "zoomFactor": 0.6040838749989185,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9139,10 +10194,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "tilempa",
           "persistentUuid": "1ee9f7de-ff49-4923-b89f-1df024d6313e",
           "width": 0,
-          "x": -1056,
+          "x": -960,
           "y": -2240,
           "zOrder": -10,
           "numberProperties": [],
@@ -9239,16 +10294,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3,
-          "height": 96,
+          "depth": 2,
+          "height": 64,
           "keepRatio": true,
           "layer": "UI",
-          "name": "NewSprite",
+          "name": "clock_thing",
           "persistentUuid": "d860ec0f-a067-4010-8729-004b27a75a1c",
-          "width": 96,
+          "width": 64,
           "x": 320,
           "y": 0,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ranks",
+          "persistentUuid": "5a1ddb98-639e-4c5a-a03b-77ec1c0c4092",
+          "width": 0,
+          "x": 320,
+          "y": 64,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10022,7 +11093,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4194339782759243,
+        "zoomFactor": 0.7619362677197932,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10126,7 +11197,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTileMap",
+          "name": "tilempa",
           "persistentUuid": "1ee9f7de-ff49-4923-b89f-1df024d6313e",
           "width": 0,
           "x": -2848,
@@ -12870,16 +13941,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3,
-          "height": 96,
+          "depth": 2,
+          "height": 64,
           "keepRatio": true,
           "layer": "UI",
-          "name": "NewSprite",
+          "name": "clock_thing",
           "persistentUuid": "d860ec0f-a067-4010-8729-004b27a75a1c",
-          "width": 96,
+          "width": 64,
           "x": 320,
           "y": 0,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ranks",
+          "persistentUuid": "619ab5ca-3853-4eb2-b4f5-2a54c0c24316",
+          "width": 0,
+          "x": 320,
+          "y": 64,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []

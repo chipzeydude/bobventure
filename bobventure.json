@@ -3029,6 +3029,14 @@
         "name": "NewSprite56",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10872,10 +10880,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -10919,10 +10927,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -10966,10 +10974,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11013,10 +11021,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11060,10 +11068,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11107,10 +11115,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11154,10 +11162,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11201,10 +11209,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11248,10 +11256,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11295,10 +11303,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11342,10 +11350,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11401,10 +11409,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11448,10 +11456,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11495,10 +11503,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11542,10 +11550,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11589,10 +11597,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11636,10 +11644,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11683,10 +11691,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11730,10 +11738,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11777,10 +11785,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11824,10 +11832,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11871,10 +11879,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11918,10 +11926,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -11965,10 +11973,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12012,10 +12020,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12059,10 +12067,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12106,10 +12114,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12153,10 +12161,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12200,10 +12208,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12247,10 +12255,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 64,
+                    "y": 96
                   },
                   "customCollisionMask": [
                     [
@@ -12629,7 +12637,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite56",
+                  "image": "NewSprite57",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19622,76 +19630,190 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "Raycast"
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
                           },
                           "parameters": [
-                            "bob",
-                            "circlet.CenterX()",
-                            "circlet.CenterY()",
-                            "180",
-                            "100",
-                            "",
-                            "",
-                            ""
+                            "circlet",
+                            "Flippable"
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "bob",
+                                "circlet.CenterX()",
+                                "circlet.CenterY()",
+                                "180",
+                                "100",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "circlet",
+                                "Animation",
+                                "=",
+                                "\"kaBOOOM\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.9"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "circlethitbox",
+                                "circlet.PointX(\"Center\")",
+                                "circlet.PointY(\"Center\")",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "circlet",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "circlethitbox",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
                           },
                           "parameters": [
                             "circlet",
-                            "Animation",
-                            "=",
-                            "\"kaBOOOM\""
+                            "Flippable"
                           ]
-                        },
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.9"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "circlethitbox",
-                            "circlet.PointX(\"Center\")",
-                            "circlet.PointY(\"Center\")",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "circlet",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.01"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "circlethitbox",
-                            ""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "bob",
+                                "circlet.CenterX()",
+                                "circlet.CenterY()",
+                                "0",
+                                "100",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "circlet",
+                                "Animation",
+                                "=",
+                                "\"kaBOOOM\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.9"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "circlethitbox",
+                                "circlet.PointX(\"Center\")",
+                                "circlet.PointY(\"Center\")",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "circlet",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "circlethitbox",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]

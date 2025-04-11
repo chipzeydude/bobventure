@@ -2770,9 +2770,9 @@
           "PlatformerCharacter": "PlatformerObject"
         },
         {
-          "maxSpeed": 600,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "maxSpeed": 600,
           "canGoDownFromJumpthru": false,
           "ignoreDefaultControls": true,
           "acceleration": 1000,
@@ -16510,6 +16510,16 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
+                        "score",
+                        "+",
+                        "17*enemycombo"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
                         "enemycombo",
                         "=",
                         "0"
@@ -16997,16 +17007,6 @@
                             "combo",
                             "=",
                             "75"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "score",
-                            "+",
-                            "17"
                           ]
                         },
                         {

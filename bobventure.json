@@ -3114,12 +3114,12 @@
           "PlatformerCharacter": "PlatformerObject"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 2000,
           "deceleration": 2000,
           "ladderClimbingSpeed": 400,
           "maxSpeed": 650,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": false,
           "ignoreDefaultControls": true,
           "canGrabPlatforms": false,
@@ -13168,7 +13168,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.47893418845355284,
+        "zoomFactor": 0.6040838749989224,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13190,6 +13190,16 @@
         },
         {
           "name": "enemycombo",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "circletx",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "circlety",
           "type": "number",
           "value": 0
         }
@@ -19604,6 +19614,101 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "triern",
+                            "circlethitbox",
+                            "",
+                            "",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "triern_corspe",
+                            "triern.X()",
+                            "triern.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "triern",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "enemycombo",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "combo",
+                            "=",
+                            "75"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "BigCollect.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "triern_corspe",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -19657,9 +19762,40 @@
                                 "",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "circlet",
+                                "Animation",
+                                "=",
+                                "\"Run\""
+                              ]
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "circletx",
+                                "=",
+                                "circlet.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "circlety",
+                                "=",
+                                "circlet.Y()"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -19714,6 +19850,26 @@
                               },
                               "parameters": [
                                 "circlethitbox",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "circlet",
+                                "circletx",
+                                "circlety",
                                 ""
                               ]
                             }
@@ -19754,9 +19910,40 @@
                                 "",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "circlet",
+                                "Animation",
+                                "=",
+                                "\"Run\""
+                              ]
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "circletx",
+                                "=",
+                                "circlet.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "circlety",
+                                "=",
+                                "circlet.Y()"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -19811,6 +19998,26 @@
                               },
                               "parameters": [
                                 "circlethitbox",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "circlet",
+                                "circletx",
+                                "circlety",
                                 ""
                               ]
                             }
@@ -19853,6 +20060,101 @@
                             "=",
                             "\"Run\""
                           ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "circlet_corspe",
+                            "circlet.X()",
+                            "circlet.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "circlet",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "enemycombo",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "combo",
+                            "=",
+                            "75"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "BigCollect.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "circlet_corspe",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "circlet",
+                            "circlethitbox",
+                            "",
+                            "",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [

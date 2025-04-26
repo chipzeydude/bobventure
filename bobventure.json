@@ -3245,6 +3245,46 @@
         "name": "run5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "bobpoke1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobpoke1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobpoke2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobpoke2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobpoke3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobpoke3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobpoke4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobpoke4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobpoke5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobpoke5.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3339,9 +3379,9 @@
           "PlatformerCharacter": "PlatformerObject"
         },
         {
-          "acceleration": 1000,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1000,
           "deceleration": 2000,
           "maxSpeed": 650,
           "ladderClimbingSpeed": 400,
@@ -4181,6 +4221,198 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "bob16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 128
+                      },
+                      {
+                        "x": 34,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dash",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobpoke1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 128
+                      },
+                      {
+                        "x": 34,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobpoke2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 128
+                      },
+                      {
+                        "x": 34,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobpoke3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 128
+                      },
+                      {
+                        "x": 34,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobpoke4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 66
+                      },
+                      {
+                        "x": 94,
+                        "y": 128
+                      },
+                      {
+                        "x": 34,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobpoke5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13551,6 +13783,11 @@
       "name": "clockouttime",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "dashed",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -13998,7 +14235,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7130377630690843,
+        "zoomFactor": 1.865525548257131,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19701,6 +19938,16 @@
                         "",
                         "\"x\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "dashed",
+                        "=",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -19713,32 +19960,45 @@
                         "HorizontalDash",
                         ""
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "dash.mp3",
-                            "",
-                            "80",
-                            "RandomFloatInRange(1,1.1)"
-                          ]
-                        }
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "dashed",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "dash.mp3",
+                        "",
+                        "80",
+                        "RandomFloatInRange(1,1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        ".7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "dashed",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -19773,6 +20033,151 @@
                       "parameters": [
                         "bob",
                         "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "bob",
+                        "\"LShift\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "=",
+                        "680"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "bob",
+                        "Effect",
+                        "\"run\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Acceleration"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "=",
+                        "1500"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "bob",
+                        "\"LShift\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "=",
+                        "1200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Acceleration"
+                      },
+                      "parameters": [
+                        "bob",
+                        "PlatformerObject",
+                        "=",
+                        "1250"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "bob",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "bob",
+                            "Effect",
+                            "\"run\"",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "bob",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "bob",
+                            "Effect",
+                            "\"run\"",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -21896,39 +22301,64 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "AdvancedJump::HorizontalDash::IsDashing"
               },
               "parameters": [
                 "bob",
-                "\"LShift\""
+                "HorizontalDash",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::MaxSpeed"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "bob",
-                "PlatformerObject",
+                "Animation",
                 "=",
-                "1200"
+                "\"dash\""
               ]
             },
             {
               "type": {
-                "value": "PlatformBehavior::Acceleration"
+                "value": "Wait"
               },
               "parameters": [
-                "bob",
-                "PlatformerObject",
-                "=",
-                "1250"
+                ".7"
               ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "bob",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "bob",
+                    "Animation",
+                    "=",
+                    "\"Run\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -21946,111 +22376,18 @@
               "actions": [
                 {
                   "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "bob",
-                    "Effect",
-                    "\"run\"",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                  },
-                  "parameters": [
-                    "bob",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "bob",
-                    "Effect",
-                    "\"run\"",
-                    "yes"
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "bob",
-                "\"LShift\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::MaxSpeed"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject",
-                "=",
-                "680"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "bob",
-                "Effect",
-                "\"run\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Acceleration"
-              },
-              "parameters": [
-                "bob",
-                "PlatformerObject",
-                "=",
-                "1500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AdvancedJump::HorizontalDash::IsDashing"
-              },
-              "parameters": [
-                "bob",
-                "HorizontalDash",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         }
       ],
       "layers": [

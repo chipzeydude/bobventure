@@ -19,8 +19,8 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
     "version": "0.0.33",
-    "name": "bobventure",
-    "description": "",
+    "name": "Bobventure",
+    "description": "a very not the best game inspired by pizza tower\nmore credits ingame probably",
     "author": "chipzeydude",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -35,7 +35,7 @@
       "android-icon-48": "android-icon-48.png",
       "android-icon-72": "android-icon-72.png",
       "android-icon-96": "android-icon-96.png",
-      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png2",
+      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
       "desktop-icon-512": "desktop-icon-512.png",
       "ios-icon-100": "ios-icon-100.png",
       "ios-icon-1024": "ios-icon-1024.png",
@@ -58,18 +58,18 @@
       "ios-icon-87": "ios-icon-87.png"
     },
     "loadingScreen": {
-      "backgroundColor": 0,
-      "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "backgroundColor": 16777215,
+      "backgroundFadeInDuration": 0,
+      "backgroundImageResourceName": "loading.png",
+      "gdevelopLogoStyle": "light-colored",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 2,
-      "progressBarColor": 16777215,
-      "progressBarHeight": 20,
-      "progressBarMaxWidth": 200,
-      "progressBarMinWidth": 40,
-      "progressBarWidthPercent": 30,
+      "progressBarColor": 8311585,
+      "progressBarHeight": 25,
+      "progressBarMaxWidth": 0,
+      "progressBarMinWidth": 0,
+      "progressBarWidthPercent": 99,
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
@@ -77,11 +77,21 @@
       "placement": "bottom-left",
       "showWatermark": false
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "hjAm5OrknfPld2cvUkC8JT6Ejxz2"
+    ],
+    "authorUsernames": [
+      "chipzeydude"
+    ],
     "categories": [],
     "playableDevices": [],
-    "extensionProperties": [],
+    "extensionProperties": [
+      {
+        "extension": "Steamworks",
+        "property": "RequireSteam",
+        "value": "false"
+      }
+    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -3283,6 +3293,14 @@
         "kind": "image",
         "metadata": "",
         "name": "bobpoke5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "loading.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -13972,6 +13990,16 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "PreloadSound"

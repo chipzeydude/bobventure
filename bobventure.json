@@ -61,7 +61,7 @@
       "backgroundColor": 16777215,
       "backgroundFadeInDuration": 0,
       "backgroundImageResourceName": "loading.png",
-      "gdevelopLogoStyle": "light-colored",
+      "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 2,
@@ -3302,6 +3302,16 @@
         "metadata": "",
         "name": "loading.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "CLOCK OUT.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CLOCK OUT.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -14263,7 +14273,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.865525548257131,
+        "zoomFactor": 0.6455105703311881,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19528,7 +19538,7 @@
           "persistentUuid": "6503a9e9-8617-4201-a51e-093b49e48e98",
           "width": 672,
           "x": 320,
-          "y": 742,
+          "y": 640,
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -19749,6 +19759,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "bob",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20554,6 +20565,16 @@
                     "score",
                     "+",
                     "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "clockout",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -22232,7 +22253,51 @@
               "parameters": [
                 "BlueDotBar",
                 "=",
-                "clockouttime",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "BlueDotBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "CLOCK OUT.wav",
+                "no",
+                "",
                 ""
               ]
             }
@@ -22320,6 +22385,24 @@
                 "yes",
                 "60",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BlueDotBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "0"
               ]
             }
           ]

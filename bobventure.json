@@ -3313,6 +3313,170 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Flat Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
+          "name": "Flat Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "file": "clockoutclock1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "clockoutclock13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clockoutclock13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertidles1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertidles1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertidles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertidles2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertidles3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertidles3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertidles4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertidles4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertidles5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertidles5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite60",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13617,11 +13781,11 @@
         "BarLeftPadding": 2,
         "BarRightPadding": 2,
         "BarBottomPadding": 4,
-        "EasingDuration": 0,
+        "EasingDuration": 0.25,
         "PreviousHighValueDuration": 0,
-        "ShowLabel": true,
-        "InitialValue": 60,
-        "MaxValue": 180
+        "ShowLabel": false,
+        "InitialValue": 0,
+        "MaxValue": 131
       },
       "childrenContent": {
         "Background": {
@@ -13659,7 +13823,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "100",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -13682,7 +13846,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "100",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -13691,6 +13855,846 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "clockouttime3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "clockoutclock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yikes",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clockoutclock13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 2
+                      },
+                      {
+                        "x": 60,
+                        "y": 62
+                      },
+                      {
+                        "x": 3,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "crownertidleui",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertidles1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 102
+                      },
+                      {
+                        "x": 24,
+                        "y": 102
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertidles2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 102
+                      },
+                      {
+                        "x": 24,
+                        "y": 102
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yikes",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertidles3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 102
+                      },
+                      {
+                        "x": 24,
+                        "y": 102
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertidles4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 102
+                      },
+                      {
+                        "x": 24,
+                        "y": 102
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertidles5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 1
+                      },
+                      {
+                        "x": 103,
+                        "y": 102
+                      },
+                      {
+                        "x": 24,
+                        "y": 102
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "crownert",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 400,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite60",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 187,
+                        "y": 18
+                      },
+                      {
+                        "x": 187,
+                        "y": 188
+                      },
+                      {
+                        "x": 16,
+                        "y": 188
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13764,6 +14768,18 @@
       },
       {
         "objectName": "circlethitbox"
+      },
+      {
+        "objectName": "clockouttime3"
+      },
+      {
+        "objectName": "clockoutclock"
+      },
+      {
+        "objectName": "crownert"
+      },
+      {
+        "objectName": "crownertidleui"
       },
       {
         "objectName": "BlueDotBar"
@@ -14273,7 +15289,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6455105703311881,
+        "zoomFactor": 1.026942587498171,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19531,15 +20547,62 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 58,
-          "keepRatio": true,
+          "height": 35,
           "layer": "UI",
           "name": "BlueDotBar",
           "persistentUuid": "6503a9e9-8617-4201-a51e-093b49e48e98",
           "width": 672,
-          "x": 320,
+          "x": 288,
           "y": 640,
           "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clockouttime3",
+          "persistentUuid": "09e7a2b6-7825-4d0a-a24f-19fb480bdbe1",
+          "width": 0,
+          "x": 267,
+          "y": 650,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clockoutclock",
+          "persistentUuid": "317d4c5d-d885-4060-bee6-94bc87324088",
+          "width": 0,
+          "x": 256,
+          "y": 626,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "crownertidleui",
+          "persistentUuid": "9dc7bd58-5d82-4a92-965d-1d60779de228",
+          "width": 0,
+          "x": 893,
+          "y": 593,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19550,6 +20613,403 @@
         "folderName": "__ROOT"
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\":(\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "clockoutclock",
+                "Animation",
+                "=",
+                "\"default\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "crownertidleui",
+                "Animation",
+                "=",
+                "\"default\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "combo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockouttime",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "enemycombo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BlueDotBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clockouttime3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clockoutclock"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "crownertidleui"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Bobventure-Stupid.mp3",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "BlueDotBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "clockouttime3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "clockoutclock",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "crownertidleui",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "CLOCK OUT.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"clockout\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "clockouttime3",
+                "Text",
+                "=",
+                "ToString(round(abs(TimerElapsedTime(\"clockout\")-clockouttime)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "BlueDotBar",
+                "=",
+                "clockouttime",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "BlueDotBar",
+                "=",
+                "(TimerElapsedTime(\"clockout\"))",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"clockout\"",
+                ">=",
+                "clockouttime"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "clockoutclock",
+                "Animation",
+                "=",
+                "\"yikes\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "crownertidleui",
+                "Animation",
+                "=",
+                "\"yikes\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clockouttime3"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "crownertidleui",
+                "+",
+                ".4"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "BlueDotBar",
+                "+",
+                ".4"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "clockoutclock",
+                "+",
+                ".4"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "crownert",
+                    "bob.X(\"\")",
+                    "bob.Y(\"\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "crownert",
+                    "-",
+                    "350"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Link",
           "include": {
@@ -19666,6 +21126,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Platform",
@@ -22248,161 +23712,14 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "BlueDotBar",
-                "=",
+                "crownert",
+                "Pathfinding",
                 "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "BlueDotBar",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "CLOCK OUT.wav",
-                "no",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ranks",
-                "Animation",
-                "=",
-                "\":(\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "score",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "combo",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockouttime",
-                "=",
-                "180"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "enemycombo",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Bobventure-Stupid.mp3",
-                "yes",
-                "60",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BlueDotBar"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
+                "bob.X()",
+                "bob.Y()"
               ]
             }
           ]

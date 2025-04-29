@@ -3477,6 +3477,30 @@
         "name": "NewSprite60",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "crownertbventure1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertbventure1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertbventure2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertbventure2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertbventure3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertbventure3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -14628,6 +14652,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -14638,15 +14664,13 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 400,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "crownert",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -14656,7 +14680,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite60",
+                  "image": "crownertbventure1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14672,20 +14696,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 18
+                        "x": 29,
+                        "y": 0
                       },
                       {
-                        "x": 187,
-                        "y": 18
+                        "x": 175,
+                        "y": 0
                       },
                       {
-                        "x": 187,
-                        "y": 188
+                        "x": 175,
+                        "y": 185
                       },
                       {
-                        "x": 16,
-                        "y": 188
+                        "x": 29,
+                        "y": 185
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertbventure2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 0
+                      },
+                      {
+                        "x": 175,
+                        "y": 0
+                      },
+                      {
+                        "x": 175,
+                        "y": 185
+                      },
+                      {
+                        "x": 29,
+                        "y": 185
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertbventure3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 0
+                      },
+                      {
+                        "x": 175,
+                        "y": 0
+                      },
+                      {
+                        "x": 175,
+                        "y": 185
+                      },
+                      {
+                        "x": 29,
+                        "y": 185
                       }
                     ]
                   ]
@@ -15230,6 +15326,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Platform",
@@ -23926,6 +24026,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Platform",

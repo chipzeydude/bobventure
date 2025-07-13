@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.0.40",
+    "version": "0.0.71",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower\nmore credits ingame probably",
     "author": "chipzeydude",
@@ -17283,7 +17283,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8993607583667659,
+        "zoomFactor": 0.7619362677198482,
         "windowMask": true
       },
       "objectsGroups": [],

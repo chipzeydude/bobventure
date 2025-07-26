@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 237,
+    "build": 238,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.0.90",
+    "version": "0.0.95",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower\nmore credits ingame probably",
     "author": "chipzeydude",
@@ -4379,6 +4379,70 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Checked2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite71",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite72",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JUMPKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JUMPKEY",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DASHKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DASHKEY",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/LEFTKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LEFTKEY",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RIGHTKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RIGHTKEY",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/UPKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UPKEY",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DOWNKEY.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DOWNKEY",
         "smoothed": false,
         "userAdded": false
       }
@@ -17933,482 +17997,49 @@
       "name": "channel1volume",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "CONTROL_SELECTED",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RunKey",
+      "type": "string",
+      "value": "LShift"
+    },
+    {
+      "name": "JumpKey",
+      "type": "string",
+      "value": "z"
+    },
+    {
+      "name": "DashKey",
+      "type": "string",
+      "value": "x"
+    },
+    {
+      "name": "LeftKey",
+      "type": "string",
+      "value": "Left"
+    },
+    {
+      "name": "RightKey",
+      "type": "string",
+      "value": "Right"
+    },
+    {
+      "name": "UpKey",
+      "type": "string",
+      "value": "Up"
+    },
+    {
+      "name": "DownKey",
+      "type": "string",
+      "value": "Down"
     }
   ],
   "layouts": [
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "load",
-      "name": "load",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6897782140104499,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "ec4ddb34-f864-4d41-b312-bac3189b17fd",
-          "width": 0,
-          "x": 231,
-          "y": 104,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 178,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "b398da77-468f-4961-9df2-629f3f02713c",
-          "width": 656,
-          "x": 342,
-          "y": 136,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 40,
-                            "y": 18
-                          },
-                          {
-                            "x": 582,
-                            "y": 18
-                          },
-                          {
-                            "x": 582,
-                            "y": 484
-                          },
-                          {
-                            "x": 40,
-                            "y": 484
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "NewText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "hello im mister preloading guy everything is loading/preloading just wait a little! i am mister preloading guy",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 35,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "hello im mister preloading guy everything is loading/preloading just wait a little! i am mister preloading guy",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 35,
-            "color": "0;0;0"
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "NewSprite"
-          },
-          {
-            "objectName": "NewText"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "PickupCoin"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "BellCollect.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "walk.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "BigCollect.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "jump.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "jump2.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "dash.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "BellCollect.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "BobVenture-WhateverThatIs.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "Bobventure-Stupid.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "FROLICK 2.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "CLOCK IN.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "CLOCK OUT.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "timesrunningout.mp3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "pauseit.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrioritizeLoadingOfScene"
-              },
-              "parameters": [
-                "",
-                "\"code\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PrioritizeLoadingOfScene"
-              },
-              "parameters": [
-                "",
-                "\"first\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PrioritizeLoadingOfScene"
-              },
-              "parameters": [
-                "",
-                "\"menu\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"menu\"",
-                "yes"
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "AdvancedJump",
-          "type": "AdvancedJump::AdvancedJump"
-        },
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "EllipseMovement",
-          "type": "EllipseMovement::EllipseMovement"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "HorizontalDash",
-          "type": "AdvancedJump::HorizontalDash"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-        },
-        {
-          "name": "PlatformerConfigurationStack",
-          "type": "AdvancedJump::PlatformerConfigurationStack"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "WallJump",
-          "type": "AdvancedJump::WallJump"
-        }
-      ]
-    },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
@@ -18429,7 +18060,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.604083874998888,
+        "zoomFactor": 0.8141881203709929,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18537,7 +18168,7 @@
           "depth": 115,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "options",
           "name": "SquareGreenSlider",
           "persistentUuid": "75fe7235-0518-4315-8474-2ff9281cfab6",
           "width": 384,
@@ -18569,7 +18200,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "options",
           "name": "volumelabeltext",
           "persistentUuid": "798e00c3-ccad-4c9b-9bba-1bc5cae34cf7",
           "width": 0,
@@ -18585,7 +18216,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "options",
           "name": "fullscreenlabeltext",
           "persistentUuid": "d647979f-3ac8-4bab-8df8-b0fa47bab308",
           "width": 0,
@@ -18601,7 +18232,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "options",
           "name": "SmallGreenPlasticRoundSwitch",
           "persistentUuid": "d1f37419-3a68-49cf-97e1-445e9ac874b5",
           "width": 0,
@@ -18618,13 +18249,313 @@
           "depth": 1,
           "height": 250,
           "keepRatio": true,
-          "layer": "",
+          "layer": "credits",
           "name": "credits",
           "persistentUuid": "dfb926f7-813a-4837-b4ba-192251f76aed",
           "width": 768,
           "x": 96,
-          "y": 294,
+          "y": 288,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "JUMPKEYTEXT",
+          "persistentUuid": "a49ba466-0ec3-47f2-b997-3170f48b868a",
+          "width": 128,
+          "x": 192,
+          "y": 512,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "DASHKEYTEXT",
+          "persistentUuid": "7a577eb1-efb6-43d0-a9cf-dec5b1eaeaa4",
+          "width": 128,
+          "x": 320,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "RUNKEYTEXT",
+          "persistentUuid": "21646186-9ab7-4969-8027-6e7134d7da85",
+          "width": 128,
+          "x": 64,
+          "y": 512,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "LEFTKEYTEXT",
+          "persistentUuid": "1aa5a428-c1fb-4493-bfed-846ef16984a6",
+          "width": 96,
+          "x": 512,
+          "y": 512,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "RIGHTKEYTEXT",
+          "persistentUuid": "8989e51d-567b-4e73-a597-849e6b86e8cb",
+          "width": 128,
+          "x": 768,
+          "y": 544,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "UPKEYTEXT",
+          "persistentUuid": "56817408-fd1f-4542-88e9-36aa544989db",
+          "width": 128,
+          "x": 672,
+          "y": 224,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "DOWNKEYTEXT",
+          "persistentUuid": "30136ac0-1836-4552-8194-1b2f7a6efa91",
+          "width": 128,
+          "x": 608,
+          "y": 672,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "bc0b852f-0a44-4620-a0ee-406fd9c57bed",
+          "width": 128,
+          "x": 64,
+          "y": 384,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "0fb2c170-8bb5-4422-b53a-606b5adcff1f",
+          "width": 128,
+          "x": 192,
+          "y": 384,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "9ee81e14-c6b0-441e-8a04-3e8d7bbd0df2",
+          "width": 128,
+          "x": 512,
+          "y": 384,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "be2df023-1340-470f-b4ac-546bf50b17c1",
+          "width": 128,
+          "x": 320,
+          "y": 384,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "0164cff9-17c2-4aff-bf08-052382290cda",
+          "width": 128,
+          "x": 671,
+          "y": 256,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "cd474e30-34b1-423f-a048-428f10e9832a",
+          "width": 128,
+          "x": 608,
+          "y": 544,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "arrowkeyscontrols",
+          "persistentUuid": "a240f66d-28ad-45f4-a82d-fe0193a74a97",
+          "width": 128,
+          "x": 768,
+          "y": 416,
+          "zOrder": 20,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "controlstext",
+          "persistentUuid": "78ee9c82-be70-4e93-a811-5ea8d99255ee",
+          "width": 0,
+          "x": 992,
+          "y": 640,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "controls",
+          "name": "CONTROLSINFO",
+          "persistentUuid": "b4644e3a-ab63-4214-8a5b-e078cb8031ae",
+          "width": 0,
+          "x": 64,
+          "y": 576,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18870,7 +18801,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.0.90",
+          "string": "Version: 0.0.95",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -18893,7 +18824,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.0.90",
+            "text": "Version: 0.0.95",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -19099,6 +19030,756 @@
             "characterSize": 55,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "JUMPKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "z",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "z",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DASHKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "x",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "x",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RUNKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "leftshift",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "leftshift",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "LEFTKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "left",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "left",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RIGHTKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "right",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "right",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "UPKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "up",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "up",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DOWNKEYTEXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "down",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "down",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "arrowkeyscontrols",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Adjustment",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blue": 1,
+                "brightness": 0.5,
+                "contrast": 1,
+                "gamma": 1,
+                "green": 1,
+                "red": 1,
+                "saturation": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "RUNKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite71",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "JUMPKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "JUMPKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DASHKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DASHKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LEFTKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LEFTKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RIGHTKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RIGHTKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "UPKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "UPKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DOWNKEY",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DOWNKEY",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 2
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "controlstext",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Controls",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Controls",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 80,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "CONTROLSINFO",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pick a key to change and replace it with a different key!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Pick a key to change and replace it with a different key!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19106,6 +19787,9 @@
         "children": [
           {
             "objectName": "starttext"
+          },
+          {
+            "objectName": "controlstext"
           },
           {
             "objectName": "credits"
@@ -19139,6 +19823,33 @@
           },
           {
             "objectName": "SquareGreenSlider"
+          },
+          {
+            "objectName": "JUMPKEYTEXT"
+          },
+          {
+            "objectName": "RUNKEYTEXT"
+          },
+          {
+            "objectName": "DASHKEYTEXT"
+          },
+          {
+            "objectName": "LEFTKEYTEXT"
+          },
+          {
+            "objectName": "RIGHTKEYTEXT"
+          },
+          {
+            "objectName": "UPKEYTEXT"
+          },
+          {
+            "objectName": "DOWNKEYTEXT"
+          },
+          {
+            "objectName": "arrowkeyscontrols"
+          },
+          {
+            "objectName": "CONTROLSINFO"
           }
         ]
       },
@@ -19171,34 +19882,29 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "HideLayer"
               },
               "parameters": [
-                "SquareGreenSlider"
+                "",
+                "\"credits\""
               ]
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "HideLayer"
               },
               "parameters": [
-                "SmallGreenPlasticRoundSwitch"
+                "",
+                "\"options\""
               ]
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "HideLayer"
               },
               "parameters": [
-                "volumelabeltext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "fullscreenlabeltext"
+                "",
+                "\"controls\""
               ]
             },
             {
@@ -19211,10 +19917,23 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "credits"
+                "arrowkeyscontrols",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CONTROL_SELECTED",
+                "=",
+                "0"
               ]
             }
           ]
@@ -19231,6 +19950,83 @@
                 "channel1volume",
                 "=",
                 "SquareGreenSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "RUNKEYTEXT",
+                "Text",
+                "=",
+                "RunKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DOWNKEYTEXT",
+                "Text",
+                "=",
+                "DownKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "UPKEYTEXT",
+                "Text",
+                "=",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "LEFTKEYTEXT",
+                "Text",
+                "=",
+                "LeftKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "RIGHTKEYTEXT",
+                "Text",
+                "=",
+                "RightKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DASHKEYTEXT",
+                "Text",
+                "=",
+                "DashKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JUMPKEYTEXT",
+                "Text",
+                "=",
+                "JumpKey"
               ]
             },
             {
@@ -19281,38 +20077,11 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "SquareGreenSlider",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "fullscreenlabeltext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "volumelabeltext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "SmallGreenPlasticRoundSwitch",
-                ""
+                "",
+                "\"options\""
               ]
             },
             {
@@ -19354,6 +20123,316 @@
               "parameters": [
                 "backtext",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "controlstext"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "creditstext",
+                "=",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "optionstext"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"credits\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "starttext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "optionstext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "creditstext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "quittext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "controlstext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "backtext",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "controlstext",
+                "=",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "optionstext"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"controls\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "starttext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "optionstext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "creditstext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "quittext"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "backtext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "controlstext"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "backtext",
+                "=",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "optionstext"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "starttext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "optionstext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "creditstext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "controlstext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "quittext",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "backtext"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"credits\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"controls\""
               ]
             }
           ]
@@ -19451,211 +20530,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "backtext",
-                "=",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Visible"
-              },
-              "parameters": [
-                "optionstext"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "SquareGreenSlider"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "SmallGreenPlasticRoundSwitch"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "fullscreenlabeltext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "volumelabeltext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "credits"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "starttext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "optionstext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "creditstext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "quittext",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "backtext"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "creditstext",
-                "=",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "optionstext"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "credits",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "starttext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "optionstext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "creditstext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "quittext"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "backtext",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
               },
               "parameters": [
@@ -19703,6 +20577,449 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "arrowkeyscontrols",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "arrowkeyscontrols",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                  },
+                  "parameters": [
+                    "arrowkeyscontrols",
+                    "Effect",
+                    "\"Effect\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"RUNKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "RunKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"JUMPKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "JumpKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"DASHKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "DashKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"LEFTKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "LeftKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"RIGHTKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "RightKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"UPKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "UpKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Animation",
+                        "=",
+                        "\"DOWNKEY\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "DownKey",
+                        "=",
+                        "LastPressedKey()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "arrowkeyscontrols",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CONTROL_SELECTED",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -19732,6 +21049,165 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "credits",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "options",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "controls",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -27347,7 +28823,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Right\""
+                        "RightKey"
                       ]
                     }
                   ],
@@ -27401,7 +28877,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Left\""
+                        "LeftKey"
                       ]
                     }
                   ],
@@ -27455,7 +28931,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"z\""
+                        "JumpKey"
                       ]
                     }
                   ],
@@ -27540,7 +29016,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"x\""
+                        "DashKey"
                       ]
                     },
                     {
@@ -27616,7 +29092,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Up\""
+                        "UpKey"
                       ]
                     }
                   ],
@@ -27651,7 +29127,7 @@
                       },
                       "parameters": [
                         "bob",
-                        "\"LShift\""
+                        "RunKey"
                       ]
                     }
                   ],
@@ -27700,7 +29176,7 @@
                       },
                       "parameters": [
                         "bob",
-                        "\"LShift\""
+                        "RunKey"
                       ]
                     }
                   ],
@@ -27795,7 +29271,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Down\""
+                        "DownKey"
                       ]
                     }
                   ],
@@ -30084,6 +31560,17 @@
                 "",
                 "bob.X()",
                 "bob.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "channel1volume"
               ]
             }
           ]

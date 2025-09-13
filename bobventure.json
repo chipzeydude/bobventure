@@ -18938,6 +18938,11 @@
       "name": "sfxvolume",
       "type": "number",
       "value": 80
+    },
+    {
+      "name": "FULLSCREEN",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -21716,6 +21721,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FULLSCREEN",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetFullScreen"
               },
               "parameters": [
@@ -21743,6 +21758,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FULLSCREEN",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetFullScreen"
               },
               "parameters": [
@@ -21754,6 +21779,97 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "FULLSCREEN",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SmallGreenPlasticRoundSwitch",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "FULLSCREEN",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SmallGreenPlasticRoundSwitch",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "arrowkeyscontrols",
           "conditions": [],
@@ -22452,10 +22568,6 @@
           "type": "Parallax::HorizontalTiledSpriteParallax"
         },
         {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        },
-        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -22525,7 +22637,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4633111824514736,
+        "zoomFactor": 0.33253870912513206,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -22705,7 +22817,7 @@
           "width": 0,
           "x": -1280,
           "y": -2144,
-          "zOrder": 70,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -22726,7 +22838,7 @@
           "width": 0,
           "x": 544,
           "y": 288,
-          "zOrder": 91,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22743,7 +22855,7 @@
           "width": 64,
           "x": 3328,
           "y": 32,
-          "zOrder": 72,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22759,7 +22871,7 @@
           "width": 0,
           "x": 3328,
           "y": 32,
-          "zOrder": 73,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22776,7 +22888,7 @@
           "width": 160,
           "x": 4224,
           "y": 448,
-          "zOrder": 76,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22793,7 +22905,7 @@
           "width": 64,
           "x": 4320,
           "y": 448,
-          "zOrder": 75,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22810,7 +22922,7 @@
           "width": 64,
           "x": 4032,
           "y": -544,
-          "zOrder": 77,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22827,7 +22939,7 @@
           "width": 128,
           "x": 3968,
           "y": -544,
-          "zOrder": 78,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22844,7 +22956,7 @@
           "width": 64,
           "x": 2688,
           "y": -416,
-          "zOrder": 80,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22861,7 +22973,7 @@
           "width": 64,
           "x": 3648,
           "y": -416,
-          "zOrder": 82,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22878,7 +22990,7 @@
           "width": 160,
           "x": 2688,
           "y": -416,
-          "zOrder": 81,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22895,7 +23007,7 @@
           "width": 160,
           "x": 3552,
           "y": -416,
-          "zOrder": 81,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22960,7 +23072,7 @@
           "width": 320,
           "x": 1152,
           "y": -416,
-          "zOrder": 89,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24437,7 +24549,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "press your jump key to go to the levels",
+          "string": "press your up key to go to the levels",
           "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 45,
@@ -24460,7 +24572,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "press your jump key to go to the levels",
+            "text": "press your up key to go to the levels",
             "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -25140,11 +25252,54 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "JumpKey"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "UpKey"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Axis_pushed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Left\"",
+                    "\"Up\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Up\"",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Axis_pushed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Right\"",
+                    "\"Up\"",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -25302,11 +25457,54 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "JumpKey"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "UpKey"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Axis_pushed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Left\"",
+                    "\"Up\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Up\"",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Axis_pushed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Right\"",
+                    "\"Up\"",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -25432,10 +25630,6 @@
         {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
-        },
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
         },
         {
           "name": "Opacity",
@@ -28520,10 +28714,6 @@
         {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
-        },
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
         },
         {
           "name": "Opacity",
@@ -36651,10 +36841,6 @@
           "type": "Parallax::HorizontalTiledSpriteParallax"
         },
         {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
-        },
-        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
         },
@@ -41293,11 +41479,41 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "\"Escape\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Options\"",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Click_Touchpad\"",
+                    "\"Right\""
+                  ]
+                }
               ]
             }
           ],
@@ -41423,10 +41639,6 @@
         {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
-        },
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
         },
         {
           "name": "Opacity",
@@ -42151,10 +42363,6 @@
         {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
-        },
-        {
-          "name": "InOnScreen",
-          "type": "IsOnScreen::InOnScreen"
         },
         {
           "name": "Opacity",

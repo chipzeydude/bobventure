@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.1.01",
+    "version": "0.1.02",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower and bo noise\nmore credits ingame",
     "author": "chipzeydude",
@@ -5305,6 +5305,254 @@
         "preloadAsMusic": true,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite92",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crownertspawnzone12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crownertspawnzone12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite93",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite94",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite95",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite96",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite97",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite98",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Agro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Agro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explod9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explod9",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -16253,6 +16501,7 @@
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
+          "maxSpeed": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -16261,7 +16510,6 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 400,
           "rotateObject": false,
           "smoothingMaxCellGap": 1
         }
@@ -16294,16 +16542,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 103.5,
-                        "y": 89
+                        "x": 96,
+                        "y": 64
                       },
                       {
-                        "x": 137.5,
-                        "y": 146.5
+                        "x": 128,
+                        "y": 128
                       },
                       {
-                        "x": 69.5,
-                        "y": 141
+                        "x": 64,
+                        "y": 128
                       }
                     ]
                   ]
@@ -16326,16 +16574,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 103.5,
-                        "y": 89
+                        "x": 96,
+                        "y": 64
                       },
                       {
-                        "x": 137.5,
-                        "y": 146.5
+                        "x": 128,
+                        "y": 128
                       },
                       {
-                        "x": 69.5,
-                        "y": 141
+                        "x": 64,
+                        "y": 128
                       }
                     ]
                   ]
@@ -16358,16 +16606,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 103.5,
-                        "y": 89
+                        "x": 96,
+                        "y": 64
                       },
                       {
-                        "x": 137.5,
-                        "y": 146.5
+                        "x": 128,
+                        "y": 128
                       },
                       {
-                        "x": 69.5,
-                        "y": 141
+                        "x": 64,
+                        "y": 128
                       }
                     ]
                   ]
@@ -18733,6 +18981,1149 @@
           "OffsetY": 0
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CROWNERT_SPAWNZONES",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "11",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "12",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "13",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "14",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PATHFINDER_OBSTACLE",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crownertspawnzone2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Rhombert",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 360,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 400,
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite93",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agro_start",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite94",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite95",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite96",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite97",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite98",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agro",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Agro",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Explod",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explod9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 40
+                      },
+                      {
+                        "x": 84,
+                        "y": 84
+                      },
+                      {
+                        "x": 40,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -18835,7 +20226,16 @@
         "objectName": "LAP_PUTER"
       },
       {
+        "objectName": "PATHFINDER_OBSTACLE"
+      },
+      {
         "objectName": "ObligatoryWinston"
+      },
+      {
+        "objectName": "Rhombert"
+      },
+      {
+        "objectName": "CROWNERT_SPAWNZONES"
       },
       {
         "objectName": "BlueDotBar"
@@ -18953,6 +20353,16 @@
       "name": "FULLSCREEN",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "crownertspawn_x",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "crownertspawn_y",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -18976,7 +20386,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4633111824513987,
+        "zoomFactor": 0.4481978045410365,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19770,7 +21180,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.1.01",
+          "string": "Version: 0.1.02",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -19793,7 +21203,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.1.01",
+            "text": "Version: 0.1.02",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -20966,19 +22376,6 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Roblox Theme Song.mp3",
-                "1",
-                "yes",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -21031,6 +22428,46 @@
                 "CONTROL_SELECTED",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Roblox Theme Song.mp3",
+                "1",
+                "yes",
+                "100",
+                "1"
               ]
             }
           ]
@@ -22586,6 +24023,10 @@
           "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -22647,7 +24088,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.28172599320800285,
+        "zoomFactor": 0.44819780454111086,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -23278,6 +24719,102 @@
           "x": 976,
           "y": -46,
           "zOrder": 156,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "dbabcebf-956d-4e6f-b2e5-d434ab38ccc6",
+          "width": 0,
+          "x": 1984,
+          "y": 256,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "2276a1ef-caba-4693-ba1d-5c4fe6577f5f",
+          "width": 0,
+          "x": 3104,
+          "y": -512,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "16650f51-7979-4160-86b6-2b74960e34e9",
+          "width": 0,
+          "x": 3072,
+          "y": -384,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "8617ccbe-8373-4ea4-bf63-fbdc941b49c9",
+          "width": 0,
+          "x": 1888,
+          "y": -32,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "64a3a6fd-7268-41f3-a550-aa910d872d4b",
+          "width": 0,
+          "x": 2976,
+          "y": -448,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rhombert",
+          "persistentUuid": "6f5b08cb-ca7d-4b2c-b490-b2be32b9914b",
+          "width": 0,
+          "x": 2176,
+          "y": 32,
+          "zOrder": 157,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25072,6 +26609,24 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"tutorial\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"first\""
+              ]
             }
           ]
         },
@@ -25591,7 +27146,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -25648,6 +27203,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Platform",
@@ -25711,7 +27270,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.0269425874982812,
+        "zoomFactor": 0.31119749424457627,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26916,6 +28475,388 @@
           "x": 0,
           "y": 0,
           "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "9d6f9252-6174-4d72-9ed9-845b7e0b3c25",
+          "width": 1536,
+          "x": 6880,
+          "y": -960,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "dfc28096-b342-49cd-ae1e-67ede02e5a6b",
+          "width": 1920,
+          "x": 352,
+          "y": -64,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "c8ec3298-ac93-47e1-912f-8bcaaac754a8",
+          "width": 1920,
+          "x": 2272,
+          "y": -64,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "84de72ca-fe5d-4d63-be5e-6b31b98ad30f",
+          "width": 1920,
+          "x": 4192,
+          "y": -64,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "83dd3f46-5dd9-4ae5-8d4a-f6f6927bb730",
+          "width": 1600,
+          "x": 6112,
+          "y": -64,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 960,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "81ddf61b-49d0-481e-baba-a07790de3571",
+          "width": 704,
+          "x": 7712,
+          "y": -576,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "d2b9446c-5971-4e7e-85b9-d5793c7a7985",
+          "width": 7360,
+          "x": 352,
+          "y": -576,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "725dc49e-6527-4d89-b495-59e26cb81179",
+          "width": 64,
+          "x": 6816,
+          "y": -1024,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "d9196436-1b85-4694-9789-3805deca36ee",
+          "width": 1600,
+          "x": 6880,
+          "y": -1024,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1408,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ac4982c7-4429-48f7-934d-15044c6f5133",
+          "width": 64,
+          "x": 8416,
+          "y": -960,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "b7a76d62-ee62-4170-acd0-4e138c77fb07",
+          "width": 8064,
+          "x": 352,
+          "y": 384,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "90340efa-56dd-4135-a8ee-d4fdc1d27701",
+          "width": 64,
+          "x": 288,
+          "y": -64,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ebe6cb98-8a72-4b41-be8d-a2a68b773a38",
+          "width": 128,
+          "x": 5984,
+          "y": -64,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "3590ce87-4756-4e38-90e0-95306bd447da",
+          "width": 320,
+          "x": 5600,
+          "y": -64,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "9f4d9239-3d2c-4509-b1f1-0a3cd0d7677d",
+          "width": 256,
+          "x": 5664,
+          "y": 256,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "75d1a8d0-8eef-494f-be4d-c0719e0f894f",
+          "width": 64,
+          "x": 5472,
+          "y": -64,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "e2238d05-37dd-43c8-b91a-a6e85b17ab92",
+          "width": 128,
+          "x": 6368,
+          "y": 64,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "47586eb2-bc16-4f61-b60a-9eeaca7e4fe2",
+          "width": 320,
+          "x": 6624,
+          "y": 192,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "27cc41d8-7f76-419d-96ab-e548ad6d93aa",
+          "width": 320,
+          "x": 7008,
+          "y": 64,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "03276866-16f7-4d93-a6d9-1046e0adfc52",
+          "width": 704,
+          "x": 7712,
+          "y": 64,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "0fe8f9c8-5799-444b-96fc-f2805d1240e2",
+          "width": 576,
+          "x": 7712,
+          "y": -320,
+          "zOrder": 114,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28225,6 +30166,7 @@
           "target": "code"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "tutortriggers",
           "conditions": [
@@ -28614,6 +30556,306 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "2208"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "128"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "4128"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "128"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "5728"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "128"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "7520"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "128"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"5\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "8000"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-544"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"6\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "7584"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-832"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -28734,6 +30976,10 @@
           "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -28792,11 +31038,11 @@
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
+        "gridColor": 16777215,
+        "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.9934433498261388,
-        "windowMask": true
+        "zoomFactor": 0.140398578060367,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
@@ -28972,7 +31218,7 @@
           "name": "bob",
           "persistentUuid": "e2eacf89-2fcc-4bcc-bbc8-4c646136b621",
           "width": 0,
-          "x": 544,
+          "x": 672,
           "y": 288,
           "zOrder": 90,
           "numberProperties": [],
@@ -34504,7 +36750,7 @@
           "name": "FLAGOFFINISH",
           "persistentUuid": "28e00b96-e412-41fa-a106-c563072c8bd5",
           "width": 128,
-          "x": 672,
+          "x": 480,
           "y": 288,
           "zOrder": 68,
           "numberProperties": [],
@@ -36225,6 +38471,1975 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2176,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "5e5e9536-1a30-4229-82d0-b41a7c294a92",
+          "width": 1280,
+          "x": 6368,
+          "y": -4256,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 10
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1024,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "f100e05f-2c7c-4ef5-8e28-4375d653cf0c",
+          "width": 2432,
+          "x": -544,
+          "y": -608,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "2ea223c0-2ebc-48b8-a4d7-37eb43f8d808",
+          "width": 1152,
+          "x": 1888,
+          "y": -672,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "c180b9e0-a61b-46c2-bafe-7c487f80470e",
+          "width": 1952,
+          "x": 2528,
+          "y": -1312,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "4dca6796-41a1-4ba8-9313-cb5bfd3720a3",
+          "width": 736,
+          "x": 4480,
+          "y": -1376,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "27884591-6f1e-477f-9ae8-3c979496280b",
+          "width": 1856,
+          "x": 5216,
+          "y": -1312,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "f8b684ad-e176-44e5-b52b-4ba92e45fb46",
+          "width": 1856,
+          "x": 7072,
+          "y": -1312,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "3f9ed58f-e5d0-4c8b-a0c0-dd7a7ca037ac",
+          "width": 1024,
+          "x": 8928,
+          "y": -1312,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1024,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "e17cec5b-a058-44d5-a641-9a7ce4d44f81",
+          "width": 1024,
+          "x": 8928,
+          "y": -2336,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 7
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 896,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "10773b80-4085-482e-bf2f-8fa2356b3e3e",
+          "width": 1024,
+          "x": 8928,
+          "y": -3232,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 8
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "ef42e58a-335e-4424-b808-4cab8446a380",
+          "width": 1344,
+          "x": 4832,
+          "y": -4768,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 13
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1152,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "f086e1c7-1b39-4b7f-95be-005be6c82712",
+          "width": 1280,
+          "x": 7648,
+          "y": -3232,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 9
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1056,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "6a1c1f1d-5471-4d3f-8ec3-e97fcf0b9920",
+          "width": 2624,
+          "x": 7616,
+          "y": -4288,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 11
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CROWNERT_SPAWNZONES",
+          "persistentUuid": "ccf55d3b-3a8d-45de-b675-116a9acfe1ee",
+          "width": 4064,
+          "x": 6176,
+          "y": -4512,
+          "zOrder": 46,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "8fade127-6a21-4b73-8efd-73547af0d845",
+          "width": 3904,
+          "x": 6176,
+          "y": -4768,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "9a777449-11a0-4abc-95d4-46eaa66383ad",
+          "width": 448,
+          "x": 5280,
+          "y": -4320,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "b9aa555c-723f-4d5d-9b25-f4d92ecbeba6",
+          "width": 64,
+          "x": 5280,
+          "y": -4512,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "7adfc935-279a-4944-894c-d69c79dbf02d",
+          "width": 64,
+          "x": 4768,
+          "y": -4832,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "40d94f1d-297b-43ee-9129-a73cb5547d56",
+          "width": 1792,
+          "x": 4832,
+          "y": -4832,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "356af95f-180a-40a2-be4b-807603bda7f0",
+          "width": 384,
+          "x": 6560,
+          "y": -3488,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "cb531f82-a922-457a-b35d-913abd5e1979",
+          "width": 1792,
+          "x": 4832,
+          "y": -4000,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "2ff7f8e9-9348-40f5-be84-54cdea6b0022",
+          "width": 448,
+          "x": 6176,
+          "y": -4320,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "262e9ac3-b8c3-410b-b989-d3d871c6f98c",
+          "width": 128,
+          "x": 6752,
+          "y": -4320,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "4aaafc4d-3b90-48be-af15-1d57cb48a535",
+          "width": 128,
+          "x": 6496,
+          "y": -3936,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "818922f3-0fb7-4dec-b380-e7bb7771b246",
+          "width": 768,
+          "x": 6624,
+          "y": -3808,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "27da6e2a-7362-4ea0-b5fe-664bc95089fa",
+          "width": 384,
+          "x": 7008,
+          "y": -4064,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "9ffc6944-b201-40c8-8d77-921d2a3cf4db",
+          "width": 3008,
+          "x": 6880,
+          "y": -4320,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "255b4884-d7cd-4eb7-bfe2-955f64ba6faa",
+          "width": 128,
+          "x": 7520,
+          "y": -4192,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fba90f43-af03-4a68-9088-4143b18f1e1d",
+          "width": 128,
+          "x": 7520,
+          "y": -3808,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "35cc44c7-2c3d-4b73-ad25-ab6d810885bf",
+          "width": 384,
+          "x": 7840,
+          "y": -3808,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "31c8e625-56bf-4c5a-b2ac-c101dc6a17c6",
+          "width": 256,
+          "x": 7072,
+          "y": -3552,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fbfbe5a9-e1b2-4411-ac0a-e545daf0b9f9",
+          "width": 256,
+          "x": 6560,
+          "y": -3104,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ef2feee3-78b2-45d2-b865-d10f450d7e04",
+          "width": 64,
+          "x": 8160,
+          "y": -2528,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fd58ec49-601e-42a8-a535-97b426240f4c",
+          "width": 64,
+          "x": 6368,
+          "y": -3680,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "bdc3ccf8-315b-46d5-bc74-351b19858836",
+          "width": 256,
+          "x": 6944,
+          "y": -3232,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "9af32f76-2023-4c4a-8cab-ffa4445baaa9",
+          "width": 512,
+          "x": 6432,
+          "y": -3680,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "79a21a39-30e9-4082-8b4b-4ed48b73d024",
+          "width": 256,
+          "x": 6944,
+          "y": -2976,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "2bfacbca-5651-4e3c-9988-536f1d4ed166",
+          "width": 256,
+          "x": 6560,
+          "y": -2848,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "11f7cad0-7c12-49f7-976e-94789cc05cd9",
+          "width": 192,
+          "x": 6432,
+          "y": -2464,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "6701adde-05e4-41ea-bcab-407791bc9905",
+          "width": 576,
+          "x": 6816,
+          "y": -2720,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "c22702c0-1f9c-49f0-993b-040cc09ed667",
+          "width": 64,
+          "x": 9376,
+          "y": -2976,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "8bc52526-0225-45c9-994e-aeaa19da421c",
+          "width": 320,
+          "x": 7328,
+          "y": -2976,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ce866348-bf89-49cd-a1a4-bb93424926f7",
+          "width": 192,
+          "x": 7328,
+          "y": -3552,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "2de6d8b0-5b54-4b4f-b910-e6f4b76e1314",
+          "width": 128,
+          "x": 7520,
+          "y": -2560,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "57e280be-379a-4cc9-8a0d-e92e89feb9b6",
+          "width": 128,
+          "x": 7520,
+          "y": -2848,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "0a95a992-9e34-4e12-a600-41277661f14e",
+          "width": 64,
+          "x": 7840,
+          "y": -2528,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "e163f4d0-5241-482e-addc-95af7b46253c",
+          "width": 320,
+          "x": 7904,
+          "y": -2272,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "3cf36b9c-6ffb-4f2f-9ec3-111a79ecd165",
+          "width": 384,
+          "x": 7264,
+          "y": -2464,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "e5069484-48a3-4189-a1af-4118b7cba4fb",
+          "width": 6464,
+          "x": 3040,
+          "y": -672,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "1e6142d1-836e-46be-a4da-0fe479463ee9",
+          "width": 384,
+          "x": 8352,
+          "y": -2784,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "d340a592-b932-4641-a10c-9c4fedf01305",
+          "width": 384,
+          "x": 7840,
+          "y": -2784,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2560,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "e03f8ff4-a6eb-43b2-8c1b-d4e48f306a98",
+          "width": 192,
+          "x": 9952,
+          "y": -3360,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "a37da93e-bd3a-475e-8856-fa11c28d3d91",
+          "width": 384,
+          "x": 8352,
+          "y": -3040,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "7e0808bd-9d7a-4caa-b940-5e84178107f8",
+          "width": 192,
+          "x": 8928,
+          "y": -2336,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ced4239a-a54c-47f3-a021-46a2df960a00",
+          "width": 384,
+          "x": 9376,
+          "y": -2400,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "7a6ad968-1e09-4d9b-881f-dbd8c50cbfce",
+          "width": 64,
+          "x": 9312,
+          "y": -2976,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "bb730e75-ca80-424e-825d-6da0a4d35ef9",
+          "width": 64,
+          "x": 9312,
+          "y": -2528,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "088d31d2-a9a6-479c-bc34-02e9d66a221b",
+          "width": 64,
+          "x": 9760,
+          "y": -2528,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "6f754346-db63-451f-b6f7-94c5034af809",
+          "width": 192,
+          "x": 8928,
+          "y": -2976,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "47f512d1-f9e4-4f8c-a32e-8a250d6dc30d",
+          "width": 384,
+          "x": 7840,
+          "y": -3040,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "6cc91fbf-5fed-4550-86fd-3506c40e8e07",
+          "width": 224,
+          "x": 8480,
+          "y": -3552,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "7e4bf07e-150e-4763-920e-771eeee3011c",
+          "width": 1216,
+          "x": 8224,
+          "y": -4192,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fcdc8e6e-7974-42ed-b130-773203c3618d",
+          "width": 256,
+          "x": 9632,
+          "y": -4192,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 960,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "1d454bb1-2489-4cb0-872f-5e38a4683069",
+          "width": 224,
+          "x": 10016,
+          "y": -4448,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 960,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "f8c606b8-6c2f-45f1-a3e6-02047d76c17a",
+          "width": 224,
+          "x": 10144,
+          "y": -3488,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "425918ce-8f80-43d1-bc69-e136ec511207",
+          "width": 2432,
+          "x": 6496,
+          "y": -2080,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "37cb6e05-8b78-49f2-98b7-259029cf7362",
+          "width": 448,
+          "x": 8352,
+          "y": -2528,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "32bbb5ef-8ad8-4903-b8a5-3d4b8637666a",
+          "width": 384,
+          "x": 6752,
+          "y": -2592,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "308f33f0-7f87-40f1-ac7e-9c3d9d2c8b57",
+          "width": 384,
+          "x": 7840,
+          "y": -4192,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "c91d354c-b914-4c31-8ce4-c100586426f5",
+          "width": 320,
+          "x": 8416,
+          "y": -4000,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fe425c27-d0f3-4fd9-92cf-ec8bbe1e1edf",
+          "width": 64,
+          "x": 8416,
+          "y": -3872,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "ec8bc479-8153-4f23-b619-189fe3afb7aa",
+          "width": 384,
+          "x": 8736,
+          "y": -3744,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "706ce330-2a33-4fa0-8a26-1e9b357ffdd6",
+          "width": 320,
+          "x": 9120,
+          "y": -4000,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "523a2e5f-ff0a-434f-9a72-ac204f7177ec",
+          "width": 512,
+          "x": 9440,
+          "y": -3360,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "8fdb5994-cf4d-4e0d-8f28-c3eefd4fa9fd",
+          "width": 192,
+          "x": 8928,
+          "y": -3424,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "af08e7bc-bf5d-4b46-a2e3-d657cda50c79",
+          "width": 64,
+          "x": 8864,
+          "y": -3360,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "3460d53e-18f5-46b0-8563-1345533f2ca3",
+          "width": 448,
+          "x": 8416,
+          "y": -3296,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "d9c54416-482a-4f04-97a6-90b295eb0955",
+          "width": 64,
+          "x": 8416,
+          "y": -3360,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "996c88a0-a593-4e0a-a5fe-5210ddc7c594",
+          "width": 160,
+          "x": 8960,
+          "y": -4000,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "2fc964ed-444f-4a7a-97ae-1c72f38149ff",
+          "width": 64,
+          "x": 8736,
+          "y": -992,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "d9ca444f-6db7-4896-a5a1-1db3ce4a0f00",
+          "width": 256,
+          "x": 9632,
+          "y": -3680,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "c9f2f14a-0321-4de6-b949-0d22bce21037",
+          "width": 4416,
+          "x": 5216,
+          "y": -1696,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "511b7c28-5e5c-408f-abb9-befb9e9ae8dd",
+          "width": 4416,
+          "x": 352,
+          "y": -1696,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "78a75b66-1178-4acf-9184-4702d022ce31",
+          "width": 512,
+          "x": 9440,
+          "y": -2208,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "1fb7cf5d-7d13-4a8a-a513-5d403f92c54a",
+          "width": 128,
+          "x": 9504,
+          "y": -1312,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "5ce4f316-9df8-45ff-871e-edb4467cfbc4",
+          "width": 640,
+          "x": 9504,
+          "y": -800,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "50c4de31-bbd1-44b2-87f8-d531ebcc4973",
+          "width": 448,
+          "x": 4768,
+          "y": -1696,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "92cb1d02-4ada-4d4a-a54e-aeb406df1419",
+          "width": 320,
+          "x": 4832,
+          "y": -1216,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "e58579ff-def4-4620-8c61-93603feeae60",
+          "width": 192,
+          "x": 4832,
+          "y": -928,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "88d479d1-3fa8-4e2f-b101-fe2424dfb0fb",
+          "width": 64,
+          "x": 1888,
+          "y": -416,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "c30c6a86-5276-41f2-b85e-a37a9a08dde3",
+          "width": 320,
+          "x": 7072,
+          "y": -1056,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "04a87730-f95e-4000-8058-875b6ece673b",
+          "width": 256,
+          "x": 7520,
+          "y": -1312,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "cff12f52-79b5-4881-9121-78a5b470cb85",
+          "width": 128,
+          "x": 7904,
+          "y": -1312,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "0a4692c0-3bb0-4159-b6af-635d58678925",
+          "width": 192,
+          "x": 8032,
+          "y": -1056,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "8cc6b098-ece1-45e8-b0d2-117d5e77f9ea",
+          "width": 64,
+          "x": 8416,
+          "y": -1312,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "52969308-4278-4a5a-9398-d1d196e6012c",
+          "width": 384,
+          "x": 8480,
+          "y": -1056,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "b64299cf-41aa-4573-beea-591d2f9faf9e",
+          "width": 320,
+          "x": 4320,
+          "y": -1056,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "f4e8037f-1493-44f2-b774-8ccf5612c119",
+          "width": 320,
+          "x": 2400,
+          "y": -1056,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "97eb9b7a-2cf5-4fa1-b8aa-49ce27310df6",
+          "width": 64,
+          "x": 2464,
+          "y": -1312,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "4875017e-c339-4da0-a3f4-33ec86ff3c76",
+          "width": 64,
+          "x": 2464,
+          "y": -864,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "811408da-97a7-4e7b-91d3-a1734fce2caa",
+          "width": 2304,
+          "x": 480,
+          "y": -672,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "60721862-75c9-4758-bffd-62d1e4acf25e",
+          "width": 256,
+          "x": 3552,
+          "y": -864,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 864,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "f882b0e3-f1b3-4ed6-bc14-fbb219e36485",
+          "width": 96,
+          "x": 3040,
+          "y": -288,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fba75f88-ce8f-46f1-b6c9-bd5e1bc1d63c",
+          "width": 2720,
+          "x": 320,
+          "y": 416,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "fbe3dcef-473a-459a-bbd7-6e29bfcc601d",
+          "width": 1408,
+          "x": -928,
+          "y": 96,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "b334d72c-0ed9-427a-ab22-79c058006e99",
+          "width": 416,
+          "x": -960,
+          "y": -448,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "980b63ad-8fbf-4858-a3e4-eebb63bf224a",
+          "width": 1024,
+          "x": -544,
+          "y": -832,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "aa5bf06a-5e34-4e3a-a926-c6f05619e5f0",
+          "width": 320,
+          "x": 160,
+          "y": -288,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "49b18f52-f52a-462b-94cb-b68697ffad35",
+          "width": 384,
+          "x": 480,
+          "y": 96,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "7173b736-2353-47d6-8d5f-87b17461959b",
+          "width": 1024,
+          "x": 1312,
+          "y": -96,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "6de4bf72-1ce3-4a7e-93cd-faa8fdfb9671",
+          "width": 64,
+          "x": 1312,
+          "y": -608,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "695933ae-5bf5-49e8-b5ba-cbdc21ab0e29",
+          "width": 448,
+          "x": 2592,
+          "y": -224,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -36578,7 +40793,7 @@
               "parameters": [
                 "clockouttime",
                 "=",
-                "100"
+                "10"
               ]
             },
             {
@@ -37250,39 +41465,700 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "clockouttime3",
-                "Text",
+                "crownertspawn_x",
                 "=",
-                "ToString(round(abs(TimerElapsedTime(\"clockout\")-clockouttime)))"
+                "1888"
               ]
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "BlueDotBar",
+                "crownertspawn_y",
                 "=",
-                "clockouttime",
-                ""
+                "-576"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
               ]
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
-                "BlueDotBar",
+                "CROWNERT_SPAWNZONES",
+                "Animation",
                 "=",
-                "(TimerElapsedTime(\"clockout\"))",
-                ""
+                "\"2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "2848"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-672"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "4888"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-1248"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "5696"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-1248"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"5\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "7424"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-1024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"6\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "9216"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-1216"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"7\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "9760"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-1504"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"8\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "9504"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-2784"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"9\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "8544"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-3168"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"10\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "7456"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-3072"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"11\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "6912"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-4160"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"12\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "9504"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-3776"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"13\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "6048"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-4608"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "CROWNERT_SPAWNZONES",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "CROWNERT_SPAWNZONES",
+                "Animation",
+                "=",
+                "\"14\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_x",
+                "=",
+                "4928"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "crownertspawn_y",
+                "=",
+                "-4704"
               ]
             }
           ]
@@ -37413,6 +42289,10 @@
           "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -37508,6 +42388,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "bob",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37517,6 +42398,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "MOVE_KEYBOARD",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -38013,6 +42895,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "MOVE_CONTROLLER",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -38752,6 +43635,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "check things",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39429,7 +44313,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40175,7 +45058,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "circlet",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -41323,19 +46205,9 @@
                   "parameters": [
                     "",
                     "crownert",
-                    "bob.X(\"\")",
-                    "bob.Y(\"\")",
+                    "crownertspawn_x",
+                    "crownertspawn_y",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "crownert",
-                    "-",
-                    "360"
                   ]
                 }
               ]
@@ -41443,6 +46315,45 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "clockouttime3",
+                "Text",
+                "=",
+                "ToString(round(abs(TimerElapsedTime(\"clockout\")-clockouttime)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "BlueDotBar",
+                "=",
+                "clockouttime",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "BlueDotBar",
+                "=",
+                "(TimerElapsedTime(\"clockout\"))",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -41480,6 +46391,44 @@
               },
               "parameters": [
                 "ObligatoryWinston"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "PATHFINDER_OBSTACLE",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
               ]
             }
           ]
@@ -41536,6 +46485,410 @@
                 "",
                 "\"menu\"",
                 "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Rhombert",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "bob",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Agro_start\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    ".5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Agro\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Agro\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "bob",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Pathfinding",
+                    "",
+                    "bob.X()",
+                    "bob.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Agro\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "bob",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "bob",
+                    "HorizontalDash",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Explod\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    ".24"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "circlethitbox",
+                    "Rhombert.PointX(\"Center\")",
+                    "Rhombert.PointY(\"Center\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    ".48"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "circlethitbox",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "circlethitbox",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "!=",
+                    "\"Explod\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Explod\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "enemycombo",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "combo",
+                    "=",
+                    "75"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "BigCollect.wav",
+                    "",
+                    "sfxvolume",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    ".72"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "bob",
+                    "HorizontalDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "bob",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "!=",
+                    "\"Explod\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    "Animation",
+                    "=",
+                    "\"Explod\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "enemycombo",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "combo",
+                    "=",
+                    "75"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "BigCollect.wav",
+                    "",
+                    "sfxvolume",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rhombert",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -41657,6 +47010,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Platform",
@@ -42381,6 +47738,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Platform",

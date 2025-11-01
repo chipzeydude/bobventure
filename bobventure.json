@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 243,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -5940,6 +5940,56 @@
         "name": "44403.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/idle1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite99",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "factory complete.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "factory complete.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BG2_TUT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG2_TUT.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BG1_TUT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG1_TUT.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BG3_TUT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG3_TUT.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5997,6 +6047,7 @@
       ],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "AdvancedJump",
           "type": "AdvancedJump::AdvancedJump",
           "PlatformerBehavior": "PlatformerObject",
@@ -6009,6 +6060,7 @@
           "WasJumpKeyReleased": false
         },
         {
+          "isFolded": true,
           "name": "HorizontalDash",
           "type": "AdvancedJump::HorizontalDash",
           "PlatformerCharacter": "PlatformerObject",
@@ -6028,6 +6080,7 @@
           "CanDash": true
         },
         {
+          "isFolded": true,
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
           "EnableAnimationChanges": true,
@@ -6050,6 +6103,8 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 1250,
+          "maxFallingSpeed": 1650,
           "deceleration": 2500,
           "acceleration": 1000,
           "maxSpeed": 650,
@@ -6058,10 +6113,8 @@
           "ignoreDefaultControls": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": false,
-          "gravity": 1050,
           "jumpSpeed": 717,
           "jumpSustainTime": 0.3,
-          "maxFallingSpeed": 800,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -6235,7 +6288,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.16666666666666666,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -7082,6 +7135,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "bobpoke5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "idle1",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12247,7 +12349,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite99",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16884,10 +16986,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 16,
-          "cellWidth": 16,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 16,
+          "cellWidth": 16,
           "acceleration": 400,
           "maxSpeed": 400,
           "allowDiagonals": true,
@@ -19333,13 +19435,6 @@
           "type": "Parallax::HorizontalTiledSpriteParallax",
           "ParallaxFactor": 0.1,
           "FollowedLayer": ""
-        },
-        {
-          "name": "VerticalTiledSpriteParallax",
-          "type": "Parallax::VerticalTiledSpriteParallax",
-          "ParallaxFactor": 0.05,
-          "FollowedLayer": "",
-          "OffsetY": 0
         }
       ]
     },
@@ -19347,7 +19442,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "BG1TUT",
-      "texture": "BG2_FROLICK.png",
+      "texture": "BG2_TUT.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -19358,13 +19453,6 @@
           "type": "Parallax::HorizontalTiledSpriteParallax",
           "ParallaxFactor": 0.1,
           "FollowedLayer": ""
-        },
-        {
-          "name": "VerticalTiledSpriteParallax",
-          "type": "Parallax::VerticalTiledSpriteParallax",
-          "ParallaxFactor": 0.05,
-          "FollowedLayer": "",
-          "OffsetY": 0
         }
       ]
     },
@@ -19864,10 +19952,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 16,
-          "cellWidth": 16,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 16,
+          "cellWidth": 16,
           "angularMaxSpeed": 0,
           "rotateObject": false,
           "acceleration": 400,
@@ -21749,6 +21837,56 @@
         "tileSize": 64,
         "tilesWithHitBox": ""
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "BG2TUT",
+      "texture": "BG1_TUT.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": ""
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": "",
+          "OffsetY": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "BG3TUT",
+      "texture": "BG3_TUT.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.25,
+          "FollowedLayer": ""
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.25,
+          "FollowedLayer": "",
+          "OffsetY": 0
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -21810,6 +21948,12 @@
       },
       {
         "objectName": "BG1TUT"
+      },
+      {
+        "objectName": "BG2TUT"
+      },
+      {
+        "objectName": "BG3TUT"
       },
       {
         "objectName": "ranks"
@@ -25718,7 +25862,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3925161175488929,
+        "zoomFactor": 0.18923010380626284,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -26350,102 +26494,6 @@
           "x": 976,
           "y": -46,
           "zOrder": 156,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "dbabcebf-956d-4e6f-b2e5-d434ab38ccc6",
-          "width": 0,
-          "x": 2016,
-          "y": 192,
-          "zOrder": 157,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "2276a1ef-caba-4693-ba1d-5c4fe6577f5f",
-          "width": 0,
-          "x": 3008,
-          "y": -608,
-          "zOrder": 157,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "16650f51-7979-4160-86b6-2b74960e34e9",
-          "width": 0,
-          "x": 3264,
-          "y": -352,
-          "zOrder": 157,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "8617ccbe-8373-4ea4-bf63-fbdc941b49c9",
-          "width": 0,
-          "x": 1984,
-          "y": 64,
-          "zOrder": 157,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "64a3a6fd-7268-41f3-a550-aa910d872d4b",
-          "width": 0,
-          "x": 2944,
-          "y": -416,
-          "zOrder": 157,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Rhombert",
-          "persistentUuid": "6f5b08cb-ca7d-4b2c-b490-b2be32b9914b",
-          "width": 0,
-          "x": 2144,
-          "y": 160,
-          "zOrder": 157,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28249,7 +28297,16 @@
               },
               "parameters": [
                 "",
-                "pauseit.wav"
+                "another lap sir.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "factory complete.wav"
               ]
             },
             {
@@ -28278,6 +28335,15 @@
               "parameters": [
                 "",
                 "\"first\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"factor\""
               ]
             }
           ]
@@ -28922,9 +28988,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2725359896773421,
+        "zoomFactor": 0.27253598967734244,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "Background"
       },
       "objectsGroups": [],
       "variables": [],
@@ -30510,6 +30576,39 @@
           "x": 7712,
           "y": -320,
           "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 736,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "BG2TUT",
+          "persistentUuid": "057d9a81-1e38-40e5-96d9-68dc3a0a141e",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "Background",
+          "name": "BG3TUT",
+          "persistentUuid": "3aea61da-cc9f-45f0-afc1-74ae1bd79dfe",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 116,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32567,7 +32666,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -32694,7 +32793,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.13581872579546772,
+        "zoomFactor": 0.06334164344485732,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -40622,14 +40721,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 640,
+          "height": 384,
           "keepRatio": true,
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "7e0808bd-9d7a-4caa-b940-5e84178107f8",
-          "width": 192,
-          "x": 8928,
-          "y": -2336,
+          "width": 2688,
+          "x": 6432,
+          "y": -2080,
           "zOrder": 182,
           "numberProperties": [],
           "stringProperties": [],
@@ -40664,23 +40763,6 @@
           "width": 224,
           "x": 10144,
           "y": -3488,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "425918ce-8f80-43d1-bc69-e136ec511207",
-          "width": 2432,
-          "x": 6496,
-          "y": -2080,
           "zOrder": 182,
           "numberProperties": [],
           "stringProperties": [],
@@ -40877,12 +40959,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 864,
+          "height": 768,
           "keepRatio": true,
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "f882b0e3-f1b3-4ed6-bc14-fbb219e36485",
-          "width": 96,
+          "width": 64,
           "x": 3040,
           "y": -288,
           "zOrder": 182,
@@ -40894,13 +40976,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "fba75f88-ce8f-46f1-b6c9-bd5e1bc1d63c",
-          "width": 2720,
-          "x": 320,
+          "width": 2624,
+          "x": 416,
           "y": 416,
           "zOrder": 182,
           "numberProperties": [],
@@ -40916,8 +40998,8 @@
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "fbe3dcef-473a-459a-bbd7-6e29bfcc601d",
-          "width": 1408,
-          "x": -928,
+          "width": 1088,
+          "x": -608,
           "y": 96,
           "zOrder": 182,
           "numberProperties": [],
@@ -40933,8 +41015,8 @@
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "b334d72c-0ed9-427a-ab22-79c058006e99",
-          "width": 416,
-          "x": -960,
+          "width": 64,
+          "x": -608,
           "y": -448,
           "zOrder": 182,
           "numberProperties": [],
@@ -40945,14 +41027,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 544,
+          "height": 384,
           "keepRatio": true,
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "980b63ad-8fbf-4858-a3e4-eebb63bf224a",
           "width": 1024,
           "x": -544,
-          "y": -832,
+          "y": -672,
           "zOrder": 182,
           "numberProperties": [],
           "stringProperties": [],
@@ -41027,23 +41109,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "c1d3f094-8905-49f2-8a38-e6556f4da756",
-          "width": 128,
-          "x": 7520,
-          "y": -4192,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 576,
           "keepRatio": true,
           "layer": "",
@@ -41052,23 +41117,6 @@
           "width": 384,
           "x": 7840,
           "y": -3808,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "3c307f52-15b3-4833-b221-d7885cfef46e",
-          "width": 192,
-          "x": 6944,
-          "y": -3232,
           "zOrder": 182,
           "numberProperties": [],
           "stringProperties": [],
@@ -41180,91 +41228,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 352,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "8bbb96d8-6c81-4b7e-80e2-cfe33efc9b32",
-          "width": 128,
-          "x": 7520,
-          "y": -2816,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "bfe040de-0c65-4ed7-80c0-0aae0277256d",
-          "width": 384,
-          "x": 7840,
-          "y": -2784,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "56210ffd-b840-48f6-a16a-ef30d92b4333",
-          "width": 384,
-          "x": 7840,
-          "y": -3040,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "8ab38c9f-8090-46a0-92bd-53a1afa2322f",
-          "width": 384,
-          "x": 8352,
-          "y": -3040,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "7904875d-45fb-4b65-9db7-951b64a46845",
-          "width": 384,
-          "x": 8352,
-          "y": -2784,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 768,
           "keepRatio": true,
           "layer": "",
@@ -41290,91 +41253,6 @@
           "width": 256,
           "x": 9632,
           "y": -4192,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 384,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "660b2b99-6b0d-4aec-a35d-1e872d08162b",
-          "width": 320,
-          "x": 4320,
-          "y": -1056,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "5aa7dd92-c99d-41c4-90cf-ffea0c836565",
-          "width": 128,
-          "x": 7520,
-          "y": -3744,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "99cc0249-a5e5-4663-96be-71c218f2ae2c",
-          "width": 128,
-          "x": 6752,
-          "y": -4192,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "d012f1b7-f303-4f12-a4e5-51e8950c9ac6",
-          "width": 256,
-          "x": 6560,
-          "y": -2848,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 512,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "6f1f4a82-f348-42b7-8c96-24f4dd248f02",
-          "width": 256,
-          "x": 7520,
-          "y": -1312,
           "zOrder": 182,
           "numberProperties": [],
           "stringProperties": [],
@@ -43331,6 +43209,2461 @@
       ]
     },
     {
+      "b": 194,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "factor",
+      "name": "factor",
+      "r": 112,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "FROLICK",
+      "v": 150,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 16777215,
+        "gridAlpha": 0.1,
+        "snap": true,
+        "zoomFactor": 0.43357743047032904,
+        "windowMask": true,
+        "selectedLayer": "UI"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
+          "layer": "Background",
+          "name": "BG1FROLICK",
+          "persistentUuid": "9d4a2623-239c-44d1-95a4-076307aa3170",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clock",
+          "persistentUuid": "b21f53df-8539-40a0-bb32-77c5a5f45ca1",
+          "width": 338,
+          "x": -11,
+          "y": 0,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "scoretext",
+          "persistentUuid": "d6bd94bc-9067-4337-86c4-e06eae712f0c",
+          "width": 0,
+          "x": 37,
+          "y": 33,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ranks",
+          "persistentUuid": "cbaa0a86-dbe7-45cf-9bb5-8c0850c7fd79",
+          "width": 0,
+          "x": 320,
+          "y": 0,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "enemycombotext",
+          "persistentUuid": "a716a742-ec3d-41da-a639-2a9268664769",
+          "width": 167,
+          "x": 186,
+          "y": 162,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "OrangeFlatBar",
+          "persistentUuid": "9f267718-9113-4539-a630-634dccd1426a",
+          "width": 0,
+          "x": 15,
+          "y": 168,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 35,
+          "layer": "UI",
+          "name": "BlueDotBar",
+          "persistentUuid": "6503a9e9-8617-4201-a51e-093b49e48e98",
+          "width": 672,
+          "x": 288,
+          "y": 640,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clockouttime3",
+          "persistentUuid": "09e7a2b6-7825-4d0a-a24f-19fb480bdbe1",
+          "width": 0,
+          "x": 267,
+          "y": 650,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "clockoutclock",
+          "persistentUuid": "317d4c5d-d885-4060-bee6-94bc87324088",
+          "width": 0,
+          "x": 256,
+          "y": 626,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "crownertidleui",
+          "persistentUuid": "9dc7bd58-5d82-4a92-965d-1d60779de228",
+          "width": 0,
+          "x": 893,
+          "y": 593,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "test_tilemap",
+          "persistentUuid": "a6e86af4-5875-439a-ad20-116adecdaf47",
+          "width": 0,
+          "x": -896,
+          "y": -1504,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":112,\"dimY\":47,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tv1",
+          "persistentUuid": "1f745da8-c309-4f2c-a14b-f7127cba4c18",
+          "width": 0,
+          "x": 976,
+          "y": -46,
+          "zOrder": 154,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tvbob",
+          "persistentUuid": "9c5cce64-bcd7-4ffc-887a-50f1897e1b84",
+          "width": 0,
+          "x": 976,
+          "y": -46,
+          "zOrder": 155,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "tv",
+          "persistentUuid": "5efecf75-c589-459b-ad7c-7df5418e51de",
+          "width": 0,
+          "x": 976,
+          "y": -46,
+          "zOrder": 156,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.9782608695652175,
+          "height": 720,
+          "layer": "Background",
+          "name": "BG2FROLICK",
+          "persistentUuid": "9ae02be4-a1c3-4d5f-9267-437c3d3caec2",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tilemap_bg1",
+          "persistentUuid": "a7f0ffe6-c374-479d-8d4b-7c25b1cdb27b",
+          "width": 0,
+          "x": 192,
+          "y": -672,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":58,\"dimY\":23,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,120,121,121,121,121,121,122,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,120,121,121,121,121,121,121,121,121,121,122,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,127,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,127,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,127,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,127,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,127,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,130,131,131,131,131,131,131,131,131,131,132,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,125,126,126,121,121,121,121,121,121,121,121,121,121,121,121,121,121,122,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[120,121,121,121,121,121,121,121,121,121,121,121,130,131,131,131,131,131,132,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,120,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,122],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[125,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[130,131,131,131,131,131,131,131,131,131,131,131,131,132,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,125,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,127,-1,-1,130,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,132],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,130,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,132,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bob",
+          "persistentUuid": "c198c60d-1ebe-4fc5-9506-56fa266f34ec",
+          "width": 0,
+          "x": 576,
+          "y": 416,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "e38876e2-0af6-4ced-8152-69d8d9688885",
+          "width": 64,
+          "x": 1664,
+          "y": -224,
+          "zOrder": 158,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "e1a4fe70-fc87-4cf2-8c3e-823c18a268af",
+          "width": 192,
+          "x": 1536,
+          "y": -224,
+          "zOrder": 159,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "79a17c94-1393-4f69-a715-e95ee2c212f4",
+          "width": 64,
+          "x": 1472,
+          "y": 288,
+          "zOrder": 158,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "0160857e-ed8b-4c66-8eb3-4f460211009b",
+          "width": 0,
+          "x": 1472,
+          "y": 288,
+          "zOrder": 159,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder",
+          "persistentUuid": "326dff7d-e64f-4d4f-8c04-3620e6a9f027",
+          "width": 64,
+          "x": 2112,
+          "y": 288,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "60f9cb28-50a3-4131-9f1e-844c4175cd8f",
+          "width": 384,
+          "x": 2112,
+          "y": 288,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circlet",
+          "persistentUuid": "41bb7c0f-f5ee-4df4-87a7-9dbfb4b6ea15",
+          "width": 0,
+          "x": 2528,
+          "y": 160,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circlet",
+          "persistentUuid": "af660ffc-00a2-4e18-89fc-fc6e28285015",
+          "width": 0,
+          "x": 1888,
+          "y": -352,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circlet",
+          "persistentUuid": "a4dc4f38-c417-4300-bf7b-dc91a95988fe",
+          "width": 0,
+          "x": 2240,
+          "y": 416,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circlet",
+          "persistentUuid": "9678d862-5462-498a-b327-d902b7388c16",
+          "width": 0,
+          "x": 1856,
+          "y": 160,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circlet",
+          "persistentUuid": "f35feea7-d58b-48e8-98d6-36d55c41fb7d",
+          "width": 0,
+          "x": 2240,
+          "y": -352,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "LAP_PUTER",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "LAP_PUTER",
+                    "Animation",
+                    "=",
+                    "\"NOT YET\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "LAP_PUTER",
+                    "Animation",
+                    "=",
+                    "\"NOW\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bob",
+                    "=",
+                    "4832",
+                    "=",
+                    "-4224"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LAP",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "CLOCK IN.mp3",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        "+",
+                        "30"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "LAP_PUTER",
+                    "Animation",
+                    "=",
+                    "\"NOW2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bob",
+                    "=",
+                    "4832",
+                    "=",
+                    "-4224"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "timesrunningout.mp3",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LAP",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        "+",
+                        "10"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "LAP_PUTER",
+                    "Animation",
+                    "=",
+                    "\"NOW3\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bob",
+                    "=",
+                    "4832",
+                    "=",
+                    "-4224"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "another lap sir.mp3",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LAP",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "clockouttime",
+                        "+",
+                        "5"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\":(\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "clockoutclock",
+                "Animation",
+                "=",
+                "\"default\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "crownertidleui",
+                "Animation",
+                "=",
+                "\"default\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LAP",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "combo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockouttime",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "enemycombo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BlueDotBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clockouttime3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "clockoutclock"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "crownertidleui"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "clockout",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "factory complete.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "CLOCK OUT.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "CLOCK IN.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "timesrunningout.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "another lap sir.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dashed",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                "<",
+                "760"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\":(\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                ">=",
+                "760"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\"not really good\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"RANK\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                ">",
+                "1205"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\"alright\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"RANK\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                ">",
+                "1985"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\"good\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"RANK\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                ">",
+                "2300"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\"AWESOMESAUCE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"RANK\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                ">",
+                "2700"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "LAP",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks",
+                "Animation",
+                "=",
+                "\"BOB\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"RANK\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"STATIC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "tvbob",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "crownert spawnzones",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "1888"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-576"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "2848"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-672"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"3\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "4888"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-1248"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"4\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "5696"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-1248"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"5\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "7424"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-1024"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"6\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "9216"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-1216"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"7\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "9760"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-1504"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"8\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "9504"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-2784"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"9\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "8544"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-3168"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"10\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "7456"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-3072"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"11\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "6912"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-4160"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"12\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "9504"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-3776"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"13\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "6048"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-4608"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bob",
+                    "CROWNERT_SPAWNZONES",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "CROWNERT_SPAWNZONES",
+                    "Animation",
+                    "=",
+                    "\"14\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_x",
+                    "=",
+                    "4928"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "crownertspawn_y",
+                    "=",
+                    "-4704"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "code"
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalDash",
+          "type": "AdvancedJump::HorizontalDash"
+        },
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax"
+        },
+        {
+          "name": "WallJump",
+          "type": "AdvancedJump::WallJump"
+        }
+      ]
+    },
+    {
       "b": 226,
       "disableInputWhenNotFocused": true,
       "mangledName": "code",
@@ -43384,7 +45717,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "bob",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43394,7 +45726,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "MOVE_KEYBOARD",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -43891,7 +46222,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "MOVE_CONTROLLER",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -45309,6 +47639,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46967,11 +49298,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "rhombert",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Rhombert",
                   "conditions": [],
@@ -47897,6 +50230,15 @@
                 "",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "bob",
+                "\"idle\""
+              ]
             }
           ]
         },
@@ -47978,6 +50320,145 @@
                 "1",
                 "",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "bob",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "bob",
+                "\"idle\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::EnableChangingAnimations"
+              },
+              "parameters": [
+                "bob",
+                "PlatformerCharacterAnimator",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "bob",
+                "Animation",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::EnableChangingAnimations"
+              },
+              "parameters": [
+                "bob",
+                "PlatformerCharacterAnimator",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "bob",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "bob",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::EnableChangingAnimations"
+              },
+              "parameters": [
+                "bob",
+                "PlatformerCharacterAnimator",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "bob",
+                "Animation",
+                "!=",
+                "\"Idle\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "bob",
+                "\"idle\""
               ]
             }
           ]
@@ -92936,6 +95417,369 @@
               "unit": "Pixel",
               "label": "Offset on Y axis",
               "name": "OffsetY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Idle object tracker",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE5LDRjMCwyLjItMS4zLDQtMyw0cy0zLTEuOC0zLTRzMS4zLTMsMy0zUzE5LDEuOCwxOSw0eiIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE0LjUsNy41bC0yLjIsMC43Yy0xLjQsMC41LTIuNSwxLjctMi43LDMuM2wtMC40LDMuNEM5LjEsMTYsMTAsMTcsMTEuMiwxN2gwYzAuNSwwLDEtMC4yLDEuNC0wLjZMMTUsMTRoMS41DQoJYzAuOCwwLDEuNS0wLjcsMS41LTEuNXYwYzAtMC44LTAuNy0xLjUtMS41LTEuNUgxNGwtMiwyIi8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTcuNSw3LjRsMi40LDAuOGMxLjQsMC41LDIuNSwxLjcsMi43LDMuM2wwLjQsMy40djBjMCwxLjItMSwyLjItMi4yLDIuMmgtMy4zYy0wLjgsMC0xLjUtMC43LTEuNS0xLjV2MA0KCWMwLTAuOCwwLjctMS41LDEuNS0xLjVIMjAiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMiwxN2MwLDIsMC4zLDYsMC45LDcuOEwxMywyNXY0bC0yLDF2MWg1VjE1Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjAsMTdjMCwyLTAuMyw2LTAuOSw3LjhMMTksMjV2NGwyLDF2MWgtNVYxNSIvPg0KPC9zdmc+DQo=",
+      "name": "IdleTracker",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Movies and Entertainment/Movies and Entertainment_cinema_oscar_movies_award.svg",
+      "shortDescription": "Check if an object has not moved (with some, customizable, tolerance) for a certain duration (1 second by default).",
+      "version": "1.1.0",
+      "description": [
+        "This behavior tracks the object position and provides a condition to check if the object has been around the same position for a certain amount of time. It's useful to track objects that are not moving (or very little, at least staying around a position).",
+        "",
+        "To use:",
+        "* Add the behavior to your object.",
+        "* Configure the distance tolerance and the amount of time before considering objects idle.",
+        "* Use the conditions in your events to know when the object is idle (or when it has just moved)."
+      ],
+      "origin": {
+        "identifier": "IdleTracker",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "idle",
+        "tracking",
+        "position"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Check if an object has not moved (with some tolerance, 20 pixels by default) for a certain duration (1 second by default).",
+          "fullName": "Idle tracker",
+          "name": "IdleTracker",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFarFromLastPosition",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(Object.X(), Object.Y(), LastX, LastY)",
+                        ">",
+                        "IdleDistanceTolerance"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFarFromLastPosition",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "IdleTime",
+                        "+",
+                        "LayerTimeScale(Object.Layer())*TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFarFromLastPosition",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LastX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LastY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "IdleTime",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IdleTracker::IdleTracker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LastX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LastY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IdleTracker::IdleTracker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object has just moved from its last position (using the tolerance configured in the behavior).",
+              "fullName": "Has just moved from last position",
+              "functionType": "Condition",
+              "name": "HasMovedFromLastPosition",
+              "sentence": "_PARAM0_ has moved from its last position",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFarFromLastPosition",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IdleTracker::IdleTracker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is idle: it has not moved from its last position (or within the tolerance) for the time configured in the behavior.",
+              "fullName": "Is idle (since enough time)",
+              "functionType": "Condition",
+              "name": "IsIdle",
+              "sentence": "_PARAM0_ is idle",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "IdleTime",
+                        ">",
+                        "DurationBeforeIdle"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IdleTracker::IdleTracker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "LastX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "LastY"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFarFromLastPosition"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Time, in seconds, before considering the object as idle",
+              "name": "DurationBeforeIdle"
+            },
+            {
+              "value": "20",
+              "type": "Number",
+              "label": "Distance, in pixels, allowed for the object to travel and still be considered idle",
+              "name": "IdleDistanceTolerance"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "IdleTime"
             }
           ],
           "sharedPropertyDescriptors": []

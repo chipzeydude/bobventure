@@ -23967,7 +23967,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.529035740215685,
+        "zoomFactor": 0.5468750000000014,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -34960,7 +34960,7 @@
                     "MICCOMSTEXT",
                     "Text",
                     "=",
-                    "\"Due to HOA Reaons, There are usually ladders around here, Try using \" + GlobalVariableString(UpKey) + \" to climb them, A Nice 'feature' Is that you can Hold \" + GlobalVariableString(JumpKey) + \" To Climb up faster! \""
+                    "\"Due to HOA Reasons, There are usually ladders around here, Try using \" + GlobalVariableString(UpKey) + \" to climb them, A Nice 'feature' Is that you can Hold \" + GlobalVariableString(JumpKey) + \" To Climb up faster! \""
                   ]
                 },
                 {

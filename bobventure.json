@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.1.09",
+    "version": "0.1.10",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower and bo noise\nmore credits ingame",
     "author": "chipzeydude",
@@ -6612,6 +6612,470 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite107",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagidle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagidle8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winflagactive50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winflagactive50.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -19694,11 +20158,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite61",
+                  "image": "winflagidle1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19714,23 +20178,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite62",
+                  "image": "winflagidle2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19746,23 +20214,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite63",
+                  "image": "winflagidle3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19778,23 +20250,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite64",
+                  "image": "winflagidle4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19810,23 +20286,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite65",
+                  "image": "winflagidle5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19842,23 +20322,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite66",
+                  "image": "winflagidle6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19874,23 +20358,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite67",
+                  "image": "winflagidle7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19906,23 +20394,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite68",
+                  "image": "winflagidle8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19938,48 +20430,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite69",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 20
+                        "x": 44,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 26
-                      },
-                      {
-                        "x": 5,
-                        "y": 64
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
@@ -19995,11 +20459,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout36",
+                  "image": "winflagactive1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20015,23 +20479,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout37",
+                  "image": "winflagactive2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20047,23 +20515,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout38",
+                  "image": "winflagactive3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20079,23 +20551,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout39",
+                  "image": "winflagactive4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20111,23 +20587,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout40",
+                  "image": "winflagactive5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20143,23 +20623,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout41",
+                  "image": "winflagactive6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20175,23 +20659,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout42",
+                  "image": "winflagactive7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20207,23 +20695,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout43",
+                  "image": "winflagactive8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20239,23 +20731,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout44",
+                  "image": "winflagactive9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20271,23 +20767,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout45",
+                  "image": "winflagactive10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20303,23 +20803,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout46",
+                  "image": "winflagactive11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20335,23 +20839,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout47",
+                  "image": "winflagactive12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20367,23 +20875,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout48",
+                  "image": "winflagactive13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20399,23 +20911,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout49",
+                  "image": "winflagactive14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20431,23 +20947,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout50",
+                  "image": "winflagactive15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20463,23 +20983,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout51",
+                  "image": "winflagactive16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20495,23 +21019,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout52",
+                  "image": "winflagactive17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20527,23 +21055,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout53",
+                  "image": "winflagactive18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20559,23 +21091,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout54",
+                  "image": "winflagactive19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20591,23 +21127,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout55",
+                  "image": "winflagactive20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20623,23 +21163,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout56",
+                  "image": "winflagactive21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20655,23 +21199,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout57",
+                  "image": "winflagactive22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20687,23 +21235,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout58",
+                  "image": "winflagactive23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20719,23 +21271,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout59",
+                  "image": "winflagactive24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20751,23 +21307,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout60",
+                  "image": "winflagactive25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20783,23 +21343,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout61",
+                  "image": "winflagactive26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20815,23 +21379,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
-                        "x": 5,
-                        "y": 64
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Clockout62",
+                  "image": "winflagactive27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20847,16 +21415,848 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 20
+                        "x": 5,
+                        "y": 48
                       },
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 13,
+                        "y": 128
                       },
                       {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive28.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
                         "x": 5,
-                        "y": 64
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive29.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive30.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive31.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive34.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive35.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive36.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive37.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive38.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive39.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive41.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive42.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive43.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive44.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive45.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive46.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive47.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive48.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive49.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "winflagactive50.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 128
+                      },
+                      {
+                        "x": 44,
+                        "y": 128
+                      },
+                      {
+                        "x": 64,
+                        "y": 28
                       }
                     ]
                   ]
@@ -25014,6 +26414,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ESCAPE",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Are you sure you want to return to the menu? Your progress cannot be saved mid-level!\n(press the menu button again to confirm.)",
+      "font": "Comic Sans MS.ttf",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 6,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Are you sure you want to return to the menu? Your progress cannot be saved mid-level!\n(press the menu button again to confirm.)",
+        "font": "Comic Sans MS.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -25147,6 +26590,9 @@
       },
       {
         "objectName": "testvariable_text"
+      },
+      {
+        "objectName": "ESCAPE"
       },
       {
         "objectName": "BlueDotBar"
@@ -26087,7 +27533,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.1.09",
+          "string": "Version: 0.1.10",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -26110,7 +27556,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.1.09",
+            "text": "Version: 0.1.10",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -28996,176 +30442,13 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20902556228339164,
+        "zoomFactor": 0.6040838749990013,
         "windowMask": true,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 167,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "clock",
-          "persistentUuid": "b21f53df-8539-40a0-bb32-77c5a5f45ca1",
-          "width": 338,
-          "x": -11,
-          "y": 0,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "scoretext",
-          "persistentUuid": "d6bd94bc-9067-4337-86c4-e06eae712f0c",
-          "width": 0,
-          "x": 37,
-          "y": 33,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "clock_thing",
-          "persistentUuid": "d860ec0f-a067-4010-8729-004b27a75a1c",
-          "width": 64,
-          "x": 320,
-          "y": 0,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "ranks",
-          "persistentUuid": "cbaa0a86-dbe7-45cf-9bb5-8c0850c7fd79",
-          "width": 0,
-          "x": 320,
-          "y": 64,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 51,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "enemycombotext",
-          "persistentUuid": "a716a742-ec3d-41da-a639-2a9268664769",
-          "width": 167,
-          "x": 186,
-          "y": 162,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "OrangeFlatBar",
-          "persistentUuid": "9f267718-9113-4539-a630-634dccd1426a",
-          "width": 0,
-          "x": 15,
-          "y": 168,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 35,
-          "layer": "UI",
-          "name": "BlueDotBar",
-          "persistentUuid": "6503a9e9-8617-4201-a51e-093b49e48e98",
-          "width": 672,
-          "x": 288,
-          "y": 640,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "clockouttime3",
-          "persistentUuid": "09e7a2b6-7825-4d0a-a24f-19fb480bdbe1",
-          "width": 0,
-          "x": 267,
-          "y": 650,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "clockoutclock",
-          "persistentUuid": "317d4c5d-d885-4060-bee6-94bc87324088",
-          "width": 0,
-          "x": 256,
-          "y": 626,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "crownertidleui",
-          "persistentUuid": "9dc7bd58-5d82-4a92-965d-1d60779de228",
-          "width": 0,
-          "x": 893,
-          "y": 593,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -29589,54 +30872,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "tv1",
-          "persistentUuid": "b22b2aa2-aa33-486f-b647-a02f6d8a9174",
-          "width": 0,
-          "x": 976,
-          "y": -46,
-          "zOrder": 154,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "tvbob",
-          "persistentUuid": "7c505b03-267e-4dd3-a9dc-9c3ce7abd0f2",
-          "width": 0,
-          "x": 976,
-          "y": -46,
-          "zOrder": 155,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "tv",
-          "persistentUuid": "7e1908cc-569a-4234-9124-87f0564c1f86",
-          "width": 0,
-          "x": 976,
-          "y": -46,
-          "zOrder": 156,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "",
           "name": "tilemap_bg1",
           "persistentUuid": "59f24d42-44de-4fd9-8b51-fe1004f23e1a",
@@ -29698,6 +30933,22 @@
           "x": 1536,
           "y": -2080,
           "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ESCAPE",
+          "persistentUuid": "b9c99b80-20ec-460f-9cdb-5726151dc19d",
+          "width": 0,
+          "x": 32,
+          "y": 32,
+          "zOrder": 166,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32917,7 +34168,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -33041,9 +34292,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24672586957410736,
+        "zoomFactor": 0.6244537826601126,
         "windowMask": false,
-        "selectedLayer": "Background"
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -34662,6 +35913,23 @@
           "x": 0,
           "y": 0,
           "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ESCAPE",
+          "persistentUuid": "25de6cde-b8e2-4507-81ca-bde626ccbd02",
+          "width": 384,
+          "x": 32,
+          "y": 160,
+          "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36745,7 +38013,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -36872,7 +38140,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.15002679255028578,
+        "zoomFactor": 0.4633111824514919,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -45336,6 +46604,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 278,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ESCAPE",
+          "persistentUuid": "b13347e1-9696-4e8a-8ceb-4b8bf1e81a41",
+          "width": 352,
+          "x": 32,
+          "y": 234,
+          "zOrder": 185,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -47180,7 +48465,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -47307,9 +48592,9 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.7619362677199345,
+        "zoomFactor": 0.6897782140106099,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -48222,6 +49507,23 @@
           "x": 13,
           "y": 615,
           "zOrder": 189,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 352,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ESCAPE",
+          "persistentUuid": "8b14e80e-4f97-4dc7-b804-773fb030c0b9",
+          "width": 352,
+          "x": 32,
+          "y": 224,
+          "zOrder": 190,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -54956,6 +56258,14 @@
                 "bob",
                 "\"idle\""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ESCAPE"
+              ]
             }
           ]
         },
@@ -55000,6 +56310,20 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "ESCAPE"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -55011,6 +56335,100 @@
                 "",
                 "\"menu\"",
                 "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Options\"",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Click_Touchpad\"",
+                    "\"Right\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "ESCAPE"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ESCAPE",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ESCAPE"
               ]
             }
           ]

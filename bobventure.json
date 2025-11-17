@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower and bo noise\nmore credits ingame",
     "author": "chipzeydude",
@@ -27533,7 +27533,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.1.10",
+          "string": "Version: 0.1.11",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -27556,7 +27556,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.1.10",
+            "text": "Version: 0.1.11",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -38140,7 +38140,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.4633111824514919,
+        "zoomFactor": 0.22336005893815927,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -45864,30 +45864,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 320,
+          "height": 512,
           "keepRatio": true,
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "9a777449-11a0-4abc-95d4-46eaa66383ad",
-          "width": 448,
-          "x": 5280,
-          "y": -4320,
-          "zOrder": 182,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 768,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PATHFINDER_OBSTACLE",
-          "persistentUuid": "7adfc935-279a-4944-894c-d69c79dbf02d",
-          "width": 64,
-          "x": 4768,
+          "width": 352,
+          "x": 4224,
           "y": -4768,
           "zOrder": 182,
           "numberProperties": [],
@@ -45903,8 +45886,8 @@
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "40d94f1d-297b-43ee-9129-a73cb5547d56",
-          "width": 1856,
-          "x": 4768,
+          "width": 3584,
+          "x": 3040,
           "y": -4832,
           "zOrder": 182,
           "numberProperties": [],
@@ -45920,8 +45903,8 @@
           "layer": "",
           "name": "PATHFINDER_OBSTACLE",
           "persistentUuid": "cb531f82-a922-457a-b35d-913abd5e1979",
-          "width": 1856,
-          "x": 4768,
+          "width": 3520,
+          "x": 3104,
           "y": -4000,
           "zOrder": 182,
           "numberProperties": [],
@@ -46621,6 +46604,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "033b272d-5200-4d04-8ffd-f240c6053c87",
+          "width": 64,
+          "x": 3040,
+          "y": -4768,
+          "zOrder": 187,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PATHFINDER_OBSTACLE",
+          "persistentUuid": "41d091b2-8b81-45c0-ab2a-3c41beb33ce3",
+          "width": 448,
+          "x": 5280,
+          "y": -4320,
+          "zOrder": 182,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -46689,6 +46706,18 @@
                     "4832",
                     "=",
                     "-4224"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "crownert",
+                    "=",
+                    "3296",
+                    "=",
+                    "-4608"
                   ]
                 },
                 {
@@ -46784,6 +46813,18 @@
                 },
                 {
                   "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "crownert",
+                    "=",
+                    "3296",
+                    "=",
+                    "-4608"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "StopSoundCanal"
                   },
                   "parameters": [
@@ -46871,6 +46912,18 @@
                     "4832",
                     "=",
                     "-4224"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "crownert",
+                    "=",
+                    "3296",
+                    "=",
+                    "-4608"
                   ]
                 },
                 {
@@ -48592,7 +48645,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.6897782140106099,
+        "zoomFactor": 0.4633111824515054,
         "windowMask": false,
         "selectedLayer": "UI"
       },

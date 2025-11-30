@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 247,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower and bo noise\nmore credits ingame",
     "author": "chipzeydude",
@@ -84,7 +84,10 @@
       "chipzeydude"
     ],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
     "extensionProperties": [
       {
         "extension": "Steamworks",
@@ -7078,9 +7081,318 @@
         "name": "winflagactive50.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "bobidletwo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bobidletwo24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobidletwo24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite108",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite108.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_NewSprite108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\NewSprite108",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_NewSprite108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_NewSprite108.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_assets_NewSprite108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\assets_NewSprite108",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_assets_NewSprite108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_assets_NewSprite108.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/A.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "A",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/A.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/A.png\",\"extension\":\".png\"}",
+        "name": "assets\\A.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/G.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "G",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/A2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "A2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/B.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "B",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ranks_verybad.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ranks_verybad.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ranks_verygood.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ranks_verygood.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ranks_okay.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ranks_okay.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -9100,6 +9412,882 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "bobidleone24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 64,
+                    "y": 100
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 70
+                      },
+                      {
+                        "x": 90,
+                        "y": 128
+                      },
+                      {
+                        "x": 37,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobidletwo24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12016,7 +13204,7 @@
         "rowCount": 64,
         "columnCount": 5,
         "tileSize": 64,
-        "tilesWithHitBox": "0,5,10,15,20,25,30,35,40,45,50,1,6,11,16,21,26,31,36,41,46,51,2,7,12,17,22,27,32,37,42,47,52,3,8,13,18,23,28,33,38,43,48,4,9,14,19,24,29,34,39,44,49,54,53,55,60,56,61,57,62,58,63,59,64,65,66,67,68,69,72,77,73,78,70,71,74,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,82,87,92,97,102,107,112,117,122,127,132,137,142,147,152,83,88,93,98,103,108,113,118,123,128,133,138,143,148,153,84,89,94,99,104,109,114,119,124,129,134,139,144,149,154,157,158,160,165,170,175,180,161,166,171,176,181,162,167,172,177,182,163,168,173,178,183,164,169,174,179,184,185,190,195,200,205,210,215,220,186,191,196,201,206,211,216,221,187,192,197,202,207,212,217,222,188,193,198,203,208,213,218,223,189,194,199,204,209,214,219,224,225,230,226,231,227,232,228,233,229,234,237,238,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,241,246,251,256,261,266,271,276,281,286,291,296,301,306,311,242,247,252,257,262,267,272,277,282,287,292,297,302,307,312,243,248,253,258,263,268,273,278,283,288,293,298,303,308,313,244,249,254,259,264,269,274,279,284,289,294,299,304,309,314,317,318"
+        "tilesWithHitBox": "0,5,10,15,20,25,30,35,40,45,50,1,6,11,16,21,26,31,36,41,46,51,2,7,12,17,22,27,32,37,42,47,52,8,13,18,23,28,33,38,43,48,4,9,14,19,24,29,34,39,44,49,54,53,55,60,56,61,57,62,58,63,59,64,65,66,67,68,69,72,77,73,78,70,71,74,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,82,87,92,97,102,107,112,117,122,127,132,137,142,147,152,83,88,93,98,103,108,113,118,123,128,133,138,143,148,153,84,89,94,99,104,109,114,119,124,129,134,139,144,149,154,157,158,160,165,170,175,180,161,166,171,176,181,162,167,172,177,182,163,168,173,178,183,164,169,174,179,184,185,190,195,200,205,210,215,220,186,191,196,201,206,211,216,221,187,192,197,202,207,212,217,222,188,193,198,203,208,213,218,223,189,194,199,204,209,214,219,224,225,230,226,231,227,232,228,233,229,234,237,238,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,241,246,251,256,261,266,271,276,281,286,291,296,301,306,311,242,247,252,257,262,267,272,277,282,287,292,297,302,307,312,243,248,253,258,263,268,273,278,283,288,293,298,303,308,313,244,249,254,259,264,269,274,279,284,289,294,299,304,309,314,317,318,3"
       }
     },
     {
@@ -26457,6 +27645,49 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LEVELTIME",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "242",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "242",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -26596,6 +27827,9 @@
       },
       {
         "objectName": "BlueDotBar"
+      },
+      {
+        "objectName": "LEVELTIME"
       }
     ]
   },
@@ -26603,11 +27837,6 @@
   "variables": [
     {
       "name": "is_walking",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "score",
       "type": "number",
       "value": 0
     },
@@ -26715,6 +27944,41 @@
       "name": "testvariable",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "kills",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "damage",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "highest_combo",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "leveltime",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "rank",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "levelname",
+      "type": "string",
+      "value": "unknown"
     }
   ],
   "layouts": [
@@ -26733,8 +27997,10 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
@@ -27533,7 +28799,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.1.11",
+          "string": "Version: 0.1.12",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -27556,7 +28822,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.1.11",
+            "text": "Version: 0.1.12",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -28822,6 +30088,16 @@
                 "yes",
                 "100",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levelname",
+                "=",
+                "\"unknown\""
               ]
             }
           ]
@@ -30119,6 +31395,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30183,6 +31460,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30236,6 +31514,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30289,6 +31568,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30437,12 +31717,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6040838749990013,
+        "zoomFactor": 0.6244537826601174,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -30949,6 +32231,23 @@
           "x": 32,
           "y": 32,
           "zOrder": 166,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "LEVELTIME",
+          "persistentUuid": "f3bd3b91-024b-41a3-81cf-125a894420c0",
+          "width": 1216,
+          "x": 32,
+          "y": 672,
+          "zOrder": 167,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33300,6 +34599,26 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levelname",
+                "=",
+                "\"unknown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dashed",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -33338,16 +34657,6 @@
               },
               "parameters": [
                 "crownertidleui"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
               ]
             },
             {
@@ -33406,16 +34715,6 @@
               "parameters": [
                 "",
                 "factory complete.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "dashed",
-                "=",
-                "0"
               ]
             },
             {
@@ -34114,6 +35413,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -34131,6 +35431,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -34159,6 +35460,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -34287,12 +35589,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6244537826601126,
+        "zoomFactor": 0.6455105703312654,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -35933,6 +37237,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "LEVELTIME",
+          "persistentUuid": "fe920f33-be88-4dd7-bc89-3eda8160f9bb",
+          "width": 352,
+          "x": 928,
+          "y": 32,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37039,6 +38360,16 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levelname",
+                "=",
+                "\"unknown\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -37092,6 +38423,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "dashed",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "enemycombo",
                 "=",
                 "0"
@@ -37127,16 +38468,6 @@
               },
               "parameters": [
                 "crownertidleui"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
               ]
             },
             {
@@ -37186,16 +38517,6 @@
               "parameters": [
                 "",
                 "pauseit.wav"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "dashed",
-                "=",
-                "0"
               ]
             },
             {
@@ -37962,6 +39283,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -37979,6 +39301,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -38007,6 +39330,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -38135,12 +39459,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.22336005893815927,
+        "zoomFactor": 0.5117784035211224,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -46638,6 +47964,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "LEVELTIME",
+          "persistentUuid": "a2a07ac0-7843-4bde-bde5-5563b299e60e",
+          "width": 216,
+          "x": 392,
+          "y": 0,
+          "zOrder": 188,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -47084,7 +48427,27 @@
               "parameters": [
                 "clockouttime",
                 "=",
-                "10"
+                "120"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dashed",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levelname",
+                "=",
+                "\"frolick\""
               ]
             },
             {
@@ -47127,16 +48490,6 @@
               },
               "parameters": [
                 "crownertidleui"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
               ]
             },
             {
@@ -47187,16 +48540,6 @@
                 "",
                 "another lap sir.mp3"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "dashed",
-                "=",
-                "0"
-              ]
             }
           ]
         },
@@ -47221,6 +48564,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -47255,6 +48608,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -47359,6 +48722,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -47461,6 +48834,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -47561,6 +48944,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -47673,6 +49066,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "5"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -48467,6 +49870,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -48484,6 +49888,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -48512,6 +49917,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -48640,12 +50046,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.4633111824515054,
+        "zoomFactor": 0.9296875000002179,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -49550,22 +50958,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "testvariable_text",
-          "persistentUuid": "51840681-26d1-4397-86e5-ebc7582e27e0",
-          "width": 0,
-          "x": 13,
-          "y": 615,
-          "zOrder": 189,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 352,
@@ -49577,6 +50969,23 @@
           "x": 32,
           "y": 224,
           "zOrder": 190,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "LEVELTIME",
+          "persistentUuid": "0cbd649f-e71f-496b-a482-4fbd5e16dde8",
+          "width": 192,
+          "x": 384,
+          "y": 0,
+          "zOrder": 191,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50022,10 +51431,30 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levelname",
+                "=",
+                "\"factor\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "enemycombo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dashed",
                 "=",
                 "0"
               ]
@@ -50060,16 +51489,6 @@
               },
               "parameters": [
                 "crownertidleui"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "clockout",
-                "=",
-                "0"
               ]
             },
             {
@@ -50120,16 +51539,6 @@
                 "",
                 "another lap sir.mp3"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "dashed",
-                "=",
-                "0"
-              ]
             }
           ]
         },
@@ -50154,6 +51563,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -50188,6 +51607,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -50292,6 +51721,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -50394,6 +51833,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -50494,6 +51943,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -50606,6 +52065,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "5"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -51413,6 +52882,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -51430,6 +52900,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -51458,6 +52929,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -52938,7 +54410,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "check things",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -53591,6 +55062,16 @@
                         "=",
                         "\"Clockout\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "levelname",
+                        "=",
+                        "\"unknown\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -53602,6 +55083,64 @@
                         "",
                         "\"lobby\"",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "leveltime",
+                        "=",
+                        "round(TimerElapsedTime(\"leveltimer\"))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "FLAGOFFINISH",
+                        "Animation",
+                        "=",
+                        "\"Clockout\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "levelname",
+                        "!=",
+                        "\"unknown\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"you are rank\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "leveltime",
+                        "=",
+                        "round(TimerElapsedTime(\"leveltimer\"))"
                       ]
                     }
                   ]
@@ -53616,6 +55155,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -54362,6 +55902,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "circlet",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -56248,6 +57789,17 @@
                 "=",
                 "testvariable"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "LEVELTIME",
+                "Text",
+                "=",
+                "ToString(round(TimerElapsedTime(\"leveltimer\")))"
+              ]
             }
           ]
         },
@@ -56286,6 +57838,46 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "highest_combo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "kills",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "damage",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "leveltime",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -56318,6 +57910,51 @@
               },
               "parameters": [
                 "ESCAPE"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"leveltimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"you are rank\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "ranks_okay.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "ranks_verygood.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "ranks_verybad.mp3"
               ]
             }
           ]
@@ -56564,7 +58201,7 @@
                 "bob",
                 "Animation",
                 "=",
-                "6"
+                "RandomInRange(6,7)"
               ]
             },
             {
@@ -56657,6 +58294,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -56674,6 +58312,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -56702,6 +58341,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -56818,25 +58458,28 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "FINISH_33",
-      "name": "FINISH!",
+      "mangledName": "you_32are_32rank",
+      "name": "you are rank",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6897782140104497,
-        "windowMask": false
+        "snap": true,
+        "zoomFactor": 0.5843784410740942,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -56844,15 +58487,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 9,
-          "height": 544,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "ranks",
-          "persistentUuid": "f10269c1-4ac6-4b80-8ac0-dd06921c1d7a",
-          "width": 544,
-          "x": 576,
-          "y": 96,
+          "name": "score2",
+          "persistentUuid": "246a9afe-dcfd-4c6b-abda-f88d844e665b",
+          "width": 1248,
+          "x": 32,
+          "y": 32,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -56860,15 +58503,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "NewText",
-          "persistentUuid": "1d3ba70e-f6fd-4515-bdf8-48f4eacd96ac",
-          "width": 0,
-          "x": 528,
-          "y": 9,
+          "name": "highcombo",
+          "persistentUuid": "e272cab9-5394-4e97-a82f-0e9d2a309d55",
+          "width": 1248,
+          "x": 32,
+          "y": 96,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -56876,15 +58520,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
           "keepRatio": true,
           "layer": "",
-          "name": "NewText2",
-          "persistentUuid": "5882caf4-a43e-48cc-82fe-5558257ce4cc",
-          "width": 0,
-          "x": 558,
-          "y": 617,
+          "name": "kills1",
+          "persistentUuid": "22160956-ae22-4055-9bed-14eaaeabf129",
+          "width": 1248,
+          "x": 32,
+          "y": 160,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -56892,16 +58537,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "e8c43cc9-5d70-448c-8206-6697b870bb7c",
-          "width": 0,
-          "x": -3,
-          "y": 185,
+          "name": "damage2",
+          "persistentUuid": "7db2c832-d239-466a-81db-65599bf9b9c5",
+          "width": 1248,
+          "x": 32,
+          "y": 224,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "time",
+          "persistentUuid": "40de7d6f-88f0-45d9-9aba-c843d043ddd3",
+          "width": 1248,
+          "x": 32,
+          "y": 288,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56912,12 +58575,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
-          "persistentUuid": "b2aca4bb-4b6a-4d5f-9964-b3592ab9c9da",
+          "name": "ranks2",
+          "persistentUuid": "6118706a-3a52-494c-b3da-f7ff52d6cbae",
           "width": 0,
-          "x": 45,
-          "y": 30,
-          "zOrder": 5,
+          "x": 832,
+          "y": 288,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yourrankis",
+          "persistentUuid": "48fd62d3-8fb3-4bbb-87ae-99d958a0dd2e",
+          "width": 0,
+          "x": 791,
+          "y": 207,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56926,62 +58605,19 @@
       "objects": [
         {
           "assetStoreId": "",
-          "bold": true,
-          "italic": true,
-          "name": "NewText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "YOUR'E  RANK IS:",
-          "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 80,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": true,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "YOUR'E  RANK IS:",
-            "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 80,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "NewText2",
+          "name": "score2",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "RANKHERE",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 80,
+          "string": "Score: 242",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 60,
           "color": {
             "b": 0,
             "g": 0,
@@ -57001,11 +58637,183 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "RANKHERE",
-            "font": "",
-            "textAlignment": "center",
+            "text": "Score: 242",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 80,
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "highcombo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Highest Combo: 242\n",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Highest Combo: 242\n",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "kills1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Kills: 242",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Kills: 242",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "damage2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Damage: 242\n",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Damage: 242\n",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "time",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time: 242\n",
+          "font": "Bobfonture-Regular (1).otf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time: 242\n",
+            "font": "Bobfonture-Regular (1).otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -57013,7 +58821,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "ranks2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -57021,7 +58829,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "reveal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -57031,7 +58839,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite70",
+                      "image": "NewSprite108",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -57047,20 +58855,314 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 34,
-                            "y": 97
+                            "x": 3,
+                            "y": 2
                           },
                           {
-                            "x": 547,
-                            "y": 97
+                            "x": 252,
+                            "y": 2
                           },
                           {
-                            "x": 547,
-                            "y": 725
+                            "x": 252,
+                            "y": 251
                           },
                           {
-                            "x": 34,
-                            "y": 725
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ":(",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite108",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "not really good",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\assets_NewSprite108",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "alright",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "A2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Good",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "G",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AWESOMESAUCE",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BOB",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "B",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 2
+                          },
+                          {
+                            "x": 252,
+                            "y": 251
+                          },
+                          {
+                            "x": 3,
+                            "y": 251
                           }
                         ]
                       ]
@@ -57072,80 +59174,72 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "bold": false,
+          "italic": false,
+          "name": "yourrankis",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "letmeout.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 195,
-                            "y": 0
-                          },
-                          {
-                            "x": 195,
-                            "y": 104
-                          },
-                          {
-                            "x": 0,
-                            "y": 104
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Your Rank Is...",
+          "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Your Rank Is...",
+            "font": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewText"
+            "objectName": "score2"
           },
           {
-            "objectName": "NewText2"
+            "objectName": "highcombo"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "kills1"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "damage2"
+          },
+          {
+            "objectName": "time"
+          },
+          {
+            "objectName": "ranks2"
+          },
+          {
+            "objectName": "yourrankis"
           }
         ]
       },
@@ -57158,9 +59252,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "score",
-                ">",
-                "500"
+                "rank",
+                "=",
+                "5"
               ]
             },
             {
@@ -57173,13 +59267,33 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ranks_verygood.mp3",
+                "",
+                "sfxvolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6.48"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "ranks",
+                "ranks2",
                 "Animation",
                 "=",
-                "\"not really good\""
+                "\"BOB\""
               ]
             }
           ]
@@ -57192,43 +59306,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "score",
-                ">",
-                "1000"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ranks",
-                "Animation",
+                "rank",
                 "=",
-                "\"alright\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "score",
-                ">",
-                "1500"
+                "4"
               ]
             },
             {
@@ -57241,44 +59321,30 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "PlaySound"
               },
               "parameters": [
-                "ranks",
-                "Animation",
-                "=",
-                "\"good\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "score",
-                ">",
-                "2000"
+                "",
+                "ranks_okay.mp3",
+                "",
+                "sfxvolume",
+                ""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "Wait"
               },
-              "parameters": []
-            }
-          ],
-          "actions": [
+              "parameters": [
+                "6.48"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "ranks",
+                "ranks2",
                 "Animation",
                 "=",
                 "\"AWESOMESAUCE\""
@@ -57294,52 +59360,11 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "score",
-                ">",
-                "2500"
+                "rank",
+                "=",
+                "3"
               ]
             },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ranks",
-                "Animation",
-                "=",
-                "\"BOB\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText2",
-                "Text",
-                "=",
-                "ranks.Animation::Name()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
             {
               "type": {
                 "value": "BuiltinCommonInstructions::Once"
@@ -57354,10 +59379,29 @@
               },
               "parameters": [
                 "",
-                "tutoriale.wav",
-                "yes",
+                "ranks_okay.mp3",
                 "",
+                "sfxvolume",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6.48"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks2",
+                "Animation",
+                "=",
+                "\"Good\""
               ]
             }
           ]
@@ -57367,32 +59411,251 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "NewSprite2",
+                "rank",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
                 "",
+                "ranks_okay.mp3",
                 "",
+                "sfxvolume",
                 ""
               ]
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "Wait"
+              },
+              "parameters": [
+                "6.48"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks2",
+                "Animation",
+                "=",
+                "\"alright\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "ranks_verybad.mp3",
+                "",
+                "sfxvolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6.48"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks2",
+                "Animation",
+                "=",
+                "\"not really good\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "rank",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ranks_verybad.mp3",
+                "",
+                "sfxvolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6.48"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks2",
+                "Animation",
+                "=",
+                "\":(\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Quit"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
+                "score2",
+                "Text",
+                "=",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "highcombo",
+                "Text",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "kills1",
+                "Text",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "damage2",
+                "Text",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "time",
+                "Text",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "yourrankis",
+                "Text",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ranks2",
+                "Animation",
+                "=",
+                "\"reveal\""
               ]
             }
           ]
@@ -57403,6 +59666,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -57427,13 +59691,71 @@
           ],
           "effects": [
             {
-              "effectType": "Scene3D::AmbientLight",
-              "name": "3D Ammbient Light",
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
-                "intensity": 0.25
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
               },
               "stringParameters": {
-                "color": "255;255;255"
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
               },
               "booleanParameters": {}
             },
@@ -68030,6 +70352,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -84721,6 +87044,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -87238,6 +89562,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -90096,6 +92421,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -92116,6 +94442,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -92375,6 +94702,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -94402,6 +96730,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -95603,6 +97932,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -95762,6 +98092,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,

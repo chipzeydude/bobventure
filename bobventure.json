@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 259,
+    "build": 262,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,14 +18,14 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "name": "Bobventure",
     "description": "a very not the best game inspired by pizza tower and bo noise\nmore credits ingame",
     "author": "chipzeydude",
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "D:\\stuff\\gdevelooop\\boventure_V0.0.99",
-    "maxFPS": 0,
+    "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
@@ -7759,6 +7759,108 @@
         "name": "lapputer___9.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Idle.png\",\"extension\":\".png\"}",
+        "name": "assets\\Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speak8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speak8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coolvetica Rg.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Coolvetica Rg.otf",
+        "userAdded": false
+      },
+      {
+        "file": "Bobscripture.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Bobscripture.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite124",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -7792,6 +7894,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bob",
+      "persistentUuid": "50d4b6c0-cc43-4aee-b545-c0b5171bf562",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13555,6 +13658,7 @@
     {
       "assetStoreId": "",
       "name": "test_tilemap",
+      "persistentUuid": "15f3312a-408c-4944-af88-451fe83f1de9",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -13574,571 +13678,6 @@
         "tileSize": 64,
         "tilesWithHitBox": "0,5,10,15,20,25,30,35,40,45,50,1,6,11,16,21,26,31,36,41,46,51,2,7,12,17,22,27,32,37,42,47,52,8,13,18,23,28,33,38,43,48,4,9,14,19,24,29,34,39,44,49,54,53,55,60,56,61,57,62,58,63,59,64,65,66,67,68,69,72,77,73,78,70,71,74,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,81,86,91,96,101,106,111,116,121,126,131,136,141,146,151,82,87,92,97,102,107,112,117,122,127,132,137,142,147,152,83,88,93,98,103,108,113,118,123,128,133,138,143,148,153,84,89,94,99,104,109,114,119,124,129,134,139,144,149,154,157,158,160,165,170,175,180,161,166,171,176,181,162,167,172,177,182,163,168,173,178,183,164,169,174,179,184,185,190,195,200,205,210,215,220,186,191,196,201,206,211,216,221,187,192,197,202,207,212,217,222,188,193,198,203,208,213,218,223,189,194,199,204,209,214,219,224,225,230,226,231,227,232,228,233,229,234,237,238,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,241,246,251,256,261,266,271,276,281,286,291,296,301,306,311,242,247,252,257,262,267,272,277,282,287,292,297,302,307,312,243,248,253,258,263,268,273,278,283,288,293,298,303,308,313,244,249,254,259,264,269,274,279,284,289,294,299,304,309,314,317,318,3"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "clock_thing",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite40",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite41",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite42",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite43",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite44",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite45",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite46",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite47",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite48",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite49",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite50",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite51",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite52",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite53",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite54",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 3
-                      },
-                      {
-                        "x": 31,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -15717,6 +15256,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "ladder",
+      "persistentUuid": "a43e59ce-b42f-4102-8540-e10987e83a58",
       "texture": "NewTiledSprite3",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -15796,6 +15336,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "platform",
+      "persistentUuid": "5989327c-efcb-4601-a282-9403dd42f468",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -25020,6 +24561,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "mark",
+      "persistentUuid": "124079c2-30b3-4201-b862-30e9b7c9f324",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -28120,6 +27662,475 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "speakdio",
+      "persistentUuid": "8ff7e748-43f2-465b-922f-35297615a14d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rob_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rob_speak1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rob_speak2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rob_speak3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speak8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 0
+                      },
+                      {
+                        "x": 900,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "speakdiotext",
+      "persistentUuid": "d1205a83-7288-4a5f-921a-212dc52606e2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Orange Papaya Ultimate 192",
+      "font": "Coolvetica Rg.otf",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Orange Papaya Ultimate 192",
+        "font": "Coolvetica Rg.otf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -28139,9 +28150,6 @@
       },
       {
         "objectName": "tilemap_bg1"
-      },
-      {
-        "objectName": "clock_thing"
       },
       {
         "objectName": "big_consumable"
@@ -28274,6 +28282,12 @@
       },
       {
         "objectName": "Cone"
+      },
+      {
+        "objectName": "speakdio"
+      },
+      {
+        "objectName": "speakdiotext"
       }
     ]
   },
@@ -28433,6 +28447,16 @@
       "name": "bob_canmove",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "speakdiostring",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "speakdioactive",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -29248,13 +29272,14 @@
           "bold": false,
           "italic": false,
           "name": "versiontext",
+          "persistentUuid": "a2ed7d1f-fc96-435a-a3e1-e4693a8e7eb7",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version: 0.1.21 - February 2026 Playtester Build B",
+          "string": "Version: 0.1.22 - March 2026 Playtester Build A",
           "font": "Bobfonture-Regular (1).otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -29277,7 +29302,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version: 0.1.21 - February 2026 Playtester Build B",
+            "text": "Version: 0.1.22 - March 2026 Playtester Build A",
             "font": "Bobfonture-Regular (1).otf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -32179,7 +32204,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.23089183385229314,
+        "zoomFactor": 0.5653158055127424,
         "windowMask": true,
         "selectedLayer": "UI",
         "gameEditorMode": "instances-editor"
@@ -32203,7 +32228,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":93,\"dimY\":64,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,190,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,162,162,162,162,164,-1,-1,-1,160,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,164,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,168,174,-1,-1,-1,170,166,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,178,174,-1,-1,-1,170,176,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172,172,172,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,182,182,184,-1,-1,-1,180,182,182,182,182,182,190,171,172,172,172,172,172,172,172,172,172,172,172,172,186,162,162,162,162,162,162,162,162,162,162,162,162,162,162,185,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,199,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,162,162,162,162,162,162,162,162,164,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,1073742058,216,-2147483414,167,167,167,167,167,167,167,168,169,-1,-1,170,171,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,181,182,183,181,182,190,176,177,177,177,177,177,177,177,178,174,-1,-1,170,176,177,177,177,177,177,177,177,178,191,182,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,190,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,180,181,182,183,181,182,182,182,181,182,184,-1,-1,180,182,183,181,182,183,181,182,183,181,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,160,164,-1,-1,-1,-1,160,164,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,161,162,163,161,164,-1,-1,-1,-1,-1,160,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,164,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,168,169,-1,-1,-1,-1,-1,165,166,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,168,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,178,179,-1,-1,-1,-1,-1,175,171,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,178,186,161,162,163,161,162,163,161,164,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,181,182,183,181,182,182,181,182,183,181,184,-1,-1,-1,-1,-1,170,171,173,191,181,182,183,181,182,183,181,182,183,181,182,183,181,182,182,181,182,183,181,182,183,181,184,-1,-1,-1,-1,-1,-1,-1,-1,180,184,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,160,161,162,163,161,162,164,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,176,178,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,181,182,183,181,190,174,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,181,182,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,160,162,185,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,163,161,162,163,161,162,163,161,161,161,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,164,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,180,182,182,184,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,168,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,161,162,163,161,162,163,162,162,161,162,163,185,186,163,161,162,163,161,162,163,161,162,163,161,185,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,199,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172]]}]}"
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":93,\"dimY\":64,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,190,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,162,162,162,162,164,-1,-1,-1,160,162,162,162,162,162,162,162,162,162,162,185,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,168,174,-1,-1,-1,170,166,167,167,167,167,167,167,167,167,167,167,199,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,178,174,-1,-1,-1,170,176,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,182,182,184,-1,-1,-1,180,182,182,182,182,182,190,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,162,162,162,162,162,162,162,162,164,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,1073742058,216,-2147483414,167,167,167,167,167,167,167,168,169,-1,-1,170,171,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,204,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,181,182,183,181,182,190,176,177,177,177,177,177,177,177,178,174,-1,-1,170,176,177,177,177,177,177,177,177,178,191,182,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,182,183,181,190,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,180,181,182,183,181,182,182,182,181,182,184,-1,-1,180,182,183,181,182,183,181,182,183,181,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,160,164,-1,-1,-1,-1,160,164,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,161,162,163,161,164,-1,-1,-1,-1,-1,160,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,164,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,168,169,-1,-1,-1,-1,-1,165,166,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,168,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,194,177,177,177,177,177,177,177,177,177,177,178,179,-1,-1,-1,-1,-1,175,171,194,177,177,177,177,177,177,177,177,177,177,177,177,177,177,178,186,161,162,163,161,162,163,161,164,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,191,181,182,183,181,182,182,181,182,183,181,184,-1,-1,-1,-1,-1,170,171,173,191,181,182,183,181,182,183,181,182,183,181,182,183,181,182,182,181,182,183,181,182,183,181,184,-1,-1,-1,-1,-1,-1,-1,-1,180,184,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,160,161,162,163,161,162,164,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,176,178,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,181,182,183,181,190,174,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,180,181,182,184,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,160,162,185,174,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,162,163,161,162,163,161,162,163,161,161,161,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,162,163,161,164,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,180,182,182,184,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,168,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,175,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,169,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,165,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,179,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,174,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,170,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,173,186,161,162,163,161,162,163,162,162,161,162,163,185,186,163,161,162,163,161,162,163,161,162,163,161,185,171,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,189,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,199,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172],[172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172,172]]}]}"
             }
           ],
           "initialVariables": []
@@ -32219,7 +32244,7 @@
           "width": 0,
           "x": 576,
           "y": 352,
-          "zOrder": 164,
+          "zOrder": 172,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32252,7 +32277,7 @@
           "width": 0,
           "x": 3360,
           "y": 96,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32269,7 +32294,7 @@
           "width": 160,
           "x": 4256,
           "y": 512,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32320,7 +32345,7 @@
           "width": 128,
           "x": 4000,
           "y": -480,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32371,7 +32396,7 @@
           "width": 160,
           "x": 2720,
           "y": -352,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32388,7 +32413,7 @@
           "width": 160,
           "x": 3584,
           "y": -352,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32453,7 +32478,7 @@
           "width": 320,
           "x": 1184,
           "y": -352,
-          "zOrder": 165,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32636,7 +32661,7 @@
           "persistentUuid": "5776a27d-d40b-4f3d-ab1b-037cbdc688f9",
           "width": 0,
           "x": 1272,
-          "y": -927,
+          "y": -926,
           "zOrder": 157,
           "numberProperties": [],
           "stringProperties": [],
@@ -32704,6 +32729,87 @@
           "x": 32,
           "y": 672,
           "zOrder": 167,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mark",
+          "persistentUuid": "8bf5fcf4-2bba-467a-82ae-c68148394277",
+          "width": 0,
+          "x": 2944,
+          "y": -288,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mark",
+          "persistentUuid": "e00c00e2-851b-4052-a1ae-653f8691ded8",
+          "width": 0,
+          "x": 1280,
+          "y": -1632,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "speakdio",
+          "persistentUuid": "878f8737-34e8-4d7d-b8f1-e757a14236d9",
+          "width": 0,
+          "x": 348,
+          "y": 746,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "speakdiotext",
+          "persistentUuid": "86292bb2-e887-4ab9-9006-f2c186b778c9",
+          "width": 704,
+          "x": 512,
+          "y": 768,
+          "zOrder": 169,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JohnDoor",
+          "persistentUuid": "83a3134c-f5c6-4622-a1c5-764197f3b77f",
+          "width": 0,
+          "x": 2080,
+          "y": -1664,
+          "zOrder": 171,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -34021,6 +34127,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Door_Factor",
+          "persistentUuid": "dc9a0f35-5cc8-4b8c-b2e5-04476ad5bc55",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34611,6 +34718,7 @@
           "bold": false,
           "italic": false,
           "name": "doorfactor",
+          "persistentUuid": "48d178a1-1f00-4fbe-a967-e4d68f3a2771",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -34648,6 +34756,68 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "JohnDoor",
+          "persistentUuid": "45bf7fc5-1d5d-411e-b757-16b56d80a453",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite124",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 37
+                          },
+                          {
+                            "x": 153,
+                            "y": 37
+                          },
+                          {
+                            "x": 153,
+                            "y": 160
+                          },
+                          {
+                            "x": 3,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -34673,6 +34843,9 @@
           },
           {
             "objectName": "blatanthint"
+          },
+          {
+            "objectName": "JohnDoor"
           }
         ]
       },
@@ -35862,6 +36035,653 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bob",
+                "JohnDoor",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "speakdio",
+                "-",
+                "192"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "speakdiotext",
+                "-",
+                "192"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bob_canmove",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"Hey Bob!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_speak1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"1A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"1A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"2A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"2A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"...I'm guessing you want to fight John?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_speak3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"3A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"3A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"Well, you cant. Seriously! Crownert wont allow you in there, for.. some reason.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_speak3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"4A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"4A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"But if you *really* have to access the other levels, i can go in there for you, I've been practicing lately!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_speak2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"5A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"5A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "speakdiotext",
+                "Text",
+                "=",
+                "\"So, if you press \"+DownKey+\" while over here, I'll go in!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_speak1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "speakdio",
+                "Animation",
+                "=",
+                "\"Rob_idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"6A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "UpKey"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"6A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "speakdio",
+                "+",
+                "192"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "speakdiotext",
+                "+",
+                "192"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bob_canmove",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -35923,7 +36743,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -36052,7 +36872,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1956110053677284,
+        "zoomFactor": 0.5653158055127346,
         "windowMask": false,
         "selectedLayer": "UI",
         "gameEditorMode": "instances-editor"
@@ -49459,7 +50279,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.04683334093399651,
+        "zoomFactor": 0.6222911601359129,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -66328,6 +67148,36 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "speakdiostring",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "speakdioactive",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bob_canmove",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -66566,7 +67416,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                ".25"
+                "0.25"
               ]
             },
             {
@@ -70299,6 +71149,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Use objects as buttons.",
@@ -71405,6 +72258,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -71798,6 +72686,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "IdleEffect",
+              "group": "Button object effects configuration",
               "name": "SetIdleEffect",
               "sentence": "",
               "events": [
@@ -71879,6 +72768,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FocusedEffect",
+              "group": "Button object effects configuration",
               "name": "SetFocusedEffect",
               "sentence": "",
               "events": [
@@ -71960,6 +72850,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PressedEffect",
+              "group": "Button object effects configuration",
               "name": "SetPressedEffect",
               "sentence": "",
               "events": [
@@ -71997,6 +72888,40 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Button object effects configuration",
+                "children": [
+                  {
+                    "functionName": "IdleEffect"
+                  },
+                  {
+                    "functionName": "SetIdleEffect"
+                  },
+                  {
+                    "functionName": "FocusedEffect"
+                  },
+                  {
+                    "functionName": "SetFocusedEffect"
+                  },
+                  {
+                    "functionName": "PressedEffect"
+                  },
+                  {
+                    "functionName": "SetPressedEffect"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -72275,6 +73200,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "IdleAnimationName",
+              "group": "Button animation configuration",
               "name": "SetIdleAnimationName",
               "sentence": "",
               "events": [
@@ -72356,6 +73282,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FocusedAnimationName",
+              "group": "Button animation configuration",
               "name": "SetFocusedAnimationName",
               "sentence": "",
               "events": [
@@ -72437,6 +73364,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PressedAnimationName",
+              "group": "Button animation configuration",
               "name": "SetPressedAnimationName",
               "sentence": "",
               "events": [
@@ -72474,6 +73402,40 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Button animation configuration",
+                "children": [
+                  {
+                    "functionName": "IdleAnimationName"
+                  },
+                  {
+                    "functionName": "SetIdleAnimationName"
+                  },
+                  {
+                    "functionName": "FocusedAnimationName"
+                  },
+                  {
+                    "functionName": "SetFocusedAnimationName"
+                  },
+                  {
+                    "functionName": "PressedAnimationName"
+                  },
+                  {
+                    "functionName": "SetPressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -73411,6 +74373,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "IdleValue",
+              "group": "Button effect tween configuration",
               "name": "SetIdleValue",
               "sentence": "",
               "events": [
@@ -73492,6 +74455,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FocusedValue",
+              "group": "Button effect tween configuration",
               "name": "SetFocusedValue",
               "sentence": "",
               "events": [
@@ -73573,6 +74537,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PressedValue",
+              "group": "Button effect tween configuration",
               "name": "SetPressedValue",
               "sentence": "",
               "events": [
@@ -73655,6 +74620,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInEasing",
+              "group": "Button effect tween configuration",
               "name": "SetFadeInEasing",
               "sentence": "",
               "events": [
@@ -73737,6 +74703,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutEasing",
+              "group": "Button effect tween configuration",
               "name": "SetFadeOutEasing",
               "sentence": "",
               "events": [
@@ -73818,6 +74785,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInDuration",
+              "group": "Button effect tween configuration",
               "name": "SetFadeInDuration",
               "sentence": "",
               "events": [
@@ -73899,6 +74867,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutDuration",
+              "group": "Button effect tween configuration",
               "name": "SetFadeOutDuration",
               "sentence": "",
               "events": [
@@ -73936,6 +74905,85 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "TimeDelta"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "functionName": "PlayTween"
+              },
+              {
+                "folderName": "Button effect tween configuration",
+                "children": [
+                  {
+                    "functionName": "EffectName"
+                  },
+                  {
+                    "functionName": "EffectProperty"
+                  },
+                  {
+                    "functionName": "SetEffectProperty"
+                  },
+                  {
+                    "functionName": "IdleValue"
+                  },
+                  {
+                    "functionName": "SetIdleValue"
+                  },
+                  {
+                    "functionName": "FocusedValue"
+                  },
+                  {
+                    "functionName": "SetFocusedValue"
+                  },
+                  {
+                    "functionName": "PressedValue"
+                  },
+                  {
+                    "functionName": "SetPressedValue"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -74857,6 +75905,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "IdleScale",
+              "group": "Button scale tween configuration",
               "name": "SetIdleScale",
               "sentence": "",
               "events": [
@@ -74938,6 +75987,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FocusedScale",
+              "group": "Button scale tween configuration",
               "name": "SetFocusedScale",
               "sentence": "",
               "events": [
@@ -75019,6 +76069,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PressedScale",
+              "group": "Button scale tween configuration",
               "name": "SetPressedScale",
               "sentence": "",
               "events": [
@@ -75100,6 +76151,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInDuration",
+              "group": "Button scale tween configuration",
               "name": "SetFadeInDuration",
               "sentence": "",
               "events": [
@@ -75181,6 +76233,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutDuration",
+              "group": "Button scale tween configuration",
               "name": "SetFadeOutDuration",
               "sentence": "",
               "events": [
@@ -75263,6 +76316,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInEasing",
+              "group": "Button scale tween configuration",
               "name": "SetFadeInEasing",
               "sentence": "",
               "events": [
@@ -75345,6 +76399,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutEasing",
+              "group": "Button scale tween configuration",
               "name": "SetFadeOutEasing",
               "sentence": "",
               "events": [
@@ -75382,6 +76437,70 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "folderName": "Button scale tween configuration",
+                "children": [
+                  {
+                    "functionName": "IdleScale"
+                  },
+                  {
+                    "functionName": "SetIdleScale"
+                  },
+                  {
+                    "functionName": "FocusedScale"
+                  },
+                  {
+                    "functionName": "SetFocusedScale"
+                  },
+                  {
+                    "functionName": "PressedScale"
+                  },
+                  {
+                    "functionName": "SetPressedScale"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -76230,6 +77349,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "IdleColorTint",
+              "group": "Button color tint tween",
               "name": "SetIdleColorTint",
               "sentence": "",
               "events": [
@@ -76313,6 +77433,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FocusedColorTint",
+              "group": "Button color tint tween",
               "name": "SetFocusedColorTint",
               "sentence": "",
               "events": [
@@ -76396,6 +77517,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PressedColorTint",
+              "group": "Button color tint tween",
               "name": "SetPressedColorTint",
               "sentence": "",
               "events": [
@@ -76479,6 +77601,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInDuration",
+              "group": "Button color tint tween",
               "name": "SetFadeInDuration",
               "sentence": "",
               "events": [
@@ -76562,6 +77685,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutDuration",
+              "group": "Button color tint tween",
               "name": "SetFadeOutDuration",
               "sentence": "",
               "events": [
@@ -76646,6 +77770,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeInEasing",
+              "group": "Button color tint tween",
               "name": "SetFadeInEasing",
               "sentence": "",
               "events": [
@@ -76730,6 +77855,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "FadeOutEasing",
+              "group": "Button color tint tween",
               "name": "SetFadeOutEasing",
               "sentence": "",
               "events": [
@@ -76768,6 +77894,70 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "folderName": "Button color tint tween",
+                "children": [
+                  {
+                    "functionName": "IdleColorTint"
+                  },
+                  {
+                    "functionName": "SetIdleColorTint"
+                  },
+                  {
+                    "functionName": "FocusedColorTint"
+                  },
+                  {
+                    "functionName": "SetFocusedColorTint"
+                  },
+                  {
+                    "functionName": "PressedColorTint"
+                  },
+                  {
+                    "functionName": "SetPressedColorTint"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -78541,6 +79731,68 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsButtonPressed"
+          },
+          {
+            "functionName": "IsButtonReleased"
+          },
+          {
+            "functionName": "SetButtonState"
+          },
+          {
+            "functionName": "SetDeadZone"
+          },
+          {
+            "functionName": "DeadZone"
+          },
+          {
+            "functionName": "AngleTo4Way"
+          },
+          {
+            "functionName": "AngleTo8Way"
+          },
+          {
+            "functionName": "IsAngleIn4WayDirection"
+          },
+          {
+            "functionName": "IsAngleIn8WayDirection"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "SetJoystickForce"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "SetJoystickAngle"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Joystick that can be controlled by interacting with a touchscreen.",
@@ -79431,6 +80683,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "ControllerIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetControllerIdentifier",
               "sentence": "",
               "events": [
@@ -79512,6 +80765,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "JoystickIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetJoystickIdentifier",
               "sentence": "",
               "events": [
@@ -79593,6 +80847,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "DeadZoneRadius",
+              "group": "Multitouch Joystick configuration",
               "name": "SetDeadZoneRadius",
               "sentence": "",
               "events": [
@@ -79630,6 +80885,73 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "JoystickForce"
+              },
+              {
+                "functionName": "SetJoystickForce"
+              },
+              {
+                "functionName": "JoystickAngle"
+              },
+              {
+                "functionName": "SetJoystickAngle"
+              },
+              {
+                "functionName": "StickForceX"
+              },
+              {
+                "functionName": "StickForceY"
+              },
+              {
+                "functionName": "IsDirectionPushed4Way"
+              },
+              {
+                "functionName": "IsDirectionPushed8Way"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "Reset"
+              },
+              {
+                "folderName": "Multitouch Joystick configuration",
+                "children": [
+                  {
+                    "functionName": "ControllerIdentifier"
+                  },
+                  {
+                    "functionName": "SetControllerIdentifier"
+                  },
+                  {
+                    "functionName": "JoystickIdentifier"
+                  },
+                  {
+                    "functionName": "SetJoystickIdentifier"
+                  },
+                  {
+                    "functionName": "DeadZoneRadius"
+                  },
+                  {
+                    "functionName": "SetDeadZoneRadius"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -80077,6 +81399,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "IsReleased"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "SetButtonState"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -80310,6 +81649,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -80888,6 +82235,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -81792,6 +83147,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "ControllerIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetControllerIdentifier",
               "sentence": "",
               "events": [
@@ -81864,6 +83220,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "JoystickIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetJoystickIdentifier",
               "sentence": "",
               "events": [
@@ -81936,6 +83293,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "DeadZoneRadius",
+              "group": "Multitouch Joystick configuration",
               "name": "SetDeadZoneRadius",
               "sentence": "",
               "events": [
@@ -81969,6 +83327,76 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "UpdateConfiguration"
+              },
+              {
+                "functionName": "ActivateControl"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "JoystickForce"
+              },
+              {
+                "functionName": "StickForce"
+              },
+              {
+                "functionName": "StickForceX"
+              },
+              {
+                "functionName": "StickForceY"
+              },
+              {
+                "functionName": "JoystickAngle"
+              },
+              {
+                "functionName": "StickAngle"
+              },
+              {
+                "functionName": "IsDirectionPushed4Way"
+              },
+              {
+                "functionName": "IsDirectionPushed8Way"
+              },
+              {
+                "folderName": "Multitouch Joystick configuration",
+                "children": [
+                  {
+                    "functionName": "ControllerIdentifier"
+                  },
+                  {
+                    "functionName": "SetControllerIdentifier"
+                  },
+                  {
+                    "functionName": "JoystickIdentifier"
+                  },
+                  {
+                    "functionName": "SetJoystickIdentifier"
+                  },
+                  {
+                    "functionName": "DeadZoneRadius"
+                  },
+                  {
+                    "functionName": "SetDeadZoneRadius"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -82113,6 +83541,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Smoothly scroll to follow an object.",
@@ -84018,6 +85449,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetX",
+              "group": "Camera configuration",
               "name": "SetOffsetXOp",
               "sentence": "",
               "events": [
@@ -84158,6 +85590,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetY",
+              "group": "Camera configuration",
               "name": "SetOffsetYOp",
               "sentence": "",
               "events": [
@@ -86515,6 +87948,141 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "MoveCameraCloser"
+              },
+              {
+                "functionName": "DoMoveCameraCloser"
+              },
+              {
+                "functionName": "WaitAndCatchUp"
+              },
+              {
+                "functionName": "DrawDebug"
+              },
+              {
+                "folderName": "Camera configuration",
+                "children": [
+                  {
+                    "functionName": "SetFollowOnX"
+                  },
+                  {
+                    "functionName": "SetFollowOnY"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaRight"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaLeft"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaTop"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaBottom"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeed"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeed"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeed"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeed"
+                  },
+                  {
+                    "functionName": "OffsetX"
+                  },
+                  {
+                    "functionName": "SetOffsetXOp"
+                  },
+                  {
+                    "functionName": "SetOffsetX"
+                  },
+                  {
+                    "functionName": "OffsetY"
+                  },
+                  {
+                    "functionName": "SetOffsetYOp"
+                  },
+                  {
+                    "functionName": "SetOffsetY"
+                  },
+                  {
+                    "functionName": "SetForecastTime"
+                  },
+                  {
+                    "functionName": "SetCameraDelay"
+                  }
+                ]
+              },
+              {
+                "folderName": "Private",
+                "children": [
+                  {
+                    "functionName": "FreeAreaLeft"
+                  },
+                  {
+                    "functionName": "FreeAreaRight"
+                  },
+                  {
+                    "functionName": "FreeAreaBottom"
+                  },
+                  {
+                    "functionName": "FreeAreaTop"
+                  },
+                  {
+                    "functionName": "UpdateDelayedPosition"
+                  },
+                  {
+                    "functionName": "AddForecastHistoryPosition"
+                  },
+                  {
+                    "functionName": "UpdateForecastedPosition"
+                  },
+                  {
+                    "functionName": "ProjectHistoryEnds"
+                  },
+                  {
+                    "functionName": "ForecastTimeRatio"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsDelayed"
+              },
+              {
+                "functionName": "CurrentDelay"
+              },
+              {
+                "functionName": "IsWaiting"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.9",
@@ -87269,6 +88837,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -87509,6 +89085,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Let platformer characters jump shortly after leaving a platform and also jump in mid-air.",
@@ -89036,6 +90615,60 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "onActivate"
+              },
+              {
+                "folderName": "Coyote time",
+                "children": [
+                  {
+                    "functionName": "SetCoyoteTime"
+                  },
+                  {
+                    "functionName": "CanCoyoteJump"
+                  },
+                  {
+                    "functionName": "UpdateWasInTheAir"
+                  }
+                ]
+              },
+              {
+                "folderName": "Air jump",
+                "children": [
+                  {
+                    "functionName": "AirJumpsMax"
+                  },
+                  {
+                    "functionName": "RemainingAirJumps"
+                  },
+                  {
+                    "functionName": "SetAirJumpCountMaximum"
+                  },
+                  {
+                    "functionName": "RemoveOneRemainingAirJump"
+                  },
+                  {
+                    "functionName": "ResetAirJumpCounter"
+                  },
+                  {
+                    "functionName": "AreFloorJumpCountedAsAirJump"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -91729,6 +93362,101 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "HasJustWallJumped"
+              },
+              {
+                "functionName": "IsWallJumping"
+              },
+              {
+                "functionName": "IsAgaintWall"
+              },
+              {
+                "folderName": "Private",
+                "children": [
+                  {
+                    "functionName": "RememberIsAgainstWall"
+                  },
+                  {
+                    "functionName": "ForgetIsAgainstWall"
+                  },
+                  {
+                    "functionName": "WasAgainstWall"
+                  },
+                  {
+                    "functionName": "RememberJumpKeyPressed"
+                  },
+                  {
+                    "functionName": "ForgetJumpKeyPressed"
+                  },
+                  {
+                    "functionName": "WasJumpKeyPressed"
+                  },
+                  {
+                    "functionName": "ToggleSideSpeed"
+                  },
+                  {
+                    "functionName": "SlideOnWall"
+                  },
+                  {
+                    "functionName": "AbsorbFallingSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Wall jump configuration",
+                "children": [
+                  {
+                    "functionName": "JumpTimeFrame"
+                  },
+                  {
+                    "functionName": "SetJumpTimeFrame"
+                  },
+                  {
+                    "functionName": "WallJumpSpeedX"
+                  },
+                  {
+                    "functionName": "SetWallJumpSpeedX"
+                  },
+                  {
+                    "functionName": "WallJumpAccelerationX"
+                  },
+                  {
+                    "functionName": "SetWallJumpAccelerationX"
+                  }
+                ]
+              },
+              {
+                "folderName": "Wall sliding configuration",
+                "children": [
+                  {
+                    "functionName": "WallSlidingGravity"
+                  },
+                  {
+                    "functionName": "SetWallSlidingGravity"
+                  },
+                  {
+                    "functionName": "WallSlidingMaxFallingSpeed"
+                  },
+                  {
+                    "functionName": "SetWallSlidingMaxFallingSpeed"
+                  },
+                  {
+                    "functionName": "WallSlidingSpeedAbsorption"
+                  },
+                  {
+                    "functionName": "SetWallSlidingSpeedAbsorption"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -92268,6 +93996,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "SimulateDiveKey"
+              },
+              {
+                "functionName": "CanDive"
+              },
+              {
+                "functionName": "IsDiving"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -93346,6 +95091,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "SimulateDashKey"
+              },
+              {
+                "functionName": "IsDashing"
+              },
+              {
+                "functionName": "AbortDash"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -94150,6 +95912,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "RevertConfiguration"
+              },
+              {
+                "functionName": "UsualSetting"
+              },
+              {
+                "functionName": "UsualMaxSpeed"
+              },
+              {
+                "functionName": "ConfigureSetting"
+              },
+              {
+                "functionName": "ConfigureGravity"
+              },
+              {
+                "functionName": "ConfigureDeceleration"
+              },
+              {
+                "functionName": "ConfigureMaxSpeed"
+              },
+              {
+                "functionName": "ConfigureAcceleration"
+              },
+              {
+                "functionName": "ConfigureMaxFallSpeed"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -94209,6 +96006,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Change animations and horizontal flipping of a platformer character automatically.",
@@ -95439,6 +97239,43 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "onActivate"
+              },
+              {
+                "functionName": "EnableChangingAnimations"
+              },
+              {
+                "functionName": "EnableHorizontalFlipping"
+              },
+              {
+                "folderName": "Configure animations",
+                "children": [
+                  {
+                    "functionName": "SetIdleAnimationName"
+                  },
+                  {
+                    "functionName": "SetMoveAnimationName"
+                  },
+                  {
+                    "functionName": "SetJumpAnimationName"
+                  },
+                  {
+                    "functionName": "SetFallAnimationName"
+                  },
+                  {
+                    "functionName": "SetClimbAnimationName"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -95595,6 +97432,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Change animations of a 3D physics character automatically.",
@@ -95918,6 +97758,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "RotationSpeed",
+              "group": "3D physics character animator configuration",
               "name": "SetRotationSpeed",
               "sentence": "",
               "events": [
@@ -95954,6 +97795,25 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "3D physics character animator configuration",
+                "children": [
+                  {
+                    "functionName": "RotationSpeed"
+                  },
+                  {
+                    "functionName": "SetRotationSpeed"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -96105,6 +97965,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects on ellipses or smoothly back and forth in one direction.",
@@ -97365,6 +99228,78 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "ToggleTurningLeft"
+              },
+              {
+                "functionName": "SetTurningLeft"
+              },
+              {
+                "functionName": "IsTurningLeft"
+              },
+              {
+                "functionName": "MovementAngle"
+              },
+              {
+                "folderName": "Configuration",
+                "children": [
+                  {
+                    "functionName": "LoopDuration"
+                  },
+                  {
+                    "functionName": "RadiusX"
+                  },
+                  {
+                    "functionName": "RadiusY"
+                  },
+                  {
+                    "functionName": "CenterX"
+                  },
+                  {
+                    "functionName": "CenterY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Elliptical movement configuration",
+                "children": [
+                  {
+                    "functionName": "SetRadiusX"
+                  },
+                  {
+                    "functionName": "SetRadiusY"
+                  },
+                  {
+                    "functionName": "SetLoopDuration"
+                  }
+                ]
+              },
+              {
+                "functionName": "SetMovementAngle"
+              },
+              {
+                "functionName": "DeltaX"
+              },
+              {
+                "functionName": "DeltaY"
+              },
+              {
+                "functionName": "DirectionAngle"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "100",
@@ -97557,6 +99492,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
@@ -97805,6 +99743,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Resource bar configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -98060,6 +99999,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PreviousHighValueDuration",
+              "group": "FillBar bar configuration",
               "name": "SetPreviousHighValueDuration",
               "sentence": "",
               "events": [
@@ -98155,6 +100095,57 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "Value"
+              },
+              {
+                "functionName": "SetValue"
+              },
+              {
+                "folderName": "Resource bar configuration",
+                "children": [
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsEmpty"
+              },
+              {
+                "functionName": "IsFull"
+              },
+              {
+                "functionName": "PreviousHighValue"
+              },
+              {
+                "functionName": "UpdatePreviousHighValue"
+              },
+              {
+                "folderName": "FillBar bar configuration",
+                "children": [
+                  {
+                    "functionName": "PreviousHighValueDuration"
+                  },
+                  {
+                    "functionName": "SetPreviousHighValueDuration"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsChanging"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -99233,6 +101224,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "Value",
+              "group": "Resource bar",
               "name": "SetValue",
               "sentence": "",
               "events": [
@@ -99413,6 +101405,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Resource bar configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -99597,6 +101590,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PreviousValueDuration",
+              "group": "Resource bar configuration",
               "name": "SetPreviousValueDuration",
               "sentence": "",
               "events": [
@@ -99978,6 +101972,75 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "UpdateLayout"
+              },
+              {
+                "folderName": "Resource bar",
+                "children": [
+                  {
+                    "functionName": "Value"
+                  },
+                  {
+                    "functionName": "SetValue"
+                  },
+                  {
+                    "functionName": "IsEmpty"
+                  },
+                  {
+                    "functionName": "IsFull"
+                  },
+                  {
+                    "functionName": "IsChanging"
+                  }
+                ]
+              },
+              {
+                "folderName": "Resource bar configuration",
+                "children": [
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  },
+                  {
+                    "functionName": "PreviousValueDuration"
+                  },
+                  {
+                    "functionName": "SetPreviousValueDuration"
+                  },
+                  {
+                    "functionName": "IsLabelShown"
+                  },
+                  {
+                    "functionName": "SetLabelShown"
+                  }
+                ]
+              },
+              {
+                "functionName": "WidthForValue"
+              },
+              {
+                "functionName": "FullBarWidth"
+              },
+              {
+                "functionName": "UpdateLabel"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -100211,6 +102274,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
@@ -100459,6 +102525,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Resource bar configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -100714,6 +102781,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "PreviousHighValueDuration",
+              "group": "Resource bar configuration",
               "name": "SetPreviousHighValueDuration",
               "sentence": "",
               "events": [
@@ -100811,6 +102879,52 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "Value"
+              },
+              {
+                "functionName": "SetValue"
+              },
+              {
+                "folderName": "Resource bar configuration",
+                "children": [
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  },
+                  {
+                    "functionName": "PreviousHighValueDuration"
+                  },
+                  {
+                    "functionName": "SetPreviousHighValueDuration"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsEmpty"
+              },
+              {
+                "functionName": "IsFull"
+              },
+              {
+                "functionName": "PreviousHighValue"
+              },
+              {
+                "functionName": "UpdatePreviousHighValue"
+              },
+              {
+                "functionName": "IsChanging"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -101513,6 +103627,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "Value",
+              "group": "Resource bar",
               "name": "SetValue",
               "sentence": "",
               "events": [
@@ -101614,6 +103729,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Resource bar configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -101761,6 +103877,51 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "CenterBar"
+              },
+              {
+                "folderName": "Resource bar",
+                "children": [
+                  {
+                    "functionName": "Value"
+                  },
+                  {
+                    "functionName": "SetValue"
+                  },
+                  {
+                    "functionName": "IsEmpty"
+                  },
+                  {
+                    "functionName": "IsFull"
+                  }
+                ]
+              },
+              {
+                "folderName": "Resource bar configuration",
+                "children": [
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "3",
@@ -101926,6 +104087,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "This behavior provides a condition to check if the object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.\nNote that object visibility, such as being hidden or 0 opacity, is not considered (but you can use those existing conditions in addition to this behavior).",
@@ -102016,6 +104180,14 @@
               ]
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsOnScreen"
+              }
+            ]
+          },
           "propertyDescriptors": [],
           "propertiesFolderStructure": {
             "folderName": "__ROOT"
@@ -102066,6 +104238,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Represent a value on a slider.",
@@ -102236,6 +104411,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MinValue",
+              "group": "Resource bar configuration",
               "name": "SetMinValue",
               "sentence": "",
               "events": [
@@ -102328,6 +104504,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Resource bar configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -102460,6 +104637,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "StepSize",
+              "group": "Resource bar configuration",
               "name": "SetStepSize",
               "sentence": "",
               "events": [
@@ -102508,6 +104686,43 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "Value"
+              },
+              {
+                "functionName": "SetValue"
+              },
+              {
+                "folderName": "Resource bar configuration",
+                "children": [
+                  {
+                    "functionName": "MinValue"
+                  },
+                  {
+                    "functionName": "SetMinValue"
+                  },
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  },
+                  {
+                    "functionName": "StepSize"
+                  },
+                  {
+                    "functionName": "SetStepSize"
+                  }
+                ]
+              },
+              {
+                "functionName": "Size"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -103593,6 +105808,38 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -104810,6 +107057,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MinValue",
+              "group": "Slider configuration",
               "name": "SetMinValue",
               "sentence": "",
               "events": [
@@ -104897,6 +107145,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "MaxValue",
+              "group": "Slider configuration",
               "name": "SetMaxValue",
               "sentence": "",
               "events": [
@@ -104984,6 +107233,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "StepSize",
+              "group": "Slider configuration",
               "name": "SetStepSize",
               "sentence": "",
               "events": [
@@ -105545,6 +107795,78 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "folderName": "Slider",
+                "children": [
+                  {
+                    "functionName": "IsBeingDragged"
+                  }
+                ]
+              },
+              {
+                "functionName": "Value"
+              },
+              {
+                "functionName": "SetValue"
+              },
+              {
+                "folderName": "Slider configuration",
+                "children": [
+                  {
+                    "functionName": "MinValue"
+                  },
+                  {
+                    "functionName": "SetMinValue"
+                  },
+                  {
+                    "functionName": "MaxValue"
+                  },
+                  {
+                    "functionName": "SetMaxValue"
+                  },
+                  {
+                    "functionName": "StepSize"
+                  },
+                  {
+                    "functionName": "SetStepSize"
+                  },
+                  {
+                    "functionName": "IsLabelShown"
+                  },
+                  {
+                    "functionName": "SetLabelShown"
+                  }
+                ]
+              },
+              {
+                "functionName": "UpdateThumbPosition"
+              },
+              {
+                "functionName": "FullBarWidth"
+              },
+              {
+                "functionName": "UpdateSliderConfiguration"
+              },
+              {
+                "functionName": "Activate"
+              },
+              {
+                "functionName": "IsActivated"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -106348,6 +108670,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the switch object.",
@@ -106987,6 +109312,32 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "IsChecked"
+              },
+              {
+                "functionName": "HasJustBeenChecked"
+              },
+              {
+                "functionName": "HasJustBeenUnchecked"
+              },
+              {
+                "functionName": "HasJustBeenToggled"
+              },
+              {
+                "functionName": "SetChecked"
+              },
+              {
+                "functionName": "ToggleChecked"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -108117,6 +110468,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -109361,6 +111747,62 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "IsChecked"
+              },
+              {
+                "functionName": "HasJustBeenChecked"
+              },
+              {
+                "functionName": "HasJustBeenUnchecked"
+              },
+              {
+                "functionName": "HasJustBeenToggled"
+              },
+              {
+                "functionName": "SetChecked"
+              },
+              {
+                "functionName": "ToggleChecked"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "UpdateStateAnimation"
+              },
+              {
+                "functionName": "Activate"
+              },
+              {
+                "functionName": "IsActivated"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -112250,6 +114692,98 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onFirstSceneLoaded"
+          },
+          {
+            "functionName": "onScenePostEvents"
+          },
+          {
+            "functionName": "AcceleratedSpeed"
+          },
+          {
+            "functionName": "TriggerPressure"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "StickRotationValue"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "AxisValue"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "C_Button_released"
+          },
+          {
+            "functionName": "LastButtonID"
+          },
+          {
+            "functionName": "C_Any_Button_pressed"
+          },
+          {
+            "functionName": "LastButtonString"
+          },
+          {
+            "functionName": "GamepadCount"
+          },
+          {
+            "functionName": "C_Button_pressed"
+          },
+          {
+            "functionName": "Deadzone"
+          },
+          {
+            "functionName": "A_Set_deadzone"
+          },
+          {
+            "functionName": "C_Axis_pushed"
+          },
+          {
+            "functionName": "ConnectedGamepadsCount"
+          },
+          {
+            "functionName": "GamepadType"
+          },
+          {
+            "functionName": "C_Controller_type"
+          },
+          {
+            "functionName": "C_Controller_X_is_connected"
+          },
+          {
+            "functionName": "A_Vibrate_controller"
+          },
+          {
+            "functionName": "A_Advanced_Vibration_Controller"
+          },
+          {
+            "functionName": "A_Change_Vibration_Magnitude"
+          },
+          {
+            "functionName": "C_any_button_released"
+          },
+          {
+            "functionName": "WeakVibrationMagnitude"
+          },
+          {
+            "functionName": "StrongVibrationMagnitude"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Control a platformer character with a gamepad.",
@@ -112739,6 +115273,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -112965,6 +115507,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -113170,6 +115720,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -113534,6 +116092,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationSpeedMax",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -113614,6 +116173,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationAcceleration",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -113694,6 +116254,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationDeceleration",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -113774,6 +116335,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationSpeedMax",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -113854,6 +116416,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationAcceleration",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -113934,6 +116497,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationDeceleration",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -114014,6 +116578,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMin",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalAngleMin",
               "sentence": "",
               "events": [
@@ -114094,6 +116659,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMax",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalAngleMax",
               "sentence": "",
               "events": [
@@ -114174,6 +116740,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetZ",
+              "group": "First person camera gamepad mapper position configuration",
               "name": "SetOffsetZ",
               "sentence": "",
               "events": [
@@ -114210,6 +116777,91 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Layers and cameras",
+                "children": [
+                  {
+                    "functionName": "LookFromObjectEyes"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper horizontal rotation configuration",
+                "children": [
+                  {
+                    "functionName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "HorizontalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper vertical rotation configuration",
+                "children": [
+                  {
+                    "functionName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "VerticalAngleMin"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMin"
+                  },
+                  {
+                    "functionName": "VerticalAngleMax"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper position configuration",
+                "children": [
+                  {
+                    "functionName": "OffsetZ"
+                  },
+                  {
+                    "functionName": "SetOffsetZ"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -114679,6 +117331,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -115370,6 +118030,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -115502,6 +118170,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move the image of a Tiled Sprite to follow the camera horizontally with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
@@ -115582,6 +118253,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.5",
@@ -115687,6 +118366,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.5",
@@ -115763,6 +118450,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Check if an object has not moved (with some tolerance, 20 pixels by default) for a certain duration (1 second by default).",
@@ -116043,6 +118733,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "HasMovedFromLastPosition"
+              },
+              {
+                "functionName": "IsIdle"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -116383,6 +119090,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onSceneLoaded"
+          },
+          {
+            "functionName": "onScenePostEvents"
+          },
+          {
+            "functionName": "FPS"
+          },
+          {
+            "functionName": "PreciseFPS"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Makes a text object display the current FPS.",
@@ -116553,6 +119277,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",

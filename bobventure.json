@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 266,
+    "build": 273,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -104,128 +104,10 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Background.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/StartingCoin.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/StartingCoin.png\",\"extension\":\".png\"}",
-        "name": "assets\\StartingCoin.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Top arrow button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Top arrow button.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
-          "name": "Top arrow button.png"
-        }
-      },
-      {
-        "file": "assets/Flat dark joystick border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat dark joystick border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
-          "name": "Flat dark joystick border.png"
-        }
-      },
-      {
-        "file": "assets/Flat dark joystick thumb.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat dark joystick thumb.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
-          "name": "Flat dark joystick thumb.png"
-        }
-      },
-      {
-        "file": "assets/PickupCoin.wav",
-        "kind": "audio",
-        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":20,\\\"decay\\\":0.3,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":15,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":35,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"PickupCoin\"},\"localFilePath\":\"assets/PickupCoin.wav\"}",
-        "name": "PickupCoin",
-        "preloadAsMusic": false,
-        "preloadAsSound": true,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_StartingPlayer.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\StartingPlayer",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
-        "name": "NewSprite",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sprite-0001-Sheet.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sprite-0001-Sheet.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "3333012-Sheet.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3333012-Sheet.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sprite-0013.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sprite-0013.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "44402.png",
         "kind": "image",
         "metadata": "",
         "name": "44402.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../aseprite/44402.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\aseprite\\44402.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -914,38 +796,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/walk.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "walk",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/jump.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "jump",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dash.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dash",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/bob.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "bob",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "bob1.png",
         "kind": "image",
         "metadata": "",
@@ -990,14 +840,6 @@
         "kind": "image",
         "metadata": "",
         "name": "bob18.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bob19.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"bob19.png\",\"extension\":\".png\"}",
-        "name": "bob19.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1098,138 +940,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Fall.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fall.png\"}",
         "name": "Fall",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fall15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fall15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
-        "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
       },
@@ -1257,378 +971,10 @@
         "userAdded": false
       },
       {
-        "file": "Untitled.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Untitled.png\",\"extension\":\".png\"}",
-        "name": "Untitled.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0000.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0001.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0002.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0003.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0004.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0004.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0005.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0006.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0006.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0007.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0008.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0008.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0009.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0009.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0010.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0011.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0011.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0012.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0012.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0013.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0013.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0014.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0014.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0015.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0015.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0016.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0016.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0017.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0017.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0018.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0018.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0019.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0019.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0020.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0020.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0021.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0021.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0022.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0022.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0023.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0023.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0024.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0025.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0025.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0026.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0026.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0027.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0027.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0028.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0028.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0029.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0029.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0030.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0030.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0031.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0031.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0032.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0032.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0033.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0033.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0034.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0034.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0035.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0035.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0036.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0036.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0037.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0037.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0038.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0038.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0039.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0039.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0040.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0040.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0041.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0041.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bobidle0042.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bobidle0042.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Fall16.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Fall16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/DesktopIcon512.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "DesktopIcon512",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/AndroidSplashscreenIcon.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "AndroidSplashscreenIcon",
         "smoothed": false,
         "userAdded": false
       },
@@ -1849,34 +1195,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/android-windowSplashScreenAnimatedIcon.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "android-windowSplashScreenAnimatedIcon.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
         "smoothed": false,
         "userAdded": false
       },
@@ -1901,404 +1223,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite15.png\"}",
-        "name": "NewSprite15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite16.png\"}",
-        "name": "NewSprite16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite17.png\"}",
-        "name": "NewSprite17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite18.png\"}",
-        "name": "NewSprite18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite19.png\"}",
-        "name": "NewSprite19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
-        "name": "NewSprite20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite21.png\"}",
-        "name": "NewSprite21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
-        "name": "NewSprite22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite23.png\"}",
-        "name": "NewSprite23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite24.png\"}",
-        "name": "NewSprite24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite30",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite31.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite31",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite33",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite34",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite35",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite36",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite37",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite38",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite40",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite41",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite42",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite43",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite44.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite44",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite45.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite45",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite46.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite46",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite47.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite47",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite48",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite49.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite49",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite50.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite50",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite51.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite51",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite52.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite52",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite53.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite53",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite54.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite54",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "BobVenture-WhateverThatIs.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "BobVenture-WhateverThatIs.mp3",
-        "preloadAsMusic": true,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Bobventure-Stupid.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Bobventure-Stupid.mp3",
         "preloadAsMusic": true,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -2479,149 +1407,6 @@
         "name": "rabnjks23.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "placeholdertir.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"placeholdertir.png\",\"extension\":\".png\"}",
-        "name": "placeholdertir.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/placeholdertir.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/placeholdertir.png\"}",
-        "name": "placeholdertir",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/placeholdertir.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\placeholdertir.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/placeholdertir2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "placeholdertir2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Flat Bar Red Fill Bar.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Flat Bar Red Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Flat Bar Red Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
-          "name": "Flat Bar Red Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Flat Bar White Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Bar White Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
-          "name": "Flat Bar White Border.png"
-        }
-      },
-      {
-        "file": "assets/Flat Bar Red Fill Bar.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Flat Bar Red Fill Bar.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Shaded Red Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Shaded Red Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/96409107ae77918bbcde7a715c09e12b1b6c8ef16524b06b0d162955f1bd1a27_Shaded Red Fill Bar.png",
-          "name": "Shaded Red Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Wood Bar Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wood Bar Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
-          "name": "Wood Bar Border.png"
-        }
-      },
-      {
-        "file": "assets/Shaded Red Fill Bar.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Shaded Red Fill Bar.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Dot Bar Green Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Dot Bar Green Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
-          "name": "Dot Bar Green Border.png"
-        }
-      },
-      {
-        "file": "assets/Dot Bar Green Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Dot Bar Green Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
-          "name": "Dot Bar Green Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Flat Bar Orange Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Bar Orange Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e277b4eaf6ac17fafedb222c2900b817f1fe3018b42a46430d530f0df8d42b60_Flat Bar Orange Fill Bar.png",
-          "name": "Flat Bar Orange Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/FrederickatheGreat-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
       },
       {
         "file": "assets/Kenney Pixel Square.ttf",
@@ -3027,54 +1812,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite55.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite55",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite56.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite56",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite57",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite58.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite58",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite59.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite59",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/detector.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "detector",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "metalsheet0000.png",
         "kind": "image",
         "metadata": "",
@@ -3171,38 +1908,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Dot Bar Blue Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Dot Bar Blue Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/aa81b97c3211cf1e7cd040b96f5409851e3f1141c496b064157588294f09e662_Dot Bar Blue Border.png",
-          "name": "Dot Bar Blue Border.png"
-        }
-      },
-      {
-        "file": "assets/Dot Bar Blue Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Dot Bar Blue Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/0f15d828199d38d229469b48c953574c22a34b8daeb8941f3eb40df01a8f7d22_Dot Bar Blue Fill Bar.png",
-          "name": "Dot Bar Blue Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Dot Bar Blue Fill Bar.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Dot Bar Blue Fill Bar.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Dot Bar Blue Border.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Dot Bar Blue Border.png2.png\"}",
@@ -3215,46 +1920,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Dot Bar Blue Fill Bar.png3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/run.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "run",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/run2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/run2.png\"}",
-        "name": "run2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/run3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/run3.png\"}",
-        "name": "run3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/run4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "run4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/run5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "run5",
         "smoothed": false,
         "userAdded": false
       },
@@ -3305,28 +1970,6 @@
         "name": "loading.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "CLOCK OUT.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "CLOCK OUT.wav",
-        "preloadAsMusic": true,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Flat Bar Green Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Bar Green Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
-          "name": "Flat Bar Green Fill Bar.png"
-        }
       },
       {
         "file": "clockoutclock1.png",
@@ -3473,14 +2116,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite60.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite60",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "crownertbventure1.png",
         "kind": "image",
         "metadata": "",
@@ -3501,14 +2136,6 @@
         "kind": "image",
         "metadata": "",
         "name": "crownertbventure3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "pausemenulayer1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "pausemenulayer1.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3579,574 +2206,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite61.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite61",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite62.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite62",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite63.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite63",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite64.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite64",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite65.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite65",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite66.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite66",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite67.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite67",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite68.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite68",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite69.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite69",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout30",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout31.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout31",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout33",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout34",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout35",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout36",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout37",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout38",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout40",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout41",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout42",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout43",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout44.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout44",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout45.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout45",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout46.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout46",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout47.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout47",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout48",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout49.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout49",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout50.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout50",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout51.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout51",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout52.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout52",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout53.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout53",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout54.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout54",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout55.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout55",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout56.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout56",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout57",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout58.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout58",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout59.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout59",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout60.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout60",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout61.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout61",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Clockout62.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Clockout62",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Charm-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -4156,32 +2215,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
-      },
-      {
-        "file": "assets/NewSprite70.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite70",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "tutoriale.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "tutoriale.wav",
-        "preloadAsMusic": true,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "letmeout.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "letmeout.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "file": "laputer1.png",
@@ -4353,22 +2386,6 @@
         }
       },
       {
-        "file": "assets/Unchecked.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Unchecked",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Checked.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Checked",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Unchecked2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -4389,14 +2406,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite71",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite72.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite72",
         "smoothed": false,
         "userAdded": false
       },
@@ -4449,74 +2458,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewTiledSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0000.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0001.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0002.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0003.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0004.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0004.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0005.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dooor0006.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dooor0006.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -4629,46 +2574,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\dooor00007.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite73.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite73",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite74.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite74",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite75.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite75",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite76.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite76",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite77.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite77",
         "smoothed": false,
         "userAdded": false
       },
@@ -5124,78 +3029,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Run6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Background.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Background.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Background.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Background.png3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Background.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Background.png4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "BG1_FROLICK.png",
         "kind": "image",
         "metadata": "",
@@ -5212,94 +3045,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite83.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite83",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite84.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite84",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite85.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite85",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite86.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite86",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite87.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite87",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite88.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite88",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite89.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite89",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite90.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite90",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite91.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite91",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ACTIVE_TRIERN.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ACTIVE_TRIERN",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ACTIVE_CIRCLET.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ACTIVE_CIRCLET",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Roblox Theme Song.mp3",
         "kind": "audio",
         "metadata": "",
@@ -5310,106 +3055,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite92.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite92",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "crownertspawnzone2.png",
         "kind": "image",
         "metadata": "",
         "name": "crownertspawnzone2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone8.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone9.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone11.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "crownertspawnzone12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crownertspawnzone12.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -5426,62 +3075,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite93.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite93",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite94.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite94",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite95.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite95",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite96.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite96",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite97.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite97",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite98.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite98",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Agro.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Agro",
         "smoothed": false,
         "userAdded": false
       },
@@ -5582,16 +3175,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "crit.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "fhwow.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "fhwow.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -5944,14 +3527,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/idle1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle1",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite99.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -6186,230 +3761,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite100.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite100",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA1.png\"}",
-        "name": "SEC_CAMERA1",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA2.png\"}",
-        "name": "SEC_CAMERA2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA3.png\"}",
-        "name": "SEC_CAMERA3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA4.png\"}",
-        "name": "SEC_CAMERA4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA5.png\"}",
-        "name": "SEC_CAMERA5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA6.png\"}",
-        "name": "SEC_CAMERA6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SEC_CAMERA7.png\"}",
-        "name": "SEC_CAMERA7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "SEC_CAMERA8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "SEC_CAMERA9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "SEC_CAMERA10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite101.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite101",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite102.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite102",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite103.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite103",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite104.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite104",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite105.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite105",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\NewSprite100.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA1.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA1.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA2.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA3.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA3.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA4.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA4.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA5.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA5.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA6.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA6.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA7.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA7.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA8.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA8.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA8.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA9.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA9.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA9.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/SEC_CAMERA10.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/SEC_CAMERA10.png\",\"extension\":\".png\"}",
-        "name": "assets\\SEC_CAMERA10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite106.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite106",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "BG1_FACTOR.png",
         "kind": "image",
         "metadata": "",
@@ -6606,14 +3957,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "kaBOOOM23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite107.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite107",
         "smoothed": false,
         "userAdded": false
       },
@@ -7282,14 +4625,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite108.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\NewSprite108.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/assets_NewSprite108.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -7298,34 +4633,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_NewSprite108.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\assets_NewSprite108.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/assets_assets_NewSprite108.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\assets_NewSprite108",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_assets_NewSprite108.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\assets_assets_NewSprite108.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/A.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "A",
         "smoothed": false,
         "userAdded": false
       },
@@ -7392,74 +4703,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite109.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite109",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite110.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite110",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite111.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite111.png\"}",
-        "name": "NewSprite111",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite112.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite112",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite113.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite113",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite114.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite114",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite115.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite115",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite116.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite116",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite117.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite117",
         "smoothed": false,
         "userAdded": false
       },
@@ -7480,14 +4727,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite119.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -7500,38 +4739,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Run10",
         "smoothed": false,
         "userAdded": false
       },
@@ -7878,46 +5085,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite128.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite126",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite128.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite127",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite128.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite128",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite129.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite129",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite130.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite130",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite131.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -7989,54 +5156,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite139.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite139",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite140.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite140.png\"}",
-        "name": "NewSprite140",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite141.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite141",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite142.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite142",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite143.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite143",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite144.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite144",
-        "smoothed": false,
         "userAdded": false
       },
       {
@@ -8242,86 +5361,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "B4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/trierjon10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "trierjon10",
         "smoothed": false,
         "userAdded": false
       },
@@ -8542,38 +5581,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/hmm3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "hmm3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/hmm4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "hmm4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/hmm5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "hmm5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/hmm6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "hmm6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/hmm7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -8610,6 +5617,62 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite151",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "johndoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "johndoor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robspeak6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robspeak6.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -28440,17 +25503,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Rob_idle",
+          "name": "Hey guys!",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle",
+                  "image": "assets/robspeak1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28467,19 +25529,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
@@ -28489,17 +25551,16 @@
           ]
         },
         {
-          "name": "Rob_speak1",
+          "name": "Jarona!",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Speak1",
+                  "image": "assets/robspeak2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28516,91 +25577,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
-                      },
-                      {
-                        "x": 0,
-                        "y": 150
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Speak5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Speak6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 150
-                      },
-                      {
-                        "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
@@ -28610,17 +25599,16 @@
           ]
         },
         {
-          "name": "Rob_speak2",
+          "name": "What a predictable creature.",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Speak2",
+                  "image": "assets/robspeak3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28637,91 +25625,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
-                      },
-                      {
-                        "x": 0,
-                        "y": 150
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Speak3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Speak4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 0
-                      },
-                      {
-                        "x": 900,
-                        "y": 150
-                      },
-                      {
-                        "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
@@ -28731,17 +25647,16 @@
           ]
         },
         {
-          "name": "Rob_speak3",
+          "name": "Guys, i think i found a glue!",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Speak7",
+                  "image": "assets/robspeak4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28758,26 +25673,38 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glue!",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Speak8",
+                  "image": "assets/robspeak5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28794,26 +25721,38 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Try my ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Idle.png",
+                  "image": "assets/robspeak6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -28830,19 +25769,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 0
+                        "x": 912,
+                        "y": 1
                       },
                       {
-                        "x": 900,
-                        "y": 150
+                        "x": 912,
+                        "y": 165
                       },
                       {
                         "x": 0,
-                        "y": 150
+                        "y": 165
                       }
                     ]
                   ]
@@ -30989,7 +27928,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 0.8141881203709929,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -34916,9 +31855,9 @@
         "gridOffsetY": 0,
         "gridOffsetZ": 0,
         "gridColor": 10401023,
-        "gridAlpha": 0.8,
+        "gridAlpha": 0.25,
         "snap": true,
-        "zoomFactor": 0.33936327385976883,
+        "zoomFactor": 0.727671164350802,
         "windowMask": true,
         "selectedLayer": "UI",
         "gameEditorMode": "instances-editor"
@@ -35499,14 +32438,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 91,
           "keepRatio": true,
           "layer": "UI",
           "name": "speakdiotext",
           "persistentUuid": "86292bb2-e887-4ab9-9006-f2c186b778c9",
-          "width": 704,
-          "x": 512,
-          "y": 768,
+          "width": 698,
+          "x": 519,
+          "y": 781,
           "zOrder": 169,
           "numberProperties": [],
           "stringProperties": [],
@@ -35514,15 +32453,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "JohnDoor",
           "persistentUuid": "83a3134c-f5c6-4622-a1c5-764197f3b77f",
-          "width": 0,
+          "width": 128,
           "x": 2080,
-          "y": -1664,
+          "y": -1632,
           "zOrder": 171,
           "numberProperties": [],
           "stringProperties": [],
@@ -37472,7 +34412,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "JohnDoor",
           "persistentUuid": "45bf7fc5-1d5d-411e-b757-16b56d80a453",
@@ -37493,7 +34433,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite124",
+                      "image": "johndoor.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -37509,20 +34449,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 37
+                            "x": 4,
+                            "y": 20
                           },
                           {
-                            "x": 153,
-                            "y": 37
+                            "x": 80,
+                            "y": 20
                           },
                           {
-                            "x": 153,
-                            "y": 160
+                            "x": 80,
+                            "y": 128
                           },
                           {
-                            "x": 3,
-                            "y": 160
+                            "x": 4,
+                            "y": 128
                           }
                         ]
                       ]
@@ -38845,18 +35785,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "speakdio",
-                "Animation",
-                "=",
-                "\"Rob_speak1\""
+                "\"Hey guys!\""
               ]
             },
             {
@@ -38932,7 +35861,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
+                "\"What a predictable creature.\""
               ]
             },
             {
@@ -39008,18 +35937,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "speakdio",
-                "Animation",
-                "=",
-                "\"Rob_speak3\""
+                "\"Guys, i think i found a glue!\""
               ]
             },
             {
@@ -39095,18 +36013,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "speakdio",
-                "Animation",
-                "=",
-                "\"Rob_speak3\""
+                "\"Glue!\""
               ]
             },
             {
@@ -39182,18 +36089,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "speakdio",
-                "Animation",
-                "=",
-                "\"Rob_speak2\""
+                "\"Hey guys!\""
               ]
             },
             {
@@ -39269,7 +36165,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_speak1\""
+                "\"Jarona!\""
               ]
             },
             {
@@ -39288,7 +36184,7 @@
                 "speakdio",
                 "Animation",
                 "=",
-                "\"Rob_idle\""
+                "\"stare\""
               ]
             },
             {
@@ -52993,7 +49889,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.13093324312267826,
+        "zoomFactor": 0.20830166020820273,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
